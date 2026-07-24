@@ -1,28 +1,22 @@
 import { createMiddleware, createStart } from "@tanstack/react-start";
+import { applyCachePolicy } from "./lib/cache-policy.server";
 
-const preventDocumentCaching = createMiddleware({ type: "request" }).server(
-  async ({ next }) => {
+const applyResponseCachePolicy = createMiddleware({ type: "request" }).server(
+  async ({ handlerType, next, pathname, request }) => {
     const result = await next();
-    const contentType = result.response.headers.get("content-type") ?? "";
-
-    if (!contentType.includes("text/html")) {
-      return result;
-    }
-
-    const headers = new Headers(result.response.headers);
-    headers.set("cache-control", "no-store");
 
     return {
       ...result,
-      response: new Response(result.response.body, {
-        headers,
-        status: result.response.status,
-        statusText: result.response.statusText,
+      response: applyCachePolicy({
+        handlerType,
+        pathname,
+        request,
+        response: result.response,
       }),
     };
   },
 );
 
 export const startInstance = createStart(() => ({
-  requestMiddleware: [preventDocumentCaching],
+  requestMiddleware: [applyResponseCachePolicy],
 }));

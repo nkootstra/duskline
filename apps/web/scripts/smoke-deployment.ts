@@ -2,10 +2,14 @@ const baseUrl = new URL(process.argv[2] ?? "https://duskline.kootstra.io");
 const maxAttempts = 8;
 const retryDelayMs = 1_000;
 
-const fetchOk = async (path: string, expectedContentType: string) => {
+const fetchOk = async (
+  path: string,
+  expectedContentType: string,
+  options: { bypassCache?: boolean } = {},
+) => {
   const url = new URL(path, baseUrl);
   const response = await fetch(url, {
-    cache: "no-store",
+    cache: options.bypassCache === false ? "default" : "no-store",
     signal: AbortSignal.timeout(15_000),
   });
 
@@ -21,6 +25,39 @@ const fetchOk = async (path: string, expectedContentType: string) => {
   }
 
   return response;
+};
+
+const verifyDocumentCache = async () => {
+  const url = new URL("/", baseUrl);
+  url.searchParams.set("deployment-cache-check", Date.now().toString());
+  const cacheStatuses: string[] = [];
+
+  for (let attempt = 1; attempt <= 4; attempt += 1) {
+    const response = await fetchOk(
+      `${url.pathname}${url.search}`,
+      "text/html",
+      { bypassCache: false },
+    );
+    const browserCacheControl = response.headers.get("cache-control");
+    const cacheStatus = response.headers.get("cf-cache-status") ?? "missing";
+
+    if (browserCacheControl !== "no-store") {
+      throw new Error(
+        `Document browser cache policy was ${browserCacheControl ?? "missing"}`,
+      );
+    }
+
+    cacheStatuses.push(cacheStatus);
+    if (cacheStatus === "HIT") {
+      return cacheStatuses;
+    }
+
+    await Bun.sleep(250 * attempt);
+  }
+
+  throw new Error(
+    `Document did not reach the Worker cache: ${cacheStatuses.join(", ")}`,
+  );
 };
 
 const verifyDeployment = async () => {
@@ -48,26 +85,53 @@ const verifyDeployment = async () => {
     );
   }
 
-  await Promise.all([
-    ...assetPaths.map((path) =>
-      fetchOk(path, path.endsWith(".css") ? "text/css" : "javascript"),
-    ),
+  const [cacheStatuses] = await Promise.all([
+    verifyDocumentCache(),
+    ...assetPaths.map(async (path) => {
+      const response = await fetchOk(
+        path,
+        path.endsWith(".css") ? "text/css" : "javascript",
+      );
+      const cacheControl = response.headers.get("cache-control") ?? "";
+
+      if (
+        !cacheControl.includes("max-age=31536000") ||
+        !cacheControl.includes("immutable")
+      ) {
+        throw new Error(`${path} returned cache policy ${cacheControl}`);
+      }
+    }),
     ...["/current.json", "/changes.json", "/source-status.json"].map(
       async (path) => {
         const response = await fetchOk(path, "application/json");
+        const cacheControl = response.headers.get("cache-control") ?? "";
+
+        if (
+          cacheControl.includes("max-age=31536000") ||
+          cacheControl.includes("immutable")
+        ) {
+          throw new Error(
+            `${path} returned unsafe cache policy ${cacheControl}`,
+          );
+        }
+
         await response.json();
       },
     ),
   ]);
 
-  return assetPaths.length;
+  return {
+    assetCount: assetPaths.length,
+    cacheStatuses,
+  };
 };
 
-let verifiedAssetCount = 0;
+let verifiedDeployment:
+  Awaited<ReturnType<typeof verifyDeployment>> | undefined;
 
 for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
   try {
-    verifiedAssetCount = await verifyDeployment();
+    verifiedDeployment = await verifyDeployment();
     break;
   } catch (error) {
     if (attempt === maxAttempts) {
@@ -78,6 +142,10 @@ for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
   }
 }
 
+if (!verifiedDeployment) {
+  throw new Error("Deployment verification did not produce a result");
+}
+
 console.log(
-  `Verified ${baseUrl.origin}: document, ${verifiedAssetCount} assets, and 3 data files`,
+  `Verified ${baseUrl.origin}: document cache ${verifiedDeployment.cacheStatuses.join(" → ")}, ${verifiedDeployment.assetCount} immutable assets, and 3 revalidated data files`,
 );
