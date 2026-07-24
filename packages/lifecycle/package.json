@@ -1,0 +1,18 @@
+{
+  "name": "@duskline/lifecycle",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "validate": "vitest run"
+  },
+  "dependencies": {
+    "effect": "4.0.0-beta.101"
+  }
+}

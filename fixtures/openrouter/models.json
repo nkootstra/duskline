@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "id": "vendor/example",
+      "canonical_slug": "vendor/example-20260101",
+      "expiration_date": "2026-09-01"
+    },
+    {
+      "id": "vendor/active",
+      "canonical_slug": "vendor/active",
+      "expiration_date": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "duskline",
+  "private": true,
+  "packageManager": "bun@1.4.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "collect": "bun run apps/collector/src/main.ts",
+    "deploy": "bun run collect && bun run validate && bun alchemy deploy",
+    "deploy:infra": "bun alchemy deploy",
+    "dev": "bun alchemy dev",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "infra:check": "bun alchemy deploy --dry-run --yes --stage verify",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck && tsc --noEmit -p tsconfig.infra.json",
+    "validate": "turbo run validate"
+  },
+  "dependencies": {
+    "@effect/platform-bun": "4.0.0-beta.101",
+    "@effect/platform-node": "4.0.0-beta.101",
+    "alchemy": "2.0.0-beta.64",
+    "effect": "4.0.0-beta.101"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20260724.1",
+    "@effect/vitest": "4.0.0-beta.101",
+    "@types/bun": "1.2.22",
+    "prettier": "3.9.6",
+    "turbo": "2.10.6",
+    "typescript": "6.0.2",
+    "vitest": "4.1.10"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@duskline/collector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "collect": "bun run src/main.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "validate": "bun run src/validate.ts"
+  },
+  "dependencies": {
+    "@duskline/lifecycle": "workspace:*",
+    "@duskline/providers": "workspace:*",
+    "@effect/platform-bun": "4.0.0-beta.101",
+    "effect": "4.0.0-beta.101"
+  }
+}

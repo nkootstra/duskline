@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "last_published_at": "2026-07-24T12:12:07.804Z",
+  "sources": [
+    {
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "status": "healthy",
+      "record_count": 28,
+      "content_hash": "22bcefe783d6090171e31794f939d517fd321b8132f5651b6fcf9ee0d6f326f5",
+      "last_successful_observation_at": "2026-07-24T10:58:44.472Z",
+      "error_code": null
+    },
+    {
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "status": "healthy",
+      "record_count": 17,
+      "content_hash": "e5bdb6e05ef7c9e6e30f8ef7d4304a25c2b65b4952768097867387241670aad2",
+      "last_successful_observation_at": "2026-07-24T08:26:01.889Z",
+      "error_code": null
+    },
+    {
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "status": "healthy",
+      "record_count": 11,
+      "content_hash": "0dfb377a36fd6cc398b120028360569b6aba241a2f3ae8b8c6cb99dbb3aa7328",
+      "last_successful_observation_at": "2026-07-24T12:12:07.804Z",
+      "error_code": null
+    },
+    {
+      "source_id": "fireworks-models",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "status": "healthy",
+      "record_count": 0,
+      "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "last_successful_observation_at": "2026-07-24T11:59:34.723Z",
+      "error_code": null
+    },
+    {
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "status": "healthy",
+      "record_count": 148,
+      "content_hash": "394227f92905805a6be9309a786779a8a8e73fb2fbc8fbfa9305da86027b6284",
+      "last_successful_observation_at": "2026-07-24T11:57:06.668Z",
+      "error_code": null
+    },
+    {
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "status": "healthy",
+      "record_count": 7,
+      "content_hash": "0ae996da04678ef2241ddb03b3f7f816a4b82ad3328aba49592c7ee6babfdf8b",
+      "last_successful_observation_at": "2026-07-24T08:26:01.889Z",
+      "error_code": null
+    }
+  ]
+}

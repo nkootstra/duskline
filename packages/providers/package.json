@@ -1,0 +1,20 @@
+{
+  "name": "@duskline/providers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "validate": "vitest run"
+  },
+  "dependencies": {
+    "@duskline/lifecycle": "workspace:*",
+    "cheerio": "1.2.0",
+    "effect": "4.0.0-beta.101"
+  }
+}
