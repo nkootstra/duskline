@@ -11,8 +11,8 @@ describe("deletion labels", () => {
     expect(deletionCountdownLabel(0)).toBe("Today");
     expect(deletionCountdownLabel(1)).toBe("1 day left");
     expect(deletionCountdownLabel(4)).toBe("4 days left");
-    expect(deletionCountdownLabel(-1)).toBe("Deleted 1 day ago");
-    expect(deletionCountdownLabel(-4)).toBe("Deleted 4 days ago");
+    expect(deletionCountdownLabel(-1)).toBe("Deleted");
+    expect(deletionCountdownLabel(-4)).toBe("Deleted");
   });
 });
 

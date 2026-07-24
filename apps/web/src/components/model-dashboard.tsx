@@ -38,14 +38,22 @@ const providerLabel = (provider: Provider): string =>
   )[provider];
 
 function LifecycleSummary({ notice }: { readonly notice: LifecycleNotice }) {
+  const isDeleted =
+    notice.days_until_deletion !== null && notice.days_until_deletion < 0;
+
   return (
     <span className="tabular-nums">
-      Deprecated: {dateLabel(notice.deprecation_date)}{" "}
-      <span aria-hidden="true">·</span>{" "}
+      {notice.deprecation_date ? (
+        <>
+          Deprecated: {dateLabel(notice.deprecation_date)}{" "}
+          <span aria-hidden="true">·</span>{" "}
+        </>
+      ) : null}
       <span className={cn(notice.urgency && "font-medium")}>
-        Deletion: {dateLabel(notice.shutdown_date)}
+        {isDeleted ? "Deleted" : "Deletion"}: {dateLabel(notice.shutdown_date)}
         {notice.days_until_deletion !== null &&
-        (notice.urgency || notice.days_until_deletion < 0) ? (
+        notice.days_until_deletion >= 0 &&
+        notice.urgency ? (
           <>
             {" "}
             <span aria-hidden="true">·</span>{" "}
