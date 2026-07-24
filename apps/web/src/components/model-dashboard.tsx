@@ -147,7 +147,7 @@ export function ModelDashboard({
   const filteredRows = table.getFilteredRowModel().rows.length;
 
   return (
-    <main className="mx-auto w-full max-w-7xl px-4 py-8 md:px-6 md:py-14">
+    <main className="mx-auto w-full max-w-7xl px-2 py-8 sm:px-4 md:px-6 md:py-14">
       <header className="pb-8">
         <h1 className="text-balance text-4xl leading-none font-medium md:text-5xl">
           Model Deprecations
