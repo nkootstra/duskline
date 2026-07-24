@@ -7,6 +7,7 @@ import {
   getPaginationRowModel,
   useReactTable,
   type ColumnDef,
+  type Row,
 } from "@tanstack/react-table";
 import {
   type LifecycleNotice,
@@ -36,6 +37,101 @@ const providerLabel = (provider: Provider): string =>
     }) as const
   )[provider];
 
+function LifecycleSummary({ notice }: { readonly notice: LifecycleNotice }) {
+  return (
+    <span className="tabular-nums">
+      Deprecated: {dateLabel(notice.deprecation_date)}{" "}
+      <span aria-hidden="true">·</span>{" "}
+      <span className={cn(notice.urgency && "font-medium")}>
+        Deletion: {dateLabel(notice.shutdown_date)}
+        {notice.days_until_deletion !== null &&
+        (notice.urgency || notice.days_until_deletion < 0) ? (
+          <>
+            {" "}
+            <span aria-hidden="true">·</span>{" "}
+            {deletionCountdownLabel(notice.days_until_deletion)}
+          </>
+        ) : null}
+      </span>
+    </span>
+  );
+}
+
+function SourceLinks({ notice }: { readonly notice: LifecycleNotice }) {
+  return notice.sources.map((source, index) => (
+    <span key={source.source_id}>
+      {index > 0 ? ", " : null}
+      <a
+        aria-label={`View official source ${index + 1} for ${notice.model_id}`}
+        className="touch-manipulation underline underline-offset-4 hover:text-stone-500"
+        href={source.source_url}
+        rel="noreferrer"
+        target="_blank"
+      >
+        {notice.sources.length > 1 ? `View ${index + 1}` : "View"}{" "}
+        <span aria-hidden="true">↗</span>
+      </a>
+    </span>
+  ));
+}
+
+const rowClassName = (notice: LifecycleNotice): string =>
+  cn(
+    "group",
+    notice.urgency === "critical" && "bg-red-50 hover:bg-red-100",
+    notice.urgency === "warning" && "bg-amber-50 hover:bg-amber-100",
+    notice.status === "retired" &&
+      "bg-stone-100 text-stone-500 hover:bg-stone-200",
+    !notice.urgency && notice.status !== "retired" && "hover:bg-stone-100",
+  );
+
+function MobileLifecycleTable({
+  rows,
+}: {
+  readonly rows: ReadonlyArray<Row<LifecycleNotice>>;
+}) {
+  return (
+    <table className="w-full table-fixed border-collapse text-sm sm:hidden">
+      <thead>
+        <tr>
+          <th
+            className="border-b border-stone-300 px-2 py-3 text-left font-mono text-xs font-medium text-stone-500 uppercase"
+            scope="col"
+          >
+            Model lifecycle
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => (
+          <tr className={rowClassName(row.original)} key={row.id}>
+            <td className="border-b border-stone-300 px-2 py-3 group-last:border-b-0">
+              <span className="block font-mono text-xs break-all">
+                {row.original.model_id}
+              </span>
+              <span className="mt-1 block text-xs text-stone-500">
+                {providerLabel(row.original.provider)}
+              </span>
+              <span className="mt-2 block text-xs leading-relaxed">
+                <LifecycleSummary notice={row.original} />
+              </span>
+              <span className="mt-1 block text-stone-500">
+                {row.original.replacement_models.length > 0 ? (
+                  <>
+                    Replace with {row.original.replacement_models.join(", ")}
+                    <span aria-hidden="true"> · </span>
+                  </>
+                ) : null}
+                <SourceLinks notice={row.original} />
+              </span>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+}
+
 const columns: Array<ColumnDef<LifecycleNotice>> = [
   {
     accessorKey: "model_id",
@@ -56,20 +152,8 @@ const columns: Array<ColumnDef<LifecycleNotice>> = [
     header: "Lifecycle",
     enableSorting: false,
     cell: ({ row }) => (
-      <span className="whitespace-nowrap tabular-nums">
-        Deprecated: {dateLabel(row.original.deprecation_date)}{" "}
-        <span aria-hidden="true">·</span>{" "}
-        <span className={cn(row.original.urgency && "font-medium")}>
-          Deletion: {dateLabel(row.original.shutdown_date)}
-          {row.original.days_until_deletion !== null &&
-          (row.original.urgency || row.original.days_until_deletion < 0) ? (
-            <>
-              {" "}
-              <span aria-hidden="true">·</span>{" "}
-              {deletionCountdownLabel(row.original.days_until_deletion)}
-            </>
-          ) : null}
-        </span>
+      <span className="whitespace-nowrap">
+        <LifecycleSummary notice={row.original} />
       </span>
     ),
   },
@@ -87,22 +171,7 @@ const columns: Array<ColumnDef<LifecycleNotice>> = [
     id: "source",
     header: "Source",
     enableSorting: false,
-    cell: ({ row }) =>
-      row.original.sources.map((source, index) => (
-        <span key={source.source_id}>
-          {index > 0 ? ", " : null}
-          <a
-            aria-label={`View official source ${index + 1} for ${row.original.model_id}`}
-            className="touch-manipulation underline underline-offset-4 hover:text-stone-500"
-            href={source.source_url}
-            rel="noreferrer"
-            target="_blank"
-          >
-            {row.original.sources.length > 1 ? `View ${index + 1}` : "View"}{" "}
-            <span aria-hidden="true">↗</span>
-          </a>
-        </span>
-      )),
+    cell: ({ row }) => <SourceLinks notice={row.original} />,
   },
 ];
 
@@ -240,86 +309,76 @@ export function ModelDashboard({
             </label>
           </div>
         </div>
-        <div className="overflow-x-auto border-y border-stone-300">
-          <table className="w-full min-w-[900px] border-collapse text-sm">
-            <thead>
-              {table.getHeaderGroups().map((group) => (
-                <tr key={group.id}>
-                  {group.headers.map((header) => (
-                    <th
-                      aria-sort={
-                        header.column.getIsSorted() === "asc"
-                          ? "ascending"
-                          : header.column.getIsSorted() === "desc"
-                            ? "descending"
-                            : undefined
-                      }
-                      className="border-b border-stone-300 px-2 py-3 text-left font-mono text-xs font-medium text-stone-500 uppercase"
-                      key={header.id}
-                    >
-                      {header.isPlaceholder ? null : (
-                        <>
-                          {header.column.getCanSort() ? (
-                            <button
-                              className="touch-manipulation cursor-pointer bg-transparent p-0 hover:text-stone-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-950"
-                              onClick={header.column.getToggleSortingHandler()}
-                              type="button"
-                            >
-                              {flexRender(
+        <div className="border-y border-stone-300">
+          <MobileLifecycleTable rows={table.getRowModel().rows} />
+          <div className="hidden overflow-x-auto sm:block">
+            <table className="w-full min-w-[900px] border-collapse text-sm">
+              <thead>
+                {table.getHeaderGroups().map((group) => (
+                  <tr key={group.id}>
+                    {group.headers.map((header) => (
+                      <th
+                        aria-sort={
+                          header.column.getIsSorted() === "asc"
+                            ? "ascending"
+                            : header.column.getIsSorted() === "desc"
+                              ? "descending"
+                              : undefined
+                        }
+                        className="border-b border-stone-300 px-2 py-3 text-left font-mono text-xs font-medium text-stone-500 uppercase"
+                        key={header.id}
+                        scope="col"
+                      >
+                        {header.isPlaceholder ? null : (
+                          <>
+                            {header.column.getCanSort() ? (
+                              <button
+                                className="touch-manipulation cursor-pointer bg-transparent p-0 hover:text-stone-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-950"
+                                onClick={header.column.getToggleSortingHandler()}
+                                type="button"
+                              >
+                                {flexRender(
+                                  header.column.columnDef.header,
+                                  header.getContext(),
+                                )}
+                                {header.column.getIsSorted() === "asc"
+                                  ? " ↑"
+                                  : header.column.getIsSorted() === "desc"
+                                    ? " ↓"
+                                    : ""}
+                              </button>
+                            ) : (
+                              flexRender(
                                 header.column.columnDef.header,
                                 header.getContext(),
-                              )}
-                              {header.column.getIsSorted() === "asc"
-                                ? " ↑"
-                                : header.column.getIsSorted() === "desc"
-                                  ? " ↓"
-                                  : ""}
-                            </button>
-                          ) : (
-                            flexRender(
-                              header.column.columnDef.header,
-                              header.getContext(),
-                            )
-                          )}
-                        </>
-                      )}
-                    </th>
-                  ))}
-                </tr>
-              ))}
-            </thead>
-            <tbody>
-              {table.getRowModel().rows.map((row) => (
-                <tr
-                  className={cn(
-                    "group",
-                    row.original.urgency === "critical" &&
-                      "bg-red-50 hover:bg-red-100",
-                    row.original.urgency === "warning" &&
-                      "bg-amber-50 hover:bg-amber-100",
-                    row.original.status === "retired" &&
-                      "bg-stone-100 text-stone-500 hover:bg-stone-200",
-                    !row.original.urgency &&
-                      row.original.status !== "retired" &&
-                      "hover:bg-stone-100",
-                  )}
-                  key={row.id}
-                >
-                  {row.getVisibleCells().map((cell) => (
-                    <td
-                      className="border-b border-stone-300 px-2 py-3 text-left group-last:border-b-0"
-                      key={cell.id}
-                    >
-                      {flexRender(
-                        cell.column.columnDef.cell,
-                        cell.getContext(),
-                      )}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                              )
+                            )}
+                          </>
+                        )}
+                      </th>
+                    ))}
+                  </tr>
+                ))}
+              </thead>
+              <tbody>
+                {table.getRowModel().rows.map((row) => (
+                  <tr className={rowClassName(row.original)} key={row.id}>
+                    {row.getVisibleCells().map((cell) => (
+                      <td
+                        className="border-b border-stone-300 px-2 py-3 text-left group-last:border-b-0"
+                        key={cell.id}
+                      >
+                        {flexRender(
+                          cell.column.columnDef.cell,
+                          cell.getContext(),
+                        )}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
           {table.getRowModel().rows.length === 0 ? (
             <div className="grid min-h-56 place-items-center gap-1.5 text-sm text-stone-500">
               <strong className="text-stone-950">
