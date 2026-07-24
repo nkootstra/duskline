@@ -56,7 +56,7 @@ const isoDate = (year: number, month: number, day: number): string | null => {
 
 export const parseDate = (value: string | null | undefined): string | null => {
   if (!value) return null;
-  const normalized = value.trim();
+  const normalized = value.trim().replace(/[‐‑‒–—−﹘﹣－]/g, "-");
   const iso = normalized.match(/\b(20\d{2})-(\d{2})-(\d{2})\b/);
   if (iso) return isoDate(Number(iso[1]), Number(iso[2]), Number(iso[3]));
 

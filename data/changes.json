@@ -7431,6 +7431,3113 @@
           ]
         }
       ]
+    },
+    {
+      "id": "0820d7769bf751589f513c23d088248c8c94a20fce2ad5aaf61f001605441bb3",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:/v1/answers:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "/v1/answers",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2022-12-03",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "View transition guide"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "09125632aa734b78eb14e8072ee4e7a2acb441bf0fd7c848d969213497cbb1f7",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-realtime-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-realtime-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-15"
+        }
+      ]
+    },
+    {
+      "id": "09b7bf256e495191a12b10fd81a494c07040bb5399cdb542aa17c6011c7f49bd",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-32k-0314:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-32k-0314",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2024-06-06"
+        }
+      ]
+    },
+    {
+      "id": "0a7c5e55eb5429beec1f4640a40f188496bdc968577b83e1ed807f67d0be6c50",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:computer-use-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "computer-use-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0b7a320f5bcd01854c6d2dd582cd60536acc54a2642b5bf3fa10b9e074618a01",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:sora-2-pro:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "sora-2-pro",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-03-24"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "--"
+          ],
+          "after": []
+        }
+      ]
+    },
+    {
+      "id": "0ca3f915a19ef26c2d8bdbae27dfdf52178fba5fa6582be7b2dc33c390d07c84",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-moderation-007:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-moderation-007",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-04-28"
+        }
+      ]
+    },
+    {
+      "id": "0e584dc49ee66f8f10ec5d8e9cbf6827ca468a9d63d8936e83197671d4e1cace",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-1106:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-3.5-turbo-1106",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-26"
+        }
+      ]
+    },
+    {
+      "id": "1086db0e9d3e8d72e3a2fe640e54626f214aca7baa6a79fbede29d18542358c7",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-realtime-preview-2024-10-01:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-realtime-preview-2024-10-01",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-06-10"
+        }
+      ]
+    },
+    {
+      "id": "1166252347ec21f5654eeff77636f4745df6f3f1c23c08448afd292a9f2c0fa5",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-3.5-turbo",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "133dc0507fccecc60cfc13fe1ea279d5c61babb1d66b4a7c7b9e4cb5cfb6fc4d",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:sora-2-2025-12-08:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "sora-2-2025-12-08",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-03-24"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "--"
+          ],
+          "after": []
+        }
+      ]
+    },
+    {
+      "id": "138436214f152e6801843172e930e6c757dc97c25b241f87221ce7cf59145aa5",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:dall-e-3:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "dall-e-3",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-11-14"
+        }
+      ]
+    },
+    {
+      "id": "14fffd384f2070d28c0974796047a63f455c473db2abeb8d878da85b66fbbfd3",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:OpenAI-Beta: assistants=v1:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "OpenAI-Beta: assistants=v1",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2024-12-18",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "OpenAI-Beta: assistants=v2"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "157737d16481b61fa5666777f8a39eca456b6a1fbf326672d3a2e920cc89a5c9",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:code-davinci-002:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "code-davinci-002",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2023-03-23",
+          "after": "2024-01-04"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "gpt-3.5-turbo-instruct",
+            "gpt-4o"
+          ],
+          "after": [
+            "gpt-3.5-turbo-instruct"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1778f7a504e00c7767f9160fabd510d18e373c929bd9fbf00ce80632e5558d34",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:ft-gpt-4.1-nano-2025-04-14:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "ft-gpt-4.1-nano-2025-04-14",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "178eecbc3823e0f8654bbcd269a1f52ffa3c847f8d3b1856e2a773ddc7e78bbb",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o4-mini-deep-research-2025-06-26:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o4-mini-deep-research-2025-06-26",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18a1d97fd716bf0c78c247f493ef219543147f8df5a6a5ea0bfc0d26917f7bda",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:/v1/engines:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "/v1/engines",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2022-12-03",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "/v1/models"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "1c72c3aa113fc74235c1f16f9111e1b500e857240ab1e463b65648189b06751b",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-davinci-edit-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-davinci-edit-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "1fccfa6dce1acf7774316533ab82b7e9be313bfe03539245eff8e459b213431c",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:ft-davinci-002:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "ft-davinci-002",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "22a33e1694b3f5f202436f6c28ca25713fb215db9cb2cd2ac131aeb322c85ad0",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-realtime-preview-2025-06-03:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-realtime-preview-2025-06-03",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-15"
+        }
+      ]
+    },
+    {
+      "id": "250a5df301ba0bb6a0dba99e338b198be63fee38506f89796155f35a5193b5c4",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-audio:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-audio",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "26715e32a4ae36f8c477de62b79957bc93591503ecb5c184f0fe28100c4e061d",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-similarity-davinci-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-similarity-davinci-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "2728f4d791c2b42690855c27231faae7add7362d13c02d20bfb011871a799474",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-realtime-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-mini-realtime-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-15"
+        }
+      ]
+    },
+    {
+      "id": "28abec86aefe7d9200e49c0cc5e584346887ab942798e80fdfca496034ac3717",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-search-preview-2025-03-11:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-search-preview-2025-03-11",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29460a4dab182c25ff185e6c3c0c9c8dd636c7fa08d9744f42d861de865730d3",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-search-curie-doc-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-search-curie-doc-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "2cff2b097fe153ae54b8bb9bf4313b4478271da9e0b5e55bba5420d6d97842dd",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-0301:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-3.5-turbo-0301",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-06-13"
+        }
+      ]
+    },
+    {
+      "id": "2d26425373093d9e6f5add4b3e17fe61edb8b9e43dbf6fc12d25f9446cf7a424",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o4-mini-2025-04-16:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o4-mini-2025-04-16",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2d2679a604a15c67ce7726cb96055d1adb237d1d54805afa91d81d8d0e1fd417",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "status_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-0125-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-0125-preview",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-03-26"
+        }
+      ]
+    },
+    {
+      "id": "30d45bbc29ab4b5fb79a9e40fb13d08095948784818e616d993755c305ac712d",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-search-ada-doc-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-search-ada-doc-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "31cd128c2c062d9c59f9835142ca8a3e7a36490fce889b3b700cc13db397a58b",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "status_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-turbo-preview-completions:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-turbo-preview-completions",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-03-26"
+        }
+      ]
+    },
+    {
+      "id": "32542a9a618962838bccc51f595aa0c2d018d169b20325831db95e1b9d1284ac",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-image-1-mini:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-image-1-mini",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-02"
+        }
+      ]
+    },
+    {
+      "id": "32849d9180bd957cbaf25ec115a22075ae51c8045787c36b6153b59901de61f1",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-32k:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-32k",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2024-06-06"
+        }
+      ]
+    },
+    {
+      "id": "32947445a3f0845e797d1d57e86308ca85092444b106a35c20fded9ffdc00844",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:sora-2-2025-10-06:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "sora-2-2025-10-06",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-03-24"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "--"
+          ],
+          "after": []
+        }
+      ]
+    },
+    {
+      "id": "34246a584c935151160b492a9736740016c81f917a67b1215ca5a49865128f16",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-turbo-2024-04-09:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-turbo-2024-04-09",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "387ca6ab339d64c5dbf56ba30dddbee80ce56002fbe87a681b8ba410d90f70ef",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4.1-nano-2025-04-14:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4.1-nano-2025-04-14",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-luna"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "38c67ac3f7665dd9f3021698fad0d9fb183918f832b0d69686794856490e9a47",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:OpenAI-Beta: realtime=v1:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "OpenAI-Beta: realtime=v1",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "Realtime API"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "3b1bea13af3241e5d037da8a28d3e97b06a6d9a6be0533007327e9c8d649d206",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:Assistants API:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "Assistants API",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "Conversations API",
+            "Responses API"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "4223e09e96da84140f62318b1defb151424ef798f1128b1face0e02ed22dd9a9",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-realtime-mini-2025-10-06:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-realtime-mini-2025-10-06",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-realtime-2.1-mini"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "42b7ee792bd3867b5c5a5fd2985cce852dbef4e0137f0900b4c761be9bf00121",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5.1-codex-mini:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5.1-codex-mini",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "45074449104558f5d567d480b6ec30d5cfe87eb6ef029b1912c80033b813b084",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-realtime:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-realtime",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "45f1f480f7b22d8fef14167551e5e000d839b748c96830f359efac32adb3825f",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5-2025-08-07:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5-2025-08-07",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "485dfcce5e1889dce4e755339fceb45a25f67fe329e4f926d5147530babc5926",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-instruct:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-3.5-turbo-instruct",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-26"
+        }
+      ]
+    },
+    {
+      "id": "489b3313ed0d33e6c3742b92971a6105cbea145795e0a475709a075193f8af2e",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-0613-completions:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-0613-completions",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4b0abfc42980c2b608ae75d59e35384f83dd9644e5e365ddb2e52b5f20c15a60",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4.5-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4.5-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-04-14"
+        }
+      ]
+    },
+    {
+      "id": "4b77261fc3e664a505c382e9758e1649f29cf20fe3d203646467845a0d76426e",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:Videos API:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "Videos API",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-24",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "--"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "4d6f5fb8e8987a45e1bfd96ac3fb8ae2f69386ef4c201810f31ad597030e75ad",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:/v1/classifications:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "/v1/classifications",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2022-12-03",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "View transition guide"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "4e60a17ccd4039a7929b16cebce98d634e83bab354bf3929a17780b0f5a11f59",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o3-mini:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o3-mini",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4e8ea811cb7e067f500f8cd2e927afd9725a98dad6bbf5a4866117d321657414",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-similarity-babbage-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-similarity-babbage-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "4f10e1f1d78e48e9e6e3f707578d21a3d315b8f04d455eb2e6b05deb9acbc423",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:ft-gpt-4:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "ft-gpt-4",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "50bca1cd32a63f4eb307999a7bb39f58eb6ee80cb2d5b1b0356db27657ecd8a3",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-realtime-preview-2024-12-17:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-realtime-preview-2024-12-17",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-15"
+        }
+      ]
+    },
+    {
+      "id": "56269a5b4c205bf259ba6b93656bf4b6e5f9ffc630351f6f3f1e59ef5d546464",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:ft-babbage-002:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "ft-babbage-002",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "5b0c7f5f0cc9bb7845ce74abff87fb67d43aae4162cdd18ce0ef25a3de17e233",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-curie-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-curie-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "6005c2d4d02d6e404992566d3de6ca29ea09eb2bf11ec2b328b451477123cc3c",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-vision-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-vision-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2024-06-06"
+        }
+      ]
+    },
+    {
+      "id": "6577ed0799e9d8a6c9d2bddd02758754241ec4d9205b5e6a76cd6caf9287cb0e",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:/v1/edits:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "/v1/edits",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2024-01-04",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "/v1/chat/completions"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "65924e2830b04f8c41629db268970519b0dae1307a5c04c27cde39d82a066b93",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-audio:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-audio",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "66601c17763aada53a1fe29f3033b8acdfdcefb99fc645fd320a089f504a6bb5",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o1-2024-12-17:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o1-2024-12-17",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "668a201a7b91503ea74fa8ee2560e73ee49e05792e2fbd548a26742a52124217",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5-pro-2025-10-06:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5-pro-2025-10-06",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-11"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "gpt-5.6-sol",
+            "reasoning.mode: pro"
+          ],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a3d778cfa58b2deddb582a2a38a3ae55bab54a404f05c83654597f991a78c5c",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:dall-e-2:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "dall-e-2",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-11-14"
+        }
+      ]
+    },
+    {
+      "id": "6a66a5c30f5d5212b1ced7a677d8c39b2acca16b071d689b012223f2a6738ffc",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-realtime:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-mini-realtime",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "6a7980d0afa01a02ae1c83999ae3c48b6a300c4efe525b83bdbfdbe8334ff139",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5.2-chat-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5.2-chat-latest",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-05-08"
+        }
+      ]
+    },
+    {
+      "id": "6db74f54f6e38bfc163d34aa298cbc2e8cf74749831f01dd8d36060869d8d8b9",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o3-pro-2025-06-10:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o3-pro-2025-06-10",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-11"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "gpt-5.6-sol",
+            "reasoning.mode: pro"
+          ],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6e725e431c4f3e0e471dd07b38a1d3e5edef05159dd3048f01f0552976f34fff",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-search-babbage-doc-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-search-babbage-doc-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "6f540f248cb1e486ff72a095d0e5597257a2c90a2a8a82eb92bca843dee3f117",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-1106-vision-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-1106-vision-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2024-06-06"
+        }
+      ]
+    },
+    {
+      "id": "71ea9d41faed881806964707ea786dea7121a5310d634a876cb6dcd1bc74086f",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5-nano-2025-08-07:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5-nano-2025-08-07",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "72d0a5f4fc6589a7c550692c37f6c808edab30eb97d905cecfc1d0b645cc130a",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o4-mini:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o4-mini",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "73547011db9356ad7566c709e3e8893664f14281cb5effa8b1faf3a3cf6c5c95",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-completions:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-completions",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "77235bebd2078119a43e8f3375906044dcda43f1ffec0a71d648bcfedc2707ea",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5-mini-2025-08-07:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5-mini-2025-08-07",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "7a5e39d665b2f5424f54899dc07ac35171c6d07c9b26c6d7a253419a23f9bbca",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o3-2025-04-16:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o3-2025-04-16",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "7ca3cffc3934cfe677a1c6ee71fa8eff9c7bd09357c713b8cc1265b50ef1b2c0",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5.1-codex-max:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5.1-codex-max",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7ecafb84417fcf6b2ee2b7385d7ef68a72e2e23e28ab0bd3206134536aab3435",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-moderation-stable:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-moderation-stable",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-04-28"
+        }
+      ]
+    },
+    {
+      "id": "7f3bcda79eb287ee88803b99efe6f46052aba03d318337169712a39f4a2c40ba",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:computer-use-preview-2025-03-11:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "computer-use-preview-2025-03-11",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "888e3eda25455517f4fc649e007cda9ba65ab3b921c037ce878e14b7254a01ad",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:code-davinci-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "code-davinci-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-03-20"
+        }
+      ]
+    },
+    {
+      "id": "8df2fe21b21eae7e2b22ed6618b611e049c9db649143fd703b1c0520a7bb3479",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-1106-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-1106-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "gpt-4.1*",
+            "gpt-5"
+          ],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8e5b4d1094029c300cea78f10ac961f4028a80ada6e1af6916dae5d03bd04002",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-16k-0613:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-3.5-turbo-16k-0613",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-11-06"
+        }
+      ]
+    },
+    {
+      "id": "8feb0a6c89653d9da0dbe9433003393f8a6c7046b0de214a26c784bb586801b7",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o1-pro-2025-03-19:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o1-pro-2025-03-19",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9242a5c7b6a108281c3a377317943d76af9af9cebe05598ec715a1a70f0340e3",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:sora-2-pro-2025-10-06:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "sora-2-pro-2025-10-06",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-03-24"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "--"
+          ],
+          "after": []
+        }
+      ]
+    },
+    {
+      "id": "93111402b0c7097734152de33d1bb8de780d2320b93fbc8ad1d075555671bf30",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:ft-o4-mini-2025-04-16:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "ft-o4-mini-2025-04-16",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "957c3eb5c55f997643e4a797384a271acf4887527ca6c5bfde30126f297e28f2",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-audio-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-mini-audio-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-15"
+        }
+      ]
+    },
+    {
+      "id": "976543afb0951672b1f5dc20fc9e1ffc6e79a5c2f3b01e72dc8f509473396845",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-32k-0613:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-32k-0613",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2024-06-06"
+        }
+      ]
+    },
+    {
+      "id": "978c0b787287c11aad5a10035c8a8b060616fd6a44865637a029e0d88d7011ad",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-search-preview-2025-03-11:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-mini-search-preview-2025-03-11",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "986d2adf2741f640b0d00c9d55dd814e06d64f724b8474e76fd5613bb5071a7b",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-turbo-completions:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-turbo-completions",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "988f95eda75f561c929b0a59ad078695b2e78a90958730484b79ae7af2cf06d6",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:code-davinci-edit-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "code-davinci-edit-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "98a45113ce53c0b67e486fd48c036d369372b8fec00f233c14596a99651b884f",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-babbage-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-babbage-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "990c53156cd8459866e0c00aaae61287956acb4e1421e14279afb180debf4620",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-turbo:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-turbo",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99ecd7fa853226cd4d1b9a12f047791c62499383a1237cd0bf861ab00291927e",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:chatgpt-4o-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "chatgpt-4o-latest",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "id": "9c7ae91ded3b086f6c296981ebab13bf56efe0f69a8e2ee34740e6212fc73d45",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:code-search-babbage-code-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "code-search-babbage-code-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "a106932f2587cd00376eef13bfe068aadb2f305a8c306d5a650ffac8578dc726",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-search-davinci-query-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-search-davinci-query-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "a10dd0db157afca545aa56647cf4454ecfb3736d65b7364d64f6f2efa5f0e1e6",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:code-search-babbage-text-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "code-search-babbage-text-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "a207d22a9de97375792457859a22aea0619f231788e6ed330402d671425aa093",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-0613:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-0613",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a4ff79fd841f5dc88b65b6b3df4cbd8f9c749452141586ddea068a824f4afb32",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-2024-05-13:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-2024-05-13",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a57d73cb6b0de69e08a3733541e88b12b406489dcac9f221d1e2c65f278e5661",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4.1-nano:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4.1-nano",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-luna"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a5cf601ef2054cd147767cbd1fb4ab66e10f005a2f16e55812b110a081b7dbee",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-audio:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-mini-audio",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "aa497b0a6a9faedb300c8d26c1af841c710a85b38762b348827dfb55b3420f75",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-davinci-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-davinci-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "ab4aa24b463a74a64803f13f790c7e6735f9afaf4348ee5f4270731679bf0111",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "status_changed",
+      "identity": "openai-lifecycle:openai:direct:davinci-002:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "davinci-002",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": "deprecated"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2024-10-28",
+          "after": "2026-09-28"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "gpt-4o-mini",
+            "gpt-5-mini",
+            "gpt-5.4-mini"
+          ],
+          "after": [
+            "gpt-5-mini",
+            "gpt-5.4-mini"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab8420d5646ceb465b50d3fe50920b44f53bcdfd739992e713a7cf8e3b8abcde",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-audio-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-audio-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-15"
+        }
+      ]
+    },
+    {
+      "id": "abb28ed286376fbfb81034d7f889cac3ee26224f4a9dac97b276fb6b6a01a2f3",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:ada:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "ada",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "ac8ff161c2081ddca92a5c40522fd1dea4d6e0f056de882996f1eb62d8177336",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-0314:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-0314",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2024-06-13",
+          "after": "2026-03-26"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "gpt-4.1*",
+            "gpt-4o",
+            "gpt-5"
+          ],
+          "after": [
+            "gpt-4.1*",
+            "gpt-5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ad4c383c97fa3df4fc5914ed2f7f086fe3e3a92a572416a0804da70d40966ad1",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-audio-mini:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-audio-mini",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "ae4bc92b530865f6542fc4b324741880962905f8fb2b3999640668be6d77c9f9",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-davinci-003:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-davinci-003",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "ae67cb38f24af354715cab426e20d9e241df399cf4e30135a43d27dab9e50bd7",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-realtime:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-realtime",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "af9cc1fbeb76572a88a3b173d2912df8d7cd0ee548323563c994ea138d62659f",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o1-pro:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o1-pro",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1e72aa579346390d94f97d8e85d6c027ce6ee0133f15086524b7c6250b22052",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "added",
+      "identity": "anthropic-lifecycle:anthropic:direct:claude-opus-5:",
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "model_id": "claude-opus-5",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-07-24"
+        }
+      ]
+    },
+    {
+      "id": "b4c45a995ea7328a5ef0d4409a6f9131c8b331ea5682d3b724bc07c8c2a0f0bc",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:code-cushman-002:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "code-cushman-002",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-03-20"
+        }
+      ]
+    },
+    {
+      "id": "b655331a1ac9b75d86d883611c0f903eaeb3dbf20470092ee3dec303de467fae",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:/v1/fine-tunes:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "/v1/fine-tunes",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2024-01-04",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "/v1/fine_tuning/jobs"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "b8271f416a8cc8883a9385da1f61914c0d649adfb80143c214307bb85e5d18ce",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-0125:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-3.5-turbo-0125",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8d34773e811ec76f8c42dbe3f97ba36622dd4721be4684cbdcff6ef1ae8ac76",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5.1-chat-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5.1-chat-latest",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb4162969f1a7c1b8cbaf3b5ac4e26014f64d48f606b960c7e9fb8a1b0e950a2",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:ft-gpt-3.5-turbo:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "ft-gpt-3.5-turbo",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "bb7c8f394b77ff78caa6b73aab090c87ea612eb13fb33cb6c1d0f9f85b5e419b",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-completions:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-3.5-turbo-completions",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-terra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bc37f8ef0a971514f22fb177d280432361cea26bebf938c8f2f2ea2db7513d15",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-search-davinci-doc-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-search-davinci-doc-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "c01c4614f9ad41f0363403bd81e867cde8988664fb6ad40883e18415a6546c9b",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-search-ada-query-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-search-ada-query-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "c108fd5875224c5bd45c2c56dbb49d8c5a9f72ac2cc079b4e64b791f694cb32e",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-realtime-mini:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-realtime-mini",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "c143979da0ad267f99ced9773f24d011093f23d025dec1daa0b29b054b3dbb7d",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "status_changed",
+      "identity": "openai-lifecycle:openai:direct:babbage-002:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "babbage-002",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": "deprecated"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2024-10-28",
+          "after": "2026-09-28"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "gpt-4o-mini",
+            "gpt-5-mini",
+            "gpt-5.4-mini"
+          ],
+          "after": [
+            "gpt-5-mini",
+            "gpt-5.4-mini"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1bbcae112e7abe156497a24d2d08769947c837ff645482cef97815f2f2098b6",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "removed",
+      "identity": "openai-lifecycle:openai:direct:/v1/search:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "/v1/search",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2022-12-03",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "View transition guide"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "c42dc7c33c7d283cf979762a5a0d58ef9afa6b0083ebf4da9691743fdbddf060",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:code-cushman-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "code-cushman-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-03-20"
+        }
+      ]
+    },
+    {
+      "id": "c45c5ac5404649e4bfa804b7c4a96dd931b38a06dacc68934d67f1fb2cd5ed7e",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-tts-2025-03-20:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-mini-tts-2025-03-20",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-4o-mini-tts-2025-12-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c547250f0060e8e3204b024d78f83e8cc0455121deeeb246749934eb0addb1c3",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:davinci:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "davinci",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "c60499989588720f7308c23c6f1e1189fd15d81a429e435e88ae02f27a1ffaa4",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-similarity-curie-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-similarity-curie-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "c85d21eb5a29d9978085037dc2c5b51c70f188c657fb114a263936033a14f40b",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:code-search-ada-code-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "code-search-ada-code-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "c9b669ee338e0750068db651a3670f27186c9262402be352d3ccb731f9da6038",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:codex-mini-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "codex-mini-latest",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-11-17"
+        }
+      ]
+    },
+    {
+      "id": "cb3d203f8cb8a3b159f62c6f6f70b31162318ce4bdcab6eeb125f2b463f859ca",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o4-mini-deep-research:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o4-mini-deep-research",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2430e5744273760a0857102ecf076a0ecf894b211dea45eada34b7900fb2e92",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o3-mini-2025-01-31:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o3-mini-2025-01-31",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d6e5c811ed4a0ae4fd1df70d6cfca968bebf5ca35dbc07fc373facc9cea24907",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d73b64b679dd388c1c655bc0faa918eb9503a5b1ca827c777fa636fc656e49fb",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-image-1.5:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-image-1.5",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-02"
+        }
+      ]
+    },
+    {
+      "id": "da5081b3cc63ebddde4908be5a052cd5aa95a40a5c93b3dcd76342f055205f12",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-0613:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-3.5-turbo-0613",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-11-06"
+        }
+      ]
+    },
+    {
+      "id": "db95b4e428b76fa2d1d560f37670d5d7c9606628421adf40f264842a3df41438",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-search-babbage-query-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-search-babbage-query-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "dd9a2aad3e8bc5bdf17ed8f5273156452bc34ab06c845115372dc4576b541985",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o3-deep-research:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o3-deep-research",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "df3ef38c05a2bed12c8f1a2d6875ea5f8da0ef6f0c07c7e234851c0473292e29",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:curie:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "curie",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "df6a648c6f138902d22b4929851307918e6d69003bf0f2b9bc0db2aa8bddbb8c",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o3-deep-research-2025-06-26:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o3-deep-research-2025-06-26",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e0e09743348b16081005e0c84539d56333eb2e084822f979fdd45f1567719b89",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5-codex:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5-codex",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e54c0055e98a92dfdd2780cab54a25858f1aae70e9006103a5801d8ecd029cca",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-search-curie-query-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-search-curie-query-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "e5af9202a5e1761018c342740787afaea33b5119f7a4d613769e90402dd75c3c",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:code-search-ada-text-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "code-search-ada-text-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "e6b44c5b62c6aa1c03e79a38a757c3001fff5a3f860ec9f6ab411b2417f3d5f4",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:babbage:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "babbage",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "e6bf96a525319303b482baf00c2d372e95a5437e1451bee11225e1bca96d9407",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o1-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o1-preview",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-04-28"
+        }
+      ]
+    },
+    {
+      "id": "e7a7157d30cdbf1080388798c2d76d79b1a12a778b78d01935328264e864de08",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:chatgpt-image-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "chatgpt-image-latest",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-02"
+        }
+      ]
+    },
+    {
+      "id": "e890705b6d946720d21279e019325d277864971d93dd4cf1d5dfb17b0e12680a",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-audio-preview-2024-10-01:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-audio-preview-2024-10-01",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-06-10"
+        }
+      ]
+    },
+    {
+      "id": "e9344a070723df012c558a05dc4cda434e8ed3c5b4befd36bfa0ea1767ad6470",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5.2-codex:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5.2-codex",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eaa3e9df10626547af3297d1f330cc35c2050ac0e0fa487002bf8a0e3c726d8f",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5-chat-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5-chat-latest",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecdd821871768488c24a21054130ffbb6b99f21ae32de2189f5cd7937a9b6dd3",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o1:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o1",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ed1ef598c40b6be37dab2eece70f096503f1cee5b1f08678f72ea55ce4951745",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-transcribe-2025-03-20:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-mini-transcribe-2025-03-20",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "eec1528e8a376b8f22f21bf5d9cdf1be297d2690720ccdeb14c29b170e0e620f",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-davinci-002:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-davinci-002",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "f0d8a1717e888c1da11ccf291934658a5c6a97e1dfba2c7bc5ae6e9d13817864",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-audio-mini-2025-10-06:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-audio-mini-2025-10-06",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-audio-1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f20a67f3a9028c4fed206f7fa8da4eb9fd239f64b02a20736ad4a72ac6e95c88",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:sora-2:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "sora-2",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-03-24"
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "--"
+          ],
+          "after": []
+        }
+      ]
+    },
+    {
+      "id": "f5ad57035550963791f1491d9dc5c55726c39e499a88cc74d94307267d292689",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-moderation-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-moderation-latest",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-04-28"
+        }
+      ]
+    },
+    {
+      "id": "f8b79314feb718aa91a068b883e95f8e468074059e2131a323ee984064b43a78",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:o1-mini:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "o1-mini",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-04-28"
+        }
+      ]
+    },
+    {
+      "id": "f8f040f1f0441ffbbb9745414f7a13dbf571d2c3570c1fbd4f2d6d600bfe3f4d",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-similarity-ada-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-similarity-ada-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "f95d9511bff412e5969f19c7d3b693ceb5968efc34d1d2acca12afd16b974ecd",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:text-ada-001:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "text-ada-001",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2023-07-06"
+        }
+      ]
+    },
+    {
+      "id": "fa0193d4aad8747f316e5e77b0fd5f44197037ccf9ff32d2d25b15245281ff3a",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "status_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-4-turbo-preview:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4-turbo-preview",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2025-09-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-03-26"
+        }
+      ]
+    },
+    {
+      "id": "fa4ee9c261e106257727ce6982ccfec9cfb80534690372963e8c0acc3d13c514",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5.3-chat-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5.3-chat-latest",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-05-08"
+        }
+      ]
+    },
+    {
+      "id": "faae6a0ab90ba3c7a10f6cd51620ebfd39c6ea1067409bed25f3397c79c46f6e",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-image-1:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-image-1",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-image-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fd4e00b415721e6567557c502125f958a72db0ce0e9a403a85cfdec97d2f5d64",
+      "published_at": "2026-07-24T18:47:24.072Z",
+      "kind": "dates_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5.1-codex:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5.1-codex",
+      "changes": [
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-04-22"
+        },
+        {
+          "field": "replacement_models",
+          "before": [],
+          "after": [
+            "gpt-5.6-sol"
+          ]
+        }
+      ]
     }
   ]
 }

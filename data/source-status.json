@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-07-24T12:12:07.804Z",
+  "last_published_at": "2026-07-24T19:10:15.019Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
       "provider": "anthropic",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 28,
-      "content_hash": "22bcefe783d6090171e31794f939d517fd321b8132f5651b6fcf9ee0d6f326f5",
-      "last_successful_observation_at": "2026-07-24T10:58:44.472Z",
+      "record_count": 29,
+      "content_hash": "07859f29820e857d610ca64b044f8676668f49b3fbd317a94b5dd4e845997538",
+      "last_successful_observation_at": "2026-07-24T18:47:24.072Z",
       "error_code": null
     },
     {
@@ -47,9 +47,9 @@
       "provider": "openai",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 148,
-      "content_hash": "394227f92905805a6be9309a786779a8a8e73fb2fbc8fbfa9305da86027b6284",
-      "last_successful_observation_at": "2026-07-24T11:57:06.668Z",
+      "record_count": 138,
+      "content_hash": "6238be207db0453d3e41982ba09add9a219abda2fcd6b318f5c49c6d5371dc92",
+      "last_successful_observation_at": "2026-07-24T18:47:24.072Z",
       "error_code": null
     },
     {
