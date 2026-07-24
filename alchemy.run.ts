@@ -7,6 +7,9 @@ const compatibility = {
   flags: ["nodejs_compat" as const],
 };
 
+const staticAssetHeaders = `/assets/*
+  Cache-Control: public, max-age=31536000, immutable`;
+
 export default Alchemy.Stack(
   "duskline",
   {
@@ -20,6 +23,9 @@ export default Alchemy.Stack(
       cache: {
         enabled: true,
         crossVersionCache: false,
+      },
+      assets: {
+        headers: staticAssetHeaders,
       },
       domain: "duskline.kootstra.io",
       url: true,
