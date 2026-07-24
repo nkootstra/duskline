@@ -1,0 +1,9 @@
+node_modules/
+.turbo/
+dist/
+.output/
+.alchemy/
+.env
+.env.*
+!.env.example
+coverage/

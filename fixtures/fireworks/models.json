@@ -1,0 +1,15 @@
+{
+  "models": [
+    {
+      "name": "accounts/fireworks/models/example-v1",
+      "displayName": "Example v1",
+      "deprecationDate": {
+        "year": 2026,
+        "month": 7,
+        "day": 5
+      },
+      "supportsServerless": true
+    }
+  ],
+  "nextPageToken": ""
+}
