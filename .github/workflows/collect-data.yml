@@ -87,3 +87,6 @@ jobs:
       - name: Deploy with Alchemy
         if: steps.diff.outputs.changed == 'true' && env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != ''
         run: bun alchemy deploy --stage prod --yes
+      - name: Verify deployed assets
+        if: steps.diff.outputs.changed == 'true' && env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != ''
+        run: bun apps/web/scripts/smoke-deployment.ts

@@ -17,7 +17,6 @@ export default Alchemy.Stack(
     const web = yield* Cloudflare.Website.Vite("LifecycleWeb", {
       rootDir: "./apps/web",
       compatibility,
-      assets: { runWorkerFirst: true },
       domain: "duskline.kootstra.io",
       url: true,
       observability: {
