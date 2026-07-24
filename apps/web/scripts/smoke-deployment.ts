@@ -1,23 +1,38 @@
 const baseUrl = new URL(process.argv[2] ?? "https://duskline.kootstra.io");
+const maxAttempts = 5;
+const retryDelayMs = 1_000;
 
 const fetchOk = async (path: string, expectedContentType: string) => {
   const url = new URL(path, baseUrl);
-  const response = await fetch(url, {
-    signal: AbortSignal.timeout(15_000),
-  });
 
-  if (!response.ok) {
-    throw new Error(`${url.pathname} returned ${response.status}`);
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        signal: AbortSignal.timeout(15_000),
+      });
+
+      if (!response.ok) {
+        throw new Error(`${url.pathname} returned ${response.status}`);
+      }
+
+      const contentType = response.headers.get("content-type") ?? "";
+      if (!contentType.includes(expectedContentType)) {
+        throw new Error(
+          `${url.pathname} returned unexpected content type ${contentType}`,
+        );
+      }
+
+      return response;
+    } catch (error) {
+      if (attempt === maxAttempts) {
+        throw error;
+      }
+
+      await Bun.sleep(retryDelayMs * attempt);
+    }
   }
 
-  const contentType = response.headers.get("content-type") ?? "";
-  if (!contentType.includes(expectedContentType)) {
-    throw new Error(
-      `${url.pathname} returned unexpected content type ${contentType}`,
-    );
-  }
-
-  return response;
+  throw new Error(`${url.pathname} could not be verified`);
 };
 
 const documentResponse = await fetchOk("/", "text/html");
