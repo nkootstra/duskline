@@ -86,4 +86,4 @@ jobs:
           git push
       - name: Deploy with Alchemy
         if: steps.diff.outputs.changed == 'true' && env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != ''
-        run: bun alchemy deploy --stage prod
+        run: bun alchemy deploy --stage prod --yes
