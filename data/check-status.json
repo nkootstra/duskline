@@ -1,6 +1,79 @@
 {
   "schema_version": 1,
-  "last_checked_at": null,
-  "status": "not_checked",
-  "sources": []
+  "last_checked_at": "2026-07-25T06:07:07.421Z",
+  "status": "healthy",
+  "sources": [
+    {
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "label": "Anthropic lifecycle",
+      "scope": "Anthropic-operated model deprecations and retirement dates.",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "outcome": "success",
+      "checked_at": "2026-07-25T06:07:07.421Z",
+      "last_successful_check_at": "2026-07-25T06:07:07.421Z",
+      "error_code": null
+    },
+    {
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "label": "Amazon Bedrock lifecycle",
+      "scope": "Public Bedrock legacy and end-of-life dates, not account access.",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "outcome": "success",
+      "checked_at": "2026-07-25T06:07:07.421Z",
+      "last_successful_check_at": "2026-07-25T06:07:07.421Z",
+      "error_code": null
+    },
+    {
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "label": "Fireworks changelog",
+      "scope": "Serverless deprecation announcements and migration notices.",
+      "source_url": "https://docs.fireworks.ai/updates/changelog",
+      "outcome": "success",
+      "checked_at": "2026-07-25T06:07:07.421Z",
+      "last_successful_check_at": "2026-07-25T06:07:07.421Z",
+      "error_code": null
+    },
+    {
+      "source_id": "fireworks-models",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "label": "Fireworks models API",
+      "scope": "Authenticated serverless model deprecation metadata.",
+      "source_url": "https://api.fireworks.ai/v1/accounts/fireworks/models?filter=supports_serverless%3Dtrue&pageSize=200",
+      "outcome": "success",
+      "checked_at": "2026-07-25T06:07:07.421Z",
+      "last_successful_check_at": "2026-07-25T06:07:07.421Z",
+      "error_code": null
+    },
+    {
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "label": "OpenAI lifecycle",
+      "scope": "Direct API deprecations, deletion dates, and replacements.",
+      "source_url": "https://developers.openai.com/api/docs/deprecations",
+      "outcome": "success",
+      "checked_at": "2026-07-25T06:07:07.421Z",
+      "last_successful_check_at": "2026-07-25T06:07:07.421Z",
+      "error_code": null
+    },
+    {
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "label": "OpenRouter models",
+      "scope": "OpenRouter catalog expiration metadata, not upstream lifecycle.",
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "outcome": "success",
+      "checked_at": "2026-07-25T06:07:07.421Z",
+      "last_successful_check_at": "2026-07-25T06:07:07.421Z",
+      "error_code": null
+    }
+  ]
 }
