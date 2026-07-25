@@ -32,7 +32,7 @@ jobs:
       - run: bun run --cwd apps/collector validate
       - name: Write collection summary
         run: |
-          bun -e 'const d=await Bun.file("data/source-status.json").json(); const bad=d.sources.filter(s=>s.status!=="healthy"); await Bun.write(process.env.GITHUB_STEP_SUMMARY, `## Lifecycle collection\n\n- Published: ${d.last_published_at ?? "not yet"}\n- Sources: ${d.sources.length - bad.length} healthy / ${bad.length} degraded\n\n${bad.map(s=>`- ${s.source_id}: ${s.status} (${s.error_code ?? "no error"})`).join("\n")}\n`)'
+          bun -e 'const [d,c]=await Promise.all([Bun.file("data/source-status.json").json(),Bun.file("data/check-status.json").json()]); const bad=c.sources.filter(s=>s.outcome!=="success"); await Bun.write(process.env.GITHUB_STEP_SUMMARY, `## Lifecycle collection\n\n- Last checked: ${c.last_checked_at ?? "not yet"}\n- Lifecycle facts changed: ${d.last_published_at ?? "not yet"}\n- Sources: ${c.sources.length - bad.length} verified / ${bad.length} failed\n\n${bad.map(s=>`- ${s.source_id}: ${s.error_code ?? s.outcome}`).join("\n")}\n`)'
       - uses: actions/upload-artifact@v4
         with:
           name: lifecycle-data
@@ -62,27 +62,36 @@ jobs:
       - run: bun run --cwd apps/collector validate
       - name: Verify generated path allowlist
         run: |
-          unexpected="$(git diff --name-only | grep -vE '^data/(current|changes|source-status)\.json$' || true)"
+          unexpected="$(git diff --name-only | grep -vE '^data/(check-status|current|changes|source-status)\.json$' || true)"
           if [ -n "$unexpected" ]; then
             echo "Unexpected generated paths:"
             echo "$unexpected"
             exit 1
           fi
       - id: diff
-        name: Detect semantic publication
+        name: Detect publication
         run: |
           if git diff --quiet -- data; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+          if git diff --quiet -- data/current.json data/changes.json data/source-status.json; then
+            echo "semantic=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "semantic=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Commit generated data
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "duskline-data"
           git config user.email "duskline-data@users.noreply.github.com"
-          git add data/current.json data/changes.json data/source-status.json
-          git commit -m "data: publish model lifecycle changes"
+          git add data/check-status.json data/current.json data/changes.json data/source-status.json
+          if [ "${{ steps.diff.outputs.semantic }}" = "true" ]; then
+            git commit -m "data: publish model lifecycle changes"
+          else
+            git commit -m "data: record source verification"
+          fi
           git push
       - name: Deploy with Alchemy
         if: steps.diff.outputs.changed == 'true' && env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != ''
@@ -90,3 +99,11 @@ jobs:
       - name: Verify deployed assets
         if: steps.diff.outputs.changed == 'true' && env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != ''
         run: bun apps/web/scripts/smoke-deployment.ts
+      - name: Mark degraded collection
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          status="$(bun -e 'const c=await Bun.file("data/check-status.json").json(); process.stdout.write(c.status)')"
+          if [ "$status" = "degraded" ]; then
+            echo "One or more official sources could not be verified."
+            exit 1
+          fi
