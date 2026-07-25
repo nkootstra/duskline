@@ -1,11 +1,12 @@
 const baseUrl = new URL(process.argv[2] ?? "https://duskline.kootstra.io");
 const maxAttempts = 8;
 const retryDelayMs = 1_000;
-const deploymentCheck = Date.now().toString();
+let deploymentCheck = 0;
 
 const cacheBustedPath = (path: string) => {
   const url = new URL(path, baseUrl);
-  url.searchParams.set("deployment-check", deploymentCheck);
+  deploymentCheck += 1;
+  url.searchParams.set("deployment-check", `${Date.now()}-${deploymentCheck}`);
   return `${url.pathname}${url.search}`;
 };
 
