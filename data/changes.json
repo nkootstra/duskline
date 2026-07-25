@@ -10560,6 +10560,335 @@
           "after": "2026-12-31"
         }
       ]
+    },
+    {
+      "id": "26f88ece233175d880de223e97cf41f9d5073f1ff61bf78d2c14d641ef399d2a",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "replacements_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:GLM 5:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "GLM 5",
+      "changes": [
+        {
+          "field": "replacement_models",
+          "before": [
+            "GLM 5.1"
+          ],
+          "after": [
+            "accounts/fireworks/models/glm-5p1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5b9fe4be41b1f5d6a76ab4fdc22b0fc8c84cf2ee7712face2bf920a9331c45e1",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "removed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:Qwen 3.6 Plus:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "Qwen 3.6 Plus",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "announcement_date",
+          "before": "2026-06-26",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-06-26",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "Qwen 3.7 Plus"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "767e8631c0dc0967a12f5310969688918006f55042980ab6f95c2d5ffde27731",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "replacements_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:DeepSeek V3.2:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "DeepSeek V3.2",
+      "changes": [
+        {
+          "field": "replacement_models",
+          "before": [
+            "GLM 5.1",
+            "Kimi K2.6"
+          ],
+          "after": [
+            "accounts/fireworks/models/glm-5p1",
+            "accounts/fireworks/models/kimi-k2p6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "785e1ca853fc61685483051d5b5f88d636dc073a91d2133aa2e55f14222b68c2",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "replacements_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:DeepSeek V3.1:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "DeepSeek V3.1",
+      "changes": [
+        {
+          "field": "replacement_models",
+          "before": [
+            "GLM 5.1",
+            "Kimi K2.6"
+          ],
+          "after": [
+            "accounts/fireworks/models/glm-5p1",
+            "accounts/fireworks/models/kimi-k2p6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "795d9410214c6eded62712c3cf0500670555b92012194fe6fad9f2219c1b0d19",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "replacements_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:Qwen3 VL 30B A3B Instruct:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "Qwen3 VL 30B A3B Instruct",
+      "changes": [
+        {
+          "field": "replacement_models",
+          "before": [
+            "Kimi K2.6"
+          ],
+          "after": [
+            "accounts/fireworks/models/kimi-k2p6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "96dfa63722dc4976aecfe2ec611d9748b5a62b7cc44bfde9f703552d1fbb3bf4",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "added",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:accounts/fireworks/models/kimi-k2p5:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "accounts/fireworks/models/kimi-k2p5",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-26"
+        },
+        {
+          "field": "deprecation_date",
+          "before": null,
+          "after": "2026-06-26"
+        },
+        {
+          "field": "replacement_models",
+          "before": null,
+          "after": [
+            "accounts/fireworks/models/kimi-k2p6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9ff321507d094b971024546be8c3e21364866a571eefe4bd308fb78bfc3f4179",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "replacements_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:Qwen3 8B:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "Qwen3 8B",
+      "changes": [
+        {
+          "field": "replacement_models",
+          "before": [
+            "GPT-OSS 20B"
+          ],
+          "after": [
+            "accounts/fireworks/models/gpt-oss-20b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2d791590dcd9f33d3ffe2a6e2c8c75666c7bb0dea53e14be3175b64d4e6a01e",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "removed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:Kimi K2.5:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "Kimi K2.5",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "announcement_date",
+          "before": "2026-06-26",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-06-26",
+          "after": null
+        },
+        {
+          "field": "replacement_models",
+          "before": [
+            "Kimi K2.6"
+          ],
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "b780157102d43a76ab2a522b3ab40c4c9c8c5b05fcb7d4fc35a490c8c1bc107d",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "replacements_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:Llama 3.3 70B Instruct:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "Llama 3.3 70B Instruct",
+      "changes": [
+        {
+          "field": "replacement_models",
+          "before": [
+            "GPT-OSS 120B"
+          ],
+          "after": [
+            "accounts/fireworks/models/gpt-oss-120b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d38916145fe087234be8184ca6563456b07446eb1e3c29a67668f7b5518c8936",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "replacements_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:Qwen3 VL 30B A3B Thinking:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "Qwen3 VL 30B A3B Thinking",
+      "changes": [
+        {
+          "field": "replacement_models",
+          "before": [
+            "Kimi K2.6"
+          ],
+          "after": [
+            "accounts/fireworks/models/kimi-k2p6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2491517b58a5058df3ecfcfc1811331c1d0bbbe4605bcd11813f83e18695bec",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "added",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:accounts/fireworks/models/qwen3p6-plus:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "accounts/fireworks/models/qwen3p6-plus",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-06-26"
+        },
+        {
+          "field": "deprecation_date",
+          "before": null,
+          "after": "2026-06-26"
+        },
+        {
+          "field": "replacement_models",
+          "before": null,
+          "after": [
+            "accounts/fireworks/models/qwen3p7-plus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e9f23d364ea3c01568c0058f456967ffaa5f713f92ede53e4273b44f2f52534d",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "replacements_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:GLM 4.7:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "GLM 4.7",
+      "changes": [
+        {
+          "field": "replacement_models",
+          "before": [
+            "GLM 5.1"
+          ],
+          "after": [
+            "accounts/fireworks/models/glm-5p1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ea77d31582b8b953bbd081a9666136a1df3b1fd024fa07e0603b43cb5bd56ca3",
+      "published_at": "2026-07-25T10:00:44.499Z",
+      "kind": "replacements_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:MiniMax M2.5:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "MiniMax M2.5",
+      "changes": [
+        {
+          "field": "replacement_models",
+          "before": [
+            "MiniMax M2.7"
+          ],
+          "after": [
+            "accounts/fireworks/models/minimax-m2p7"
+          ]
+        }
+      ]
     }
   ]
 }

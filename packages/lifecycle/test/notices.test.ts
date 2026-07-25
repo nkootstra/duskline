@@ -32,7 +32,7 @@ const record = (
 
 describe("canonical lifecycle projection", () => {
   it("derives retirement from the requested date", () => {
-    const lifecycle = record("fireworks-models", "2026-08-01");
+    const lifecycle = record("fireworks-changelog", "2026-08-01");
     expect(effectiveLifecycleStatus(lifecycle, "2026-07-31")).toBe(
       "deprecated",
     );
@@ -42,10 +42,10 @@ describe("canonical lifecycle projection", () => {
   it("keeps the previous 30 days of deletions and removes older ones", () => {
     const notices = buildLifecycleNotices(
       [
-        record("fireworks-models", "2026-07-23", {
+        record("fireworks-changelog", "2026-07-23", {
           model_id: "recently-deleted",
         }),
-        record("fireworks-models", "2026-06-23", {
+        record("fireworks-changelog", "2026-06-23", {
           model_id: "older-deletion",
         }),
       ],
@@ -63,7 +63,7 @@ describe("canonical lifecycle projection", () => {
   it("keeps older and unknown-date records available as evidence entries", () => {
     const entries = buildLifecycleEntries(
       [
-        record("fireworks-models", "2026-06-01", {
+        record("fireworks-changelog", "2026-06-01", {
           model_id: "older-deletion",
         }),
         record("fireworks-changelog", "2026-08-01", {
@@ -75,17 +75,17 @@ describe("canonical lifecycle projection", () => {
     );
 
     expect(entries.map((entry) => entry.model_id)).toEqual([
-      "unknown-deletion",
       "older-deletion",
+      "unknown-deletion",
     ]);
-    expect(entries[0]?.record_identities).toHaveLength(1);
-    expect(entries[0]?.shutdown_date).toBeNull();
+    expect(entries[1]?.record_identities).toHaveLength(1);
+    expect(entries[1]?.shutdown_date).toBeNull();
   });
 
   it("keeps an explicit retired status when no deletion date is published", () => {
     const entries = buildLifecycleEntries(
       [
-        record("fireworks-models", "2026-08-01", {
+        record("fireworks-changelog", "2026-08-01", {
           status: "retired",
           shutdown_date: null,
         }),
@@ -111,10 +111,10 @@ describe("canonical lifecycle projection", () => {
   it("sorts recent past deletions before upcoming deletions", () => {
     const notices = buildLifecycleNotices(
       [
-        record("fireworks-models", "2026-07-23", {
+        record("fireworks-changelog", "2026-07-23", {
           model_id: "recently-deleted",
         }),
-        record("fireworks-models", "2026-07-25", {
+        record("fireworks-changelog", "2026-07-25", {
           model_id: "upcoming-deletion",
         }),
       ],
@@ -129,13 +129,16 @@ describe("canonical lifecycle projection", () => {
   it("reconciles overlapping source observations into one notice", () => {
     const notices = buildLifecycleNotices(
       [
-        record("fireworks-models", "2026-08-05", {
+        record("fireworks-changelog", "2026-08-05", {
           canonical_model_id: "accounts/fireworks/models/example",
-          source_url: "https://api.fireworks.ai/inference/v1/models",
+          source_url:
+            "https://docs.fireworks.ai/updates/changelog#first-notice",
         }),
         record("fireworks-changelog", "2026-08-01", {
           canonical_model_id: "accounts/fireworks/models/example",
           replacement_models: ["replacement"],
+          source_url:
+            "https://docs.fireworks.ai/updates/changelog#updated-notice",
         }),
       ],
       "2026-07-24",
@@ -153,10 +156,10 @@ describe("canonical lifecycle projection", () => {
   it("omits unknown deletion dates and deduplicates source links", () => {
     const notices = buildLifecycleNotices(
       [
-        record("fireworks-models", "2026-08-01", {
+        record("fireworks-changelog", "2026-08-01", {
           canonical_model_id: "accounts/fireworks/models/example",
         }),
-        record("fireworks-models", "2026-08-01", {
+        record("fireworks-changelog", "2026-08-01", {
           model_id: "accounts/fireworks/models/example:free",
           canonical_model_id: "accounts/fireworks/models/example",
         }),

@@ -5,7 +5,6 @@ export const SOURCE_IDS = [
   "anthropic-lifecycle",
   "bedrock-lifecycle",
   "fireworks-changelog",
-  "fireworks-models",
   "openrouter-models",
 ] as const;
 

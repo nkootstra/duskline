@@ -5,13 +5,7 @@ import { readArtifacts, writeArtifacts, writeCheckStatus } from "./io";
 
 export const collectionProgram = Effect.gen(function* () {
   const observedAt = new Date().toISOString();
-  const fireworksApiKey = process.env.FIREWORKS_API_KEY;
-  const fireworksAccountId = process.env.FIREWORKS_ACCOUNT_ID;
-  const context = {
-    observedAt,
-    ...(fireworksApiKey ? { fireworksApiKey } : {}),
-    ...(fireworksAccountId ? { fireworksAccountId } : {}),
-  };
+  const context = { observedAt };
   const collectors = SOURCE_REGISTRY.map(({ collect }) => collect(context));
   const [failures, successes] = yield* Effect.partition(
     collectors,

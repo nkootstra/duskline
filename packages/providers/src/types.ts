@@ -37,8 +37,6 @@ export class SourceFailure extends Schema.TaggedErrorClass<SourceFailure>()(
 export interface CollectContext {
   readonly observedAt: string;
   readonly signal?: AbortSignal;
-  readonly fireworksApiKey?: string;
-  readonly fireworksAccountId?: string;
 }
 
 export type SourceCollector = (

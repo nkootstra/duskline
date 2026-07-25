@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-07-25T05:23:39.673Z",
+  "last_published_at": "2026-07-25T10:00:44.499Z",
   "records": [
     {
       "provider": "anthropic",
@@ -913,6 +913,44 @@
       "provider": "fireworks",
       "platform": "fireworks_serverless",
       "source_id": "fireworks-changelog",
+      "model_id": "accounts/fireworks/models/kimi-k2p5",
+      "canonical_model_id": null,
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": "2026-06-26",
+      "deprecation_date": "2026-06-26",
+      "shutdown_date": null,
+      "replacement_models": [
+        "accounts/fireworks/models/kimi-k2p6"
+      ],
+      "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-kimi-k2-5-and-qwen-3-6-plus",
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus",
+      "content_hash": "6db4fbc5f09be60c9addf3749c745376ff5993e5102de1805fe4c66f34696277"
+    },
+    {
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "source_id": "fireworks-changelog",
+      "model_id": "accounts/fireworks/models/qwen3p6-plus",
+      "canonical_model_id": null,
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": "2026-06-26",
+      "deprecation_date": "2026-06-26",
+      "shutdown_date": null,
+      "replacement_models": [
+        "accounts/fireworks/models/qwen3p7-plus"
+      ],
+      "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-kimi-k2-5-and-qwen-3-6-plus",
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus",
+      "content_hash": "a8e9fe0a47127a12c9becc432f79173a1cbbc4b6e079ec947ff1b86caa675cce"
+    },
+    {
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "source_id": "fireworks-changelog",
       "model_id": "DeepSeek V3.1",
       "canonical_model_id": null,
       "regions": [],
@@ -921,13 +959,13 @@
       "deprecation_date": "2026-05-14",
       "shutdown_date": "2026-05-14",
       "replacement_models": [
-        "GLM 5.1",
-        "Kimi K2.6"
+        "accounts/fireworks/models/glm-5p1",
+        "accounts/fireworks/models/kimi-k2p6"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "326e13e57692b01661518c596d4838f7186f6adbfc2cd405015ed013df9e3c0d",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
+      "content_hash": "a50d2871b37d74fa0abf10f81076dbfc78d270dd94a84355aaca3c45e491317f"
     },
     {
       "provider": "fireworks",
@@ -941,13 +979,13 @@
       "deprecation_date": "2026-05-14",
       "shutdown_date": "2026-05-14",
       "replacement_models": [
-        "GLM 5.1",
-        "Kimi K2.6"
+        "accounts/fireworks/models/glm-5p1",
+        "accounts/fireworks/models/kimi-k2p6"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "a5515e10b58fad9b5ccd85ee70bf3dc4bfd12a42f920d676adb62328e7bc7f21",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
+      "content_hash": "af330a14d6be7716000cf052ba03de34e10ddb3a667a4536a462f62c99d2f128"
     },
     {
       "provider": "fireworks",
@@ -961,12 +999,12 @@
       "deprecation_date": "2026-05-14",
       "shutdown_date": "2026-05-14",
       "replacement_models": [
-        "GLM 5.1"
+        "accounts/fireworks/models/glm-5p1"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "150c04b6e6cab865aa844c139431ab13a5b32332e4d1fd87e2cf9cb81de226db",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
+      "content_hash": "96c7f9d21cff57396f637e9c2fcd48ac0fd5d38f9e60be54e62801d076cffac7"
     },
     {
       "provider": "fireworks",
@@ -980,31 +1018,12 @@
       "deprecation_date": "2026-05-14",
       "shutdown_date": "2026-05-14",
       "replacement_models": [
-        "GLM 5.1"
+        "accounts/fireworks/models/glm-5p1"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "735e98ebcf48c00c963f8fa5512ce4adf3666e6d21ba598dc2be3b39fab36065",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
-    },
-    {
-      "provider": "fireworks",
-      "platform": "fireworks_serverless",
-      "source_id": "fireworks-changelog",
-      "model_id": "Kimi K2.5",
-      "canonical_model_id": null,
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": "2026-06-26",
-      "deprecation_date": "2026-06-26",
-      "shutdown_date": null,
-      "replacement_models": [
-        "Kimi K2.6"
-      ],
-      "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-kimi-k2-5-and-qwen-3-6-plus",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "c0912a7b9439f841c5361ddce818ccec187382870388ca4b9e96e6118b831c8d",
-      "raw_status": "Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus"
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
+      "content_hash": "e7754956fe45382a8d8ca3a37739bbd6b897dc6abc38d40ffd5c0ddacf84f787"
     },
     {
       "provider": "fireworks",
@@ -1018,12 +1037,12 @@
       "deprecation_date": "2026-05-14",
       "shutdown_date": "2026-05-14",
       "replacement_models": [
-        "GPT-OSS 120B"
+        "accounts/fireworks/models/gpt-oss-120b"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "6af177ace1351dd7d135638cd0a66ad9ab90b44d6efea84bd9ff19c45fff281a",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
+      "content_hash": "7cda49a267404c523d9bfb13968139fd5e0d1df14a9af5aacf722680c1634074"
     },
     {
       "provider": "fireworks",
@@ -1037,31 +1056,12 @@
       "deprecation_date": "2026-06-17",
       "shutdown_date": null,
       "replacement_models": [
-        "MiniMax M2.7"
+        "accounts/fireworks/models/minimax-m2p7"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-minimax-m2-5",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "66ba67bdace86b27d75114adacd459254d00789a013ddcb9a698631688d5ef82",
-      "raw_status": "Serverless deprecation: MiniMax M2.5"
-    },
-    {
-      "provider": "fireworks",
-      "platform": "fireworks_serverless",
-      "source_id": "fireworks-changelog",
-      "model_id": "Qwen 3.6 Plus",
-      "canonical_model_id": null,
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": "2026-06-26",
-      "deprecation_date": "2026-06-26",
-      "shutdown_date": null,
-      "replacement_models": [
-        "Qwen 3.7 Plus"
-      ],
-      "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-kimi-k2-5-and-qwen-3-6-plus",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "d23fe24b4c0e6dbf574671b5ae64a5bc60e49bedc788fe85953d239e55bef570",
-      "raw_status": "Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus"
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: MiniMax M2.5",
+      "content_hash": "19bec9bbad1b3fe204a092f089319d9bdc643eb3a3706599777ddccac2e1f652"
     },
     {
       "provider": "fireworks",
@@ -1075,12 +1075,12 @@
       "deprecation_date": "2026-05-14",
       "shutdown_date": "2026-05-14",
       "replacement_models": [
-        "GPT-OSS 20B"
+        "accounts/fireworks/models/gpt-oss-20b"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "dd184aa2294d31ba229e6f4fe1b177f6a296292617c71bb4d51741e82f424cbb",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
+      "content_hash": "2566b89476a081ade8fc071f0cfd8e5a736ec55734e87846b339eca72c49d441"
     },
     {
       "provider": "fireworks",
@@ -1094,12 +1094,12 @@
       "deprecation_date": "2026-05-14",
       "shutdown_date": "2026-05-14",
       "replacement_models": [
-        "Kimi K2.6"
+        "accounts/fireworks/models/kimi-k2p6"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "c6074ff5f3b35ba595eec66c634efb8527d1dffa66a05daac4a2a429fc8569d2",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
+      "content_hash": "295e5683bfb5ce37b777292c838d0a686cfb780b236d5e31926a7e292312f6fb"
     },
     {
       "provider": "fireworks",
@@ -1113,12 +1113,12 @@
       "deprecation_date": "2026-05-14",
       "shutdown_date": "2026-05-14",
       "replacement_models": [
-        "Kimi K2.6"
+        "accounts/fireworks/models/kimi-k2p6"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
-      "observed_at": "2026-07-24T12:12:07.804Z",
-      "content_hash": "52b55f7e6818b75079c8ea7363ad87efa8f27c416e72e5347c3e6cb7d620c261",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
+      "observed_at": "2026-07-25T10:00:44.499Z",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
+      "content_hash": "5e9571125ff739bc14397fae1be581505611eb13f57874e603bc33a2b43576df"
     },
     {
       "provider": "openai",
@@ -3845,8 +3845,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-07-25T05:23:39.673Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "2b002ee0889e87e41523a4cd8654d52d287cc60793a32f0966766cee5d071b20"
+      "content_hash": "2b002ee0889e87e41523a4cd8654d52d287cc60793a32f0966766cee5d071b20",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -3910,18 +3910,8 @@
       "platform": "fireworks_serverless",
       "status": "healthy",
       "record_count": 11,
-      "content_hash": "0dfb377a36fd6cc398b120028360569b6aba241a2f3ae8b8c6cb99dbb3aa7328",
-      "last_successful_observation_at": "2026-07-24T12:12:07.804Z",
-      "error_code": null
-    },
-    {
-      "source_id": "fireworks-models",
-      "provider": "fireworks",
-      "platform": "fireworks_serverless",
-      "status": "healthy",
-      "record_count": 0,
-      "content_hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-      "last_successful_observation_at": "2026-07-24T11:59:34.723Z",
+      "content_hash": "05f7557cb310289a4d11781e5eab6823eb19e9fc7ff698e2d239ccfd84505f87",
+      "last_successful_observation_at": "2026-07-25T10:00:44.499Z",
       "error_code": null
     },
     {

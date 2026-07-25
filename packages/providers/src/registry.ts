@@ -3,9 +3,7 @@ import { ANTHROPIC_SOURCE, collectAnthropic } from "./anthropic";
 import { BEDROCK_SOURCE, collectBedrock } from "./bedrock";
 import {
   FIREWORKS_CHANGELOG_SOURCE,
-  FIREWORKS_MODELS_SOURCE,
   collectFireworksChangelog,
-  collectFireworksModels,
 } from "./fireworks";
 import { OPENAI_SOURCE, collectOpenAi } from "./openai";
 import { OPENROUTER_SOURCE, collectOpenRouter } from "./openrouter";
@@ -19,7 +17,6 @@ export const SOURCE_REGISTRY = [
     source: FIREWORKS_CHANGELOG_SOURCE,
     collect: collectFireworksChangelog,
   },
-  { source: FIREWORKS_MODELS_SOURCE, collect: collectFireworksModels },
   { source: OPENROUTER_SOURCE, collect: collectOpenRouter },
 ] as const satisfies ReadonlyArray<SourceRegistryEntry>;
 

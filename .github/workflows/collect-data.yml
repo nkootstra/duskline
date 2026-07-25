@@ -26,9 +26,6 @@ jobs:
       - run: bun run test
       - name: Collect official sources
         run: bun run collect
-        env:
-          FIREWORKS_API_KEY: ${{ secrets.FIREWORKS_API_KEY }}
-          FIREWORKS_ACCOUNT_ID: ${{ vars.FIREWORKS_ACCOUNT_ID }}
       - run: bun run --cwd apps/collector validate
       - name: Write collection summary
         run: |

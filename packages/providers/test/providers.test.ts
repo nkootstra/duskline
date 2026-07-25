@@ -8,7 +8,6 @@ import {
   parseAnthropic,
   parseBedrock,
   parseFireworksChangelog,
-  parseFireworksModels,
   parseOpenAi,
   parseOpenRouter,
 } from "../src";
@@ -507,63 +506,53 @@ describe("provider fixtures", () => {
     );
   });
 
-  it("extracts Fireworks changelog and API lifecycle", () => {
-    expect(
-      parseFireworksChangelog(fixture("fireworks/changelog.html"), observedAt),
-    ).toHaveLength(1);
-    expect(
-      parseFireworksModels(
-        JSON.parse(fixture("fireworks/models.json")),
-        observedAt,
-      )[0],
-    ).toMatchObject({
-      model_id: "accounts/fireworks/models/example-v1",
-      deprecation_date: "2026-07-05",
+  it("extracts Fireworks serverless lifecycle from the Markdown feed", () => {
+    const records = parseFireworksChangelog(
+      fixture("fireworks/changelog.md"),
+      observedAt,
+    );
+
+    expect(records).toHaveLength(4);
+    expect(records[0]).toMatchObject({
+      model_id: "accounts/fireworks/models/kimi-k2p5",
+      deprecation_date: "2026-06-26",
       shutdown_date: null,
+      replacement_models: ["accounts/fireworks/models/kimi-k2p6"],
+      source_url:
+        "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-kimi-k2-5-and-qwen-3-6-plus",
     });
   });
 
-  it("extracts source-scoped Fireworks notices without API model IDs", () => {
+  it("extracts a Fireworks inline migration without inventing a model ID", () => {
     const records = parseFireworksChangelog(
       `
-        <div class="update">
-          <time>2026-06-26</time>
-          <div class="prose-sm">
-            <h1 id="serverless-deprecation-examples">
-              Serverless deprecation: Example One and Example Two
-            </h1>
-            <p>Example One and Example Two are deprecated from serverless.</p>
-            <ul>
-              <li>Example One — migrate to Example Three</li>
-              <li>Example Two — migrate to Example Four</li>
-            </ul>
-          </div>
-        </div>
+        <Update label="2026-06-26">
+          # Serverless deprecation: Example One
+          **Example One** is deprecated from serverless. Migrate to **[Example Two](https://app.fireworks.ai/models/fireworks/example-two)**.
+        </Update>
       `,
       observedAt,
     );
-    expect(records).toHaveLength(2);
+
+    expect(records).toHaveLength(1);
     expect(records[0]).toMatchObject({
+      model_id: "Example One",
       deprecation_date: "2026-06-26",
       shutdown_date: null,
-      replacement_models: ["Example Three"],
+      replacement_models: ["accounts/fireworks/models/example-two"],
       source_url:
-        "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-examples",
+        "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-example-one",
     });
   });
 
   it("extracts a removal date that follows the removal label", () => {
     const records = parseFireworksChangelog(
       `
-        <div class="update">
-          <time>May 14, 2026</time>
-          <div class="prose-sm">
-            <h1>Serverless deprecation: Legacy models removed May 14, 2026</h1>
-            <ul>
-              <li>Example One — migrate to Example Two</li>
-            </ul>
-          </div>
-        </div>
+        <Update label="2026-05-14">
+          # Serverless deprecation: Legacy models removed May 14, 2026
+          Several legacy serverless models will be decommissioned on **May 14, 2026**.
+          * **Example One** — migrate to **Example Two**
+        </Update>
       `,
       observedAt,
     );
@@ -572,6 +561,20 @@ describe("provider fixtures", () => {
       deprecation_date: "2026-05-14",
       shutdown_date: "2026-05-14",
     });
+  });
+
+  it("does not invent Fireworks models from an incomplete notice", () => {
+    expect(
+      parseFireworksChangelog(
+        `
+          <Update label="2026-07-01">
+            # Serverless model deprecation
+            See the model library for details.
+          </Update>
+        `,
+        observedAt,
+      ),
+    ).toEqual([]);
   });
 
   it("retains only OpenRouter entries with expiration dates", () => {

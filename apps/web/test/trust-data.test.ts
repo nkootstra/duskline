@@ -132,12 +132,12 @@ describe("trust data", () => {
           checks.sources[0]!,
           {
             ...checks.sources[0]!,
-            source_id: "fireworks-models",
+            source_id: "fireworks-changelog",
             provider: "fireworks",
             platform: "fireworks_serverless",
-            label: "Fireworks models API",
-            scope: "Authenticated serverless deprecation metadata.",
-            source_url: "https://api.fireworks.ai/v1/accounts/fireworks/models",
+            label: "Fireworks changelog",
+            scope: "Official serverless deprecation announcements.",
+            source_url: "https://docs.fireworks.ai/updates/changelog",
           },
         ],
       },
@@ -146,7 +146,7 @@ describe("trust data", () => {
         source_status: [
           current.source_status[0]!,
           {
-            source_id: "fireworks-models",
+            source_id: "fireworks-changelog",
             provider: "fireworks",
             platform: "fireworks_serverless",
             status: "healthy",
@@ -160,7 +160,7 @@ describe("trust data", () => {
     );
 
     expect(rows[1]).toMatchObject({
-      sourceId: "fireworks-models",
+      sourceId: "fireworks-changelog",
       recordCount: 0,
       outcome: "success",
     });

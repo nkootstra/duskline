@@ -9,7 +9,7 @@ Start, TanStack Table, Alchemy v2, and Cloudflare Workers.
 
 ## Applications
 
-- `apps/collector` fetches and validates the six independent official sources.
+- `apps/collector` fetches and validates five independent official sources.
 - `apps/web` renders the deprecation register. Its lifecycle column displays
   `Deprecated: … · Deletion: …` on one line, ordered by recent deletions
   newest-first, followed by upcoming deletion dates nearest-first. Model,
@@ -72,19 +72,17 @@ bun run collect
 bun run dev
 ```
 
-`FIREWORKS_API_KEY` is optional for local work and required only for the
-authenticated Fireworks models API. Without it, the changelog still collects
-and the API source is reported as unavailable without exposing credentials.
-Copy `.env.example` to `.env` and set `FIREWORKS_API_KEY`,
-`CLOUDFLARE_ACCOUNT_ID`, and `CLOUDFLARE_API_TOKEN`. Alchemy reads `.env`
-automatically. The local file is ignored by Git.
+Copy `.env.example` to `.env` and set `CLOUDFLARE_ACCOUNT_ID` and
+`CLOUDFLARE_API_TOKEN`. Alchemy reads `.env` automatically. The local file is
+ignored by Git. Lifecycle collection uses public official sources and requires
+no provider credentials.
 
 The live collector uses official sources:
 
 - OpenAI API deprecations
 - Anthropic model deprecations
 - Amazon Bedrock model lifecycle
-- Fireworks changelog and models API
+- Fireworks changelog Markdown feed
 - OpenRouter models API with `output_modalities=all`
 
 Provider fixture tests characterize each parser and fail closed when expected
@@ -114,14 +112,12 @@ caches must revalidate documents, while Cloudflare may keep them at the edge for
 five minutes with stale-while-revalidate and stale-if-error protection.
 Fingerprint assets are immutable for one year.
 
-Configure those values as a GitHub Actions variable and secret. Configure
-`FIREWORKS_API_KEY` as a secret if the authenticated availability cross-check is
-desired. The Fireworks credential is collector-only and is never bound to the
-web Worker. On the first deployment, `Cloudflare.state()` provisions Alchemy's
-state-store authentication and encryption secrets automatically. The repository
-should remain private when reliable GitHub schedules are required; if made
-public, add an external freshness monitor because GitHub can disable schedules
-in inactive public repositories.
+Configure those values as a GitHub Actions variable and secret. On the first
+deployment, `Cloudflare.state()` provisions Alchemy's state-store authentication
+and encryption secrets automatically. The repository should remain private when
+reliable GitHub schedules are required; if made public, add an external
+freshness monitor because GitHub can disable schedules in inactive public
+repositories.
 
 Move collection into Cloudflare Workflows/D1/R2 only when the product adds
 sub-daily checks, user subscriptions, account-specific Bedrock regions, or raw
