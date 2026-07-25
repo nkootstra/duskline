@@ -1,5 +1,5 @@
 const baseUrl = new URL(process.argv[2] ?? "https://duskline.kootstra.io");
-const maxAttempts = 8;
+const maxAttempts = 12;
 const retryDelayMs = 1_000;
 let deploymentCheck = 0;
 
