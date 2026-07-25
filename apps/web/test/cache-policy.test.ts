@@ -42,6 +42,20 @@ describe("worker cache policy", () => {
     );
   });
 
+  it.each(["/sources", "/models/example"])(
+    "edge-caches public trust document %s",
+    (pathname) => {
+      const response = apply({
+        pathname,
+        request: new Request(`https://duskline.kootstra.io${pathname}`),
+      });
+
+      expect(response.headers.get("cloudflare-cdn-cache-control")).toBe(
+        EDGE_DOCUMENT_CACHE_CONTROL,
+      );
+    },
+  );
+
   it.each([
     {
       name: "server functions",

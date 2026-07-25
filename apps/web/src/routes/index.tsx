@@ -19,14 +19,13 @@ export const Route = createFileRoute("/")({
 });
 
 function Home() {
-  const { lastPublishedAt, notices, sourceStatus } = Route.useLoaderData();
+  const { notices, verification } = Route.useLoaderData();
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
 
   return (
     <ModelDashboard
       filters={filtersFromSearch(search)}
-      lastPublishedAt={lastPublishedAt}
       notices={notices}
       onFiltersChange={(filters) => {
         void navigate({
@@ -34,7 +33,7 @@ function Home() {
           search: searchFromFilters(filters),
         });
       }}
-      sourceStatus={sourceStatus}
+      verification={verification}
     />
   );
 }

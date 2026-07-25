@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import {
+  buildLifecycleEntries,
   buildLifecycleNotices,
+  lifecycleIdentityKey,
   effectiveLifecycleStatus,
   type LifecycleRecord,
 } from "../src";
@@ -55,6 +57,55 @@ describe("canonical lifecycle projection", () => {
       status: "retired",
       days_until_deletion: -1,
     });
+    expect(notices[0]).not.toHaveProperty("record_identities");
+  });
+
+  it("keeps older and unknown-date records available as evidence entries", () => {
+    const entries = buildLifecycleEntries(
+      [
+        record("fireworks-models", "2026-06-01", {
+          model_id: "older-deletion",
+        }),
+        record("fireworks-changelog", "2026-08-01", {
+          model_id: "unknown-deletion",
+          shutdown_date: null,
+        }),
+      ],
+      "2026-07-24",
+    );
+
+    expect(entries.map((entry) => entry.model_id)).toEqual([
+      "unknown-deletion",
+      "older-deletion",
+    ]);
+    expect(entries[0]?.record_identities).toHaveLength(1);
+    expect(entries[0]?.shutdown_date).toBeNull();
+  });
+
+  it("keeps an explicit retired status when no deletion date is published", () => {
+    const entries = buildLifecycleEntries(
+      [
+        record("fireworks-models", "2026-08-01", {
+          status: "retired",
+          shutdown_date: null,
+        }),
+      ],
+      "2026-07-24",
+    );
+
+    expect(entries[0]).toMatchObject({
+      status: "retired",
+      shutdown_date: null,
+    });
+  });
+
+  it("creates fixed-length keys for exact lifecycle identities", async () => {
+    const identity =
+      "openrouter-models:openrouter:openrouter:poolside/laguna-m.1:";
+    const key = await lifecycleIdentityKey(identity);
+
+    expect(key).toMatch(/^[a-f0-9]{64}$/);
+    expect(await lifecycleIdentityKey(`${identity}other`)).not.toBe(key);
   });
 
   it("sorts recent past deletions before upcoming deletions", () => {

@@ -8,6 +8,11 @@ type CachePolicyInput = {
   response: Response;
 };
 
+const isPublicDocumentPath = (pathname: string): boolean =>
+  pathname === "/" ||
+  pathname === "/sources" ||
+  pathname.startsWith("/models/");
+
 const isCacheableDocument = ({
   handlerType,
   pathname,
@@ -18,7 +23,7 @@ const isCacheableDocument = ({
 
   return (
     handlerType === "router" &&
-    pathname === "/" &&
+    isPublicDocumentPath(pathname) &&
     (request.method === "GET" || request.method === "HEAD") &&
     response.status === 200 &&
     contentType.includes("text/html") &&

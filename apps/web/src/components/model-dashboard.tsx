@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { Toggle } from "@base-ui/react/toggle";
+import { Link } from "@tanstack/react-router";
 import {
   flexRender,
   getCoreRowModel,
@@ -9,35 +10,33 @@ import {
   type ColumnDef,
   type Row,
 } from "@tanstack/react-table";
-import {
-  type LifecycleNotice,
-  type Provider,
-  type SourceStatusDataset,
-} from "@duskline/lifecycle";
+import { type Provider } from "@duskline/lifecycle";
 import { dateLabel, deletionCountdownLabel } from "../lib/lifecycle-table";
 import type { DashboardFilters } from "../lib/dashboard-search";
+import { providerLabel } from "../lib/labels";
+import type { DashboardNotice, VerificationSummary } from "../lib/trust-data";
 import { cn } from "../lib/cn";
 
 interface Props {
   readonly filters: DashboardFilters;
-  readonly lastPublishedAt: string | null;
-  readonly notices: Array<LifecycleNotice>;
+  readonly notices: Array<DashboardNotice>;
   readonly onFiltersChange: (filters: DashboardFilters) => void;
-  readonly sourceStatus: SourceStatusDataset;
+  readonly verification: VerificationSummary;
 }
 
-const providerLabel = (provider: Provider): string =>
-  (
-    ({
-      anthropic: "Anthropic",
-      aws_bedrock: "Bedrock",
-      fireworks: "Fireworks",
-      openai: "OpenAI",
-      openrouter: "OpenRouter",
-    }) as const
-  )[provider];
+function ModelLink({ notice }: { readonly notice: DashboardNotice }) {
+  return (
+    <Link
+      className="underline decoration-stone-300 underline-offset-4 hover:decoration-stone-950"
+      params={{ identity: notice.passport_id }}
+      to="/models/$identity"
+    >
+      {notice.model_id}
+    </Link>
+  );
+}
 
-function LifecycleSummary({ notice }: { readonly notice: LifecycleNotice }) {
+function LifecycleSummary({ notice }: { readonly notice: DashboardNotice }) {
   const isDeleted =
     notice.days_until_deletion !== null && notice.days_until_deletion < 0;
 
@@ -65,7 +64,7 @@ function LifecycleSummary({ notice }: { readonly notice: LifecycleNotice }) {
   );
 }
 
-function SourceLinks({ notice }: { readonly notice: LifecycleNotice }) {
+function SourceLinks({ notice }: { readonly notice: DashboardNotice }) {
   return notice.sources.map((source, index) => (
     <span key={source.source_id}>
       {index > 0 ? ", " : null}
@@ -83,7 +82,7 @@ function SourceLinks({ notice }: { readonly notice: LifecycleNotice }) {
   ));
 }
 
-const rowClassName = (notice: LifecycleNotice): string =>
+const rowClassName = (notice: DashboardNotice): string =>
   cn(
     "group",
     notice.urgency === "critical" && "bg-red-50 hover:bg-red-100",
@@ -96,7 +95,7 @@ const rowClassName = (notice: LifecycleNotice): string =>
 function MobileLifecycleTable({
   rows,
 }: {
-  readonly rows: ReadonlyArray<Row<LifecycleNotice>>;
+  readonly rows: ReadonlyArray<Row<DashboardNotice>>;
 }) {
   return (
     <table className="w-full table-fixed border-collapse text-sm sm:hidden">
@@ -115,7 +114,7 @@ function MobileLifecycleTable({
           <tr className={rowClassName(row.original)} key={row.id}>
             <td className="border-b border-stone-300 px-2 py-3 group-last:border-b-0">
               <span className="block font-mono text-xs break-all">
-                {row.original.model_id}
+                <ModelLink notice={row.original} />
               </span>
               <span className="mt-1 block text-xs text-stone-500">
                 {providerLabel(row.original.provider)}
@@ -140,13 +139,15 @@ function MobileLifecycleTable({
   );
 }
 
-const columns: Array<ColumnDef<LifecycleNotice>> = [
+const columns: Array<ColumnDef<DashboardNotice>> = [
   {
     accessorKey: "model_id",
     header: "Model",
     enableSorting: false,
     cell: ({ row }) => (
-      <span className="font-mono break-all">{row.original.model_id}</span>
+      <span className="font-mono break-all">
+        <ModelLink notice={row.original} />
+      </span>
     ),
   },
   {
@@ -185,10 +186,9 @@ const columns: Array<ColumnDef<LifecycleNotice>> = [
 
 export function ModelDashboard({
   filters,
-  lastPublishedAt,
   notices,
   onFiltersChange,
-  sourceStatus,
+  verification,
 }: Props) {
   const columnFilters = useMemo(
     () =>
@@ -215,43 +215,40 @@ export function ModelDashboard({
     getFilteredRowModel: getFilteredRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
   });
-  const staleSources = sourceStatus.sources.filter(
-    (source) => source.status !== "healthy",
-  );
   const providers = [...new Set(notices.map((record) => record.provider))].sort(
     (left, right) => providerLabel(left).localeCompare(providerLabel(right)),
   );
   const filteredRows = table.getFilteredRowModel().rows.length;
 
   return (
-    <main className="mx-auto w-full max-w-7xl px-2 py-8 sm:px-4 md:px-6 md:py-14">
+    <main
+      className="mx-auto w-full max-w-7xl px-2 py-8 sm:px-4 md:px-6 md:py-14"
+      id="main-content"
+    >
       <header className="pb-8">
         <h1 className="text-balance text-4xl leading-none font-medium md:text-5xl">
           Model Deprecations
         </h1>
         <p className="mt-3 text-sm text-pretty text-stone-500 tabular-nums">
           Upcoming and recent deletion dates from official sources
-          <span aria-hidden="true"> · </span>
-          {lastPublishedAt
-            ? `Updated ${new Date(lastPublishedAt).toLocaleDateString("en", {
-                dateStyle: "medium",
-                timeZone: "UTC",
-              })}`
-            : "Awaiting first collection"}
+        </p>
+        <p
+          className={cn(
+            "mt-1 text-sm text-pretty tabular-nums",
+            verification.tone === "warning"
+              ? "text-amber-900"
+              : "text-stone-500",
+          )}
+          role={verification.tone === "warning" ? "status" : undefined}
+        >
+          <Link
+            className="underline decoration-stone-300 underline-offset-4 hover:text-stone-950 hover:decoration-stone-950"
+            to="/sources"
+          >
+            {verification.label}
+          </Link>
         </p>
       </header>
-
-      {staleSources.length > 0 ? (
-        <aside
-          className="mb-5 text-sm text-amber-900 text-pretty"
-          role="status"
-        >
-          <strong>{staleSources.length} sources stale.</strong>{" "}
-          {lastPublishedAt
-            ? "Last trusted data shown."
-            : "Awaiting their first collection."}
-        </aside>
-      ) : null}
 
       <section className="scroll-mt-4 border-t border-stone-300" id="models">
         <div className="grid items-center gap-4 py-3.5 md:flex md:justify-between md:py-4">

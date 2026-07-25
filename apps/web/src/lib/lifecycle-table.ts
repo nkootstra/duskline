@@ -8,6 +8,9 @@ const dateFormatter = new Intl.DateTimeFormat("en", {
 export const dateLabel = (date: string | null): string =>
   date ? dateFormatter.format(new Date(`${date}T00:00:00Z`)) : "Unknown";
 
+export const timestampDateLabel = (timestamp: string | null): string =>
+  timestamp ? dateLabel(timestamp.slice(0, 10)) : "Not yet";
+
 export const deletionCountdownLabel = (days: number): string => {
   if (days < 0) return "Deleted";
   if (days === 0) return "Today";

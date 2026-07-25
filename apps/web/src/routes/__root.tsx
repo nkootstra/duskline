@@ -34,9 +34,9 @@ function Root() {
       <body className="min-w-80 bg-stone-50 text-stone-950 antialiased">
         <a
           className="fixed top-4 left-4 z-50 -translate-y-[200%] bg-stone-950 px-3 py-2 text-sm text-white focus-visible:translate-y-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-950"
-          href="#models"
+          href="#main-content"
         >
-          Skip to model table
+          Skip to content
         </a>
         <Outlet />
         <Scripts />

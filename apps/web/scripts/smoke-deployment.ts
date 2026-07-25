@@ -1,6 +1,13 @@
 const baseUrl = new URL(process.argv[2] ?? "https://duskline.kootstra.io");
 const maxAttempts = 8;
 const retryDelayMs = 1_000;
+const deploymentCheck = Date.now().toString();
+
+const cacheBustedPath = (path: string) => {
+  const url = new URL(path, baseUrl);
+  url.searchParams.set("deployment-check", deploymentCheck);
+  return `${url.pathname}${url.search}`;
+};
 
 const fetchOk = async (
   path: string,
@@ -61,12 +68,7 @@ const verifyDocumentCache = async () => {
 };
 
 const verifyDeployment = async () => {
-  const documentUrl = new URL("/", baseUrl);
-  documentUrl.searchParams.set("deployment-check", Date.now().toString());
-  const documentResponse = await fetchOk(
-    `${documentUrl.pathname}${documentUrl.search}`,
-    "text/html",
-  );
+  const documentResponse = await fetchOk(cacheBustedPath("/"), "text/html");
   const html = await documentResponse.text();
   const assetPaths = [
     ...new Set(
@@ -83,6 +85,10 @@ const verifyDeployment = async () => {
     throw new Error(
       "The deployed document did not reference CSS and JS assets",
     );
+  }
+  const passportMatch = html.match(/href="(\/models\/[^"]+)"/);
+  if (!passportMatch?.[1]) {
+    throw new Error("The deployed document did not link to a model passport");
   }
 
   const [cacheStatuses] = await Promise.all([
@@ -101,23 +107,32 @@ const verifyDeployment = async () => {
         throw new Error(`${path} returned cache policy ${cacheControl}`);
       }
     }),
-    ...["/current.json", "/changes.json", "/source-status.json"].map(
-      async (path) => {
-        const response = await fetchOk(path, "application/json");
-        const cacheControl = response.headers.get("cache-control") ?? "";
+    ...[
+      "/check-status.json",
+      "/current.json",
+      "/changes.json",
+      "/source-status.json",
+    ].map(async (path) => {
+      const response = await fetchOk(cacheBustedPath(path), "application/json");
+      const cacheControl = response.headers.get("cache-control") ?? "";
 
-        if (
-          cacheControl.includes("max-age=31536000") ||
-          cacheControl.includes("immutable")
-        ) {
-          throw new Error(
-            `${path} returned unsafe cache policy ${cacheControl}`,
-          );
-        }
+      if (
+        cacheControl.includes("max-age=31536000") ||
+        cacheControl.includes("immutable")
+      ) {
+        throw new Error(`${path} returned unsafe cache policy ${cacheControl}`);
+      }
 
-        await response.json();
-      },
-    ),
+      const [deployed, expected] = await Promise.all([
+        response.json(),
+        Bun.file(new URL(`../../../data${path}`, import.meta.url)).json(),
+      ]);
+      if (JSON.stringify(deployed) !== JSON.stringify(expected)) {
+        throw new Error(`${path} does not match the published artifact`);
+      }
+    }),
+    fetchOk(cacheBustedPath("/sources"), "text/html"),
+    fetchOk(cacheBustedPath(passportMatch[1]), "text/html"),
   ]);
 
   return {
@@ -147,5 +162,5 @@ if (!verifiedDeployment) {
 }
 
 console.log(
-  `Verified ${baseUrl.origin}: document cache ${verifiedDeployment.cacheStatuses.join(" → ")}, ${verifiedDeployment.assetCount} immutable assets, and 3 revalidated data files`,
+  `Verified ${baseUrl.origin}: document cache ${verifiedDeployment.cacheStatuses.join(" → ")}, ${verifiedDeployment.assetCount} immutable assets, trust pages, and 4 revalidated data files`,
 );

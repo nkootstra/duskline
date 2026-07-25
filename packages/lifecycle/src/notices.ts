@@ -36,6 +36,15 @@ export interface LifecycleNotice {
   readonly urgency: DeletionUrgency;
 }
 
+export interface LifecycleEntry extends LifecycleNotice {
+  readonly record_identities: ReadonlyArray<string>;
+}
+
+export const lifecycleNotice = ({
+  record_identities: _recordIdentities,
+  ...notice
+}: LifecycleEntry): LifecycleNotice => notice;
+
 export const daysUntilDate = (date: string, asOf: string): number => {
   const target = Date.parse(`${date}T00:00:00Z`);
   const current = Date.parse(`${asOf}T00:00:00Z`);
@@ -65,27 +74,21 @@ const earliestDate = (
     .flatMap((record) => (record[field] ? [record[field]] : []))
     .sort()[0] ?? null;
 
-export const buildLifecycleNotices = (
+export const buildLifecycleEntries = (
   records: ReadonlyArray<LifecycleRecord>,
   asOf: string,
-): Array<LifecycleNotice> => {
+): Array<LifecycleEntry> => {
   const groups = new Map<string, Array<LifecycleRecord>>();
   for (const sourceRecord of records) {
     const record = {
       ...sourceRecord,
       status: effectiveLifecycleStatus(sourceRecord, asOf),
     };
-    const daysUntilDeletion = record.shutdown_date
-      ? daysUntilDate(record.shutdown_date, asOf)
-      : null;
     if (
-      !record.shutdown_date ||
-      daysUntilDeletion === null ||
-      daysUntilDeletion < -30 ||
-      (record.status !== "deprecated" &&
-        record.status !== "legacy" &&
-        record.status !== "retired" &&
-        record.status !== "removed")
+      record.status !== "deprecated" &&
+      record.status !== "legacy" &&
+      record.status !== "retired" &&
+      record.status !== "removed"
     ) {
       continue;
     }
@@ -101,7 +104,7 @@ export const buildLifecycleNotices = (
   }
 
   return [...groups.entries()]
-    .map(([identity, unsortedRecords]): LifecycleNotice => {
+    .map(([identity, unsortedRecords]): LifecycleEntry => {
       const sourceRecords = unsortedRecords
         .map(sortRecord)
         .sort((left, right) => {
@@ -130,7 +133,11 @@ export const buildLifecycleNotices = (
             .sort()[0] ?? null,
         regions: primary.regions,
         status:
-          shutdownDate && shutdownDate < asOf
+          (shutdownDate && shutdownDate < asOf) ||
+          sourceRecords.every(
+            (record) =>
+              record.status === "retired" || record.status === "removed",
+          )
             ? "retired"
             : sourceRecords.every((record) => record.status === "legacy")
               ? "legacy"
@@ -158,8 +165,23 @@ export const buildLifecycleNotices = (
           daysUntilDeletion === null
             ? null
             : deletionUrgency(daysUntilDeletion),
+        record_identities: sourceRecords.map(recordIdentity).sort(),
       };
     })
+    .sort((left, right) => left.identity.localeCompare(right.identity));
+};
+
+export const buildLifecycleNotices = (
+  records: ReadonlyArray<LifecycleRecord>,
+  asOf: string,
+): Array<LifecycleNotice> =>
+  buildLifecycleEntries(records, asOf)
+    .filter(
+      (entry) =>
+        entry.shutdown_date !== null &&
+        entry.days_until_deletion !== null &&
+        entry.days_until_deletion >= -30,
+    )
     .sort((left, right) => {
       const leftIsPast = (left.days_until_deletion ?? 0) < 0;
       const rightIsPast = (right.days_until_deletion ?? 0) < 0;
@@ -171,5 +193,5 @@ export const buildLifecycleNotices = (
       return shutdown === 0
         ? left.identity.localeCompare(right.identity)
         : shutdown;
-    });
-};
+    })
+    .map(lifecycleNotice);

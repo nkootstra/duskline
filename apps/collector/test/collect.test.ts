@@ -142,6 +142,36 @@ describe("collection merge", () => {
     });
   });
 
+  it("rejects missing and conflicting check outcomes", () => {
+    const checkedAt = "2026-07-25T04:17:00.000Z";
+    const success: SourceSuccess = {
+      _tag: "SourceSuccess",
+      source: OPENAI_SOURCE,
+      records: [],
+      contentHash: hash,
+      observedAt: checkedAt,
+    };
+    const failure = new SourceFailure({
+      source_id: "openai-lifecycle",
+      code: "fetch_failed",
+      message: "HTTP 500",
+      retryable: true,
+    });
+
+    expect(() =>
+      buildCheckStatus(previousChecks, [OPENAI_SOURCE], [], [], checkedAt),
+    ).toThrow("Missing collection outcome");
+    expect(() =>
+      buildCheckStatus(
+        previousChecks,
+        [OPENAI_SOURCE],
+        [success],
+        [failure],
+        checkedAt,
+      ),
+    ).toThrow("Source produced success and failure");
+  });
+
   it("adds a lifecycle record and one change event", async () => {
     const lifecycle = await record();
     const success: SourceSuccess = {
@@ -236,6 +266,7 @@ describe("collection merge", () => {
     expect(output.current.records).toEqual([lifecycle]);
     expect(output.current.source_status[0]?.status).toBe("stale");
     expect(output.degraded).toBe(true);
+    expect(output.changes).toEqual(history);
   });
 
   it("does not publish unchanged data", async () => {

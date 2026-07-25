@@ -2,7 +2,7 @@ name: Collect model lifecycle data
 
 on:
   schedule:
-    - cron: "17 4 * * *"
+    - cron: "17 0 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -32,7 +32,7 @@ jobs:
       - run: bun run --cwd apps/collector validate
       - name: Write collection summary
         run: |
-          bun -e 'const [d,c]=await Promise.all([Bun.file("data/source-status.json").json(),Bun.file("data/check-status.json").json()]); const bad=c.sources.filter(s=>s.outcome!=="success"); await Bun.write(process.env.GITHUB_STEP_SUMMARY, `## Lifecycle collection\n\n- Last checked: ${c.last_checked_at ?? "not yet"}\n- Lifecycle facts changed: ${d.last_published_at ?? "not yet"}\n- Sources: ${c.sources.length - bad.length} verified / ${bad.length} failed\n\n${bad.map(s=>`- ${s.source_id}: ${s.error_code ?? s.outcome}`).join("\n")}\n`)'
+          bun -e 'const [h,c]=await Promise.all([Bun.file("data/changes.json").json(),Bun.file("data/check-status.json").json()]); const bad=c.sources.filter(s=>s.outcome!=="success"); const factChanged=h.events.map(e=>e.published_at).sort().at(-1) ?? "not yet"; await Bun.write(process.env.GITHUB_STEP_SUMMARY, `## Lifecycle collection\n\n- Last checked: ${c.last_checked_at ?? "not yet"}\n- Lifecycle facts changed: ${factChanged}\n- Sources: ${c.sources.length - bad.length} verified / ${bad.length} failed\n\n${bad.map(s=>`- ${s.source_id}: ${s.error_code ?? s.outcome}`).join("\n")}\n`)'
       - uses: actions/upload-artifact@v4
         with:
           name: lifecycle-data
@@ -76,7 +76,7 @@ jobs:
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-          if git diff --quiet -- data/current.json data/changes.json data/source-status.json; then
+          if git diff --quiet -- data/changes.json; then
             echo "semantic=false" >> "$GITHUB_OUTPUT"
           else
             echo "semantic=true" >> "$GITHUB_OUTPUT"
@@ -93,11 +93,18 @@ jobs:
             git commit -m "data: record source verification"
           fi
           git push
+      - name: Verify deployment credentials
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ] || [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "Cloudflare deployment credentials are required for publication."
+            exit 1
+          fi
       - name: Deploy with Alchemy
-        if: steps.diff.outputs.changed == 'true' && env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != ''
+        if: steps.diff.outputs.changed == 'true'
         run: bun alchemy deploy --stage prod --yes
       - name: Verify deployed assets
-        if: steps.diff.outputs.changed == 'true' && env.CLOUDFLARE_ACCOUNT_ID != '' && env.CLOUDFLARE_API_TOKEN != ''
+        if: steps.diff.outputs.changed == 'true'
         run: bun apps/web/scripts/smoke-deployment.ts
       - name: Mark degraded collection
         if: steps.diff.outputs.changed == 'true'
