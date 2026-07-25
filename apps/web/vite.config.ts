@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import { fileURLToPath } from "node:url";
 import { Schema } from "effect";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import tailwindcss from "@tailwindcss/vite";
@@ -10,6 +11,8 @@ import {
 } from "../../packages/lifecycle/src";
 import current from "../../data/current.json";
 
+const appRoot = fileURLToPath(new URL(".", import.meta.url));
+const outputRoot = fileURLToPath(new URL("./dist", import.meta.url));
 const lifecycle = Schema.decodeUnknownSync(CurrentDataset)(current);
 const passportPages = await Promise.all(
   buildLifecycleEntries(
@@ -21,6 +24,8 @@ const passportPages = await Promise.all(
 );
 
 export default defineConfig({
+  root: appRoot,
+  build: { outDir: outputRoot },
   publicDir: "../../data",
   resolve: { tsconfigPaths: true },
   plugins: [
