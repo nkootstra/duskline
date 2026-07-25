@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-07-24T19:10:15.019Z",
+  "last_published_at": "2026-07-25T05:23:39.673Z",
   "records": [
     {
       "provider": "anthropic",
@@ -3835,6 +3835,23 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "z-ai/glm-4.5v",
+      "canonical_model_id": "z-ai/glm-4.5v",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-12-31",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-07-25T05:23:39.673Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "2b002ee0889e87e41523a4cd8654d52d287cc60793a32f0966766cee5d071b20"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-5-turbo",
       "canonical_model_id": "z-ai/glm-5-turbo-20260315",
       "regions": [],
@@ -3922,9 +3939,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 7,
-      "content_hash": "0ae996da04678ef2241ddb03b3f7f816a4b82ad3328aba49592c7ee6babfdf8b",
-      "last_successful_observation_at": "2026-07-24T08:26:01.889Z",
+      "record_count": 8,
+      "content_hash": "1c85dd2b736d2f87b88e4d35629e46c97748385928ffd428ad54c46c41fd1516",
+      "last_successful_observation_at": "2026-07-25T05:23:39.673Z",
       "error_code": null
     }
   ]
