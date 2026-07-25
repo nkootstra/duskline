@@ -1,6 +1,7 @@
 import type {
   ChangeEvent,
   ChangeHistory,
+  CheckStatusDataset,
   CurrentDataset,
   LifecycleRecord,
   SourceStatus,
@@ -128,6 +129,15 @@ export const canonicalizeSourceStatus = (
 ): SourceStatusDataset => ({
   ...dataset,
   sources: sortSourceStatus(dataset.sources),
+});
+
+export const canonicalizeCheckStatus = (
+  dataset: CheckStatusDataset,
+): CheckStatusDataset => ({
+  ...dataset,
+  sources: [...dataset.sources].sort((left, right) =>
+    compareText(left.source_id, right.source_id),
+  ),
 });
 
 export const stableJson = (value: unknown): string =>

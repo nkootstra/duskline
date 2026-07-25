@@ -43,6 +43,18 @@ export const SourceHealth = Schema.Literals([
   "unknown",
 ]);
 
+export const CheckStatus = Schema.Literals([
+  "healthy",
+  "degraded",
+  "not_checked",
+]);
+
+export const CheckOutcome = Schema.Literals([
+  "success",
+  "failure",
+  "not_attempted",
+]);
+
 const isCalendarDate = (value: string): boolean => {
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
   if (!match) return false;
@@ -194,11 +206,33 @@ export const SourceStatusDataset = Schema.Struct({
   sources: Schema.Array(SourceStatus),
 });
 
+export const SourceCheck = Schema.Struct({
+  source_id: SourceId,
+  provider: Provider,
+  platform: Platform,
+  label: NonEmptyString,
+  scope: NonEmptyString,
+  source_url: HttpUrl,
+  outcome: CheckOutcome,
+  checked_at: NullableTimestamp,
+  last_successful_check_at: NullableTimestamp,
+  error_code: NullableString,
+});
+
+export const CheckStatusDataset = Schema.Struct({
+  schema_version: Schema.Literal(1),
+  last_checked_at: NullableTimestamp,
+  status: CheckStatus,
+  sources: Schema.Array(SourceCheck),
+});
+
 export type SourceId = Schema.Schema.Type<typeof SourceId>;
 export type Provider = Schema.Schema.Type<typeof Provider>;
 export type Platform = Schema.Schema.Type<typeof Platform>;
 export type LifecycleStatus = Schema.Schema.Type<typeof LifecycleStatus>;
 export type SourceHealth = Schema.Schema.Type<typeof SourceHealth>;
+export type CheckStatus = Schema.Schema.Type<typeof CheckStatus>;
+export type CheckOutcome = Schema.Schema.Type<typeof CheckOutcome>;
 export type LifecycleRecord = Schema.Schema.Type<typeof LifecycleRecord>;
 export type SourceStatus = Schema.Schema.Type<typeof SourceStatus>;
 export type CurrentDataset = Schema.Schema.Type<typeof CurrentDataset>;
@@ -211,3 +245,5 @@ export type ChangeHistory = Schema.Schema.Type<typeof ChangeHistory>;
 export type SourceStatusDataset = Schema.Schema.Type<
   typeof SourceStatusDataset
 >;
+export type SourceCheck = Schema.Schema.Type<typeof SourceCheck>;
+export type CheckStatusDataset = Schema.Schema.Type<typeof CheckStatusDataset>;

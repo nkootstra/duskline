@@ -1,5 +1,6 @@
 import {
   canonicalizeChanges,
+  canonicalizeCheckStatus,
   canonicalizeCurrent,
   recordIdentity,
   semanticDataset,
@@ -12,6 +13,7 @@ import {
   type ChangeHistory,
   type ChangeKind,
   type ChangeValue,
+  type CheckStatusDataset,
   type CurrentDataset,
   type LifecycleRecord,
   type SourceStatus,
@@ -28,6 +30,53 @@ export interface CollectionOutput {
   readonly changed: boolean;
   readonly degraded: boolean;
 }
+
+export const buildCheckStatus = (
+  previous: CheckStatusDataset,
+  expectedSources: ReadonlyArray<SourceDefinition>,
+  successes: ReadonlyArray<SourceSuccess>,
+  failures: ReadonlyArray<SourceFailure>,
+  checkedAt: string,
+): CheckStatusDataset => {
+  const previousBySource = new Map(
+    previous.sources.map((source) => [source.source_id, source]),
+  );
+  const successIds = new Set(successes.map((success) => success.source.id));
+  const failureBySource = new Map(
+    failures.map((failure) => [failure.source_id, failure]),
+  );
+
+  return canonicalizeCheckStatus({
+    schema_version: 1,
+    last_checked_at: checkedAt,
+    status: failures.length > 0 ? "degraded" : "healthy",
+    sources: expectedSources.map((source) => {
+      const succeeded = successIds.has(source.id);
+      const failure = failureBySource.get(source.id);
+      if (succeeded === Boolean(failure)) {
+        throw new Error(
+          succeeded
+            ? `Source produced success and failure: ${source.id}`
+            : `Missing collection outcome for ${source.id}`,
+        );
+      }
+      return {
+        source_id: source.id,
+        provider: source.provider,
+        platform: source.platform,
+        label: source.label,
+        scope: source.scope,
+        source_url: source.url,
+        outcome: succeeded ? ("success" as const) : ("failure" as const),
+        checked_at: checkedAt,
+        last_successful_check_at: succeeded
+          ? checkedAt
+          : (previousBySource.get(source.id)?.last_successful_check_at ?? null),
+        error_code: failure?.code ?? null,
+      };
+    }),
+  });
+};
 
 const same = (left: unknown, right: unknown): boolean =>
   stableJson(left) === stableJson(right);

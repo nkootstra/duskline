@@ -14,6 +14,8 @@ export const ANTHROPIC_SOURCE: SourceDefinition = {
   id: "anthropic-lifecycle",
   provider: "anthropic",
   platform: "direct",
+  label: "Anthropic lifecycle",
+  scope: "Anthropic-operated model deprecations and retirement dates.",
   url: "https://platform.claude.com/docs/en/about-claude/model-deprecations",
 };
 

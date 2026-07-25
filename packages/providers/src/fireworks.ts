@@ -19,6 +19,8 @@ export const FIREWORKS_CHANGELOG_SOURCE: SourceDefinition = {
   id: "fireworks-changelog",
   provider: "fireworks",
   platform: "fireworks_serverless",
+  label: "Fireworks changelog",
+  scope: "Serverless deprecation announcements and migration notices.",
   url: "https://docs.fireworks.ai/updates/changelog",
 };
 
@@ -26,6 +28,8 @@ export const FIREWORKS_MODELS_SOURCE: SourceDefinition = {
   id: "fireworks-models",
   provider: "fireworks",
   platform: "fireworks_serverless",
+  label: "Fireworks models API",
+  scope: "Authenticated serverless model deprecation metadata.",
   url: "https://api.fireworks.ai/v1/accounts/fireworks/models?filter=supports_serverless%3Dtrue&pageSize=200",
 };
 

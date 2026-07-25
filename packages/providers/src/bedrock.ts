@@ -14,6 +14,8 @@ export const BEDROCK_SOURCE: SourceDefinition = {
   id: "bedrock-lifecycle",
   provider: "aws_bedrock",
   platform: "bedrock",
+  label: "Amazon Bedrock lifecycle",
+  scope: "Public Bedrock legacy and end-of-life dates, not account access.",
   url: "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
 };
 

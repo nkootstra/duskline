@@ -12,6 +12,8 @@ export const OPENAI_SOURCE: SourceDefinition = {
   id: "openai-lifecycle",
   provider: "openai",
   platform: "direct",
+  label: "OpenAI lifecycle",
+  scope: "Direct API deprecations, deletion dates, and replacements.",
   url: "https://developers.openai.com/api/docs/deprecations",
 };
 

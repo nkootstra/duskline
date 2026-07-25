@@ -4,6 +4,7 @@ import {
   semanticRecord,
   sha256,
   type ChangeHistory,
+  type CheckStatusDataset,
   type CurrentDataset,
   type LifecycleRecord,
 } from "@duskline/lifecycle";
@@ -12,11 +13,30 @@ import {
   SourceFailure,
   type SourceSuccess,
 } from "@duskline/providers";
-import { mergeCollection } from "../src/collect";
+import { buildCheckStatus, mergeCollection } from "../src/collect";
 
 const publishedAt = "2026-07-24T10:00:00.000Z";
 const hash = "a".repeat(64);
 const history: ChangeHistory = { schema_version: 1, events: [] };
+const previousChecks: CheckStatusDataset = {
+  schema_version: 1,
+  last_checked_at: "2026-07-24T04:17:00.000Z",
+  status: "healthy",
+  sources: [
+    {
+      source_id: "openai-lifecycle",
+      provider: "openai",
+      platform: "direct",
+      label: "OpenAI lifecycle",
+      scope: "Direct API deprecations, deletion dates, and replacements.",
+      source_url: OPENAI_SOURCE.url,
+      outcome: "success",
+      checked_at: "2026-07-24T04:17:00.000Z",
+      last_successful_check_at: "2026-07-24T04:17:00.000Z",
+      error_code: null,
+    },
+  ],
+};
 const record = async (): Promise<LifecycleRecord> => {
   const value: LifecycleRecord = {
     provider: "openai",
@@ -58,6 +78,70 @@ const seed = (): CurrentDataset =>
   });
 
 describe("collection merge", () => {
+  it("records a successful check without changing lifecycle publication time", () => {
+    const checkedAt = "2026-07-25T04:17:00.000Z";
+    const checks = buildCheckStatus(
+      previousChecks,
+      [OPENAI_SOURCE],
+      [
+        {
+          _tag: "SourceSuccess",
+          source: OPENAI_SOURCE,
+          records: [],
+          contentHash: hash,
+          observedAt: checkedAt,
+        },
+      ],
+      [],
+      checkedAt,
+    );
+
+    expect(checks).toMatchObject({
+      last_checked_at: checkedAt,
+      status: "healthy",
+      sources: [
+        {
+          source_id: "openai-lifecycle",
+          outcome: "success",
+          checked_at: checkedAt,
+          last_successful_check_at: checkedAt,
+          error_code: null,
+        },
+      ],
+    });
+  });
+
+  it("records a failed attempt while retaining the last successful check", () => {
+    const checkedAt = "2026-07-25T04:17:00.000Z";
+    const checks = buildCheckStatus(
+      previousChecks,
+      [OPENAI_SOURCE],
+      [],
+      [
+        new SourceFailure({
+          source_id: "openai-lifecycle",
+          code: "fetch_failed",
+          message: "HTTP 500",
+          retryable: true,
+        }),
+      ],
+      checkedAt,
+    );
+
+    expect(checks).toMatchObject({
+      last_checked_at: checkedAt,
+      status: "degraded",
+      sources: [
+        {
+          outcome: "failure",
+          checked_at: checkedAt,
+          last_successful_check_at: "2026-07-24T04:17:00.000Z",
+          error_code: "fetch_failed",
+        },
+      ],
+    });
+  });
+
   it("adds a lifecycle record and one change event", async () => {
     const lifecycle = await record();
     const success: SourceSuccess = {

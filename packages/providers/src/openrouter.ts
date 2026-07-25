@@ -10,6 +10,8 @@ export const OPENROUTER_SOURCE: SourceDefinition = {
   id: "openrouter-models",
   provider: "openrouter",
   platform: "openrouter",
+  label: "OpenRouter models",
+  scope: "OpenRouter catalog expiration metadata, not upstream lifecycle.",
   url: "https://openrouter.ai/api/v1/models?output_modalities=all",
 };
 

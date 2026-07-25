@@ -2,6 +2,7 @@ import { BunRuntime } from "@effect/platform-bun";
 import { Effect, Schema } from "effect";
 import {
   ChangeHistory,
+  CheckStatusDataset,
   CurrentDataset,
   SourceStatusDataset,
   assertDatasetIntegrity,
@@ -21,11 +22,25 @@ const validate = Effect.tryPromise({
     const status = Schema.decodeUnknownSync(SourceStatusDataset)(
       await Bun.file(new URL("source-status.json", root)).json(),
     );
+    const checks = Schema.decodeUnknownSync(CheckStatusDataset)(
+      await Bun.file(new URL("check-status.json", root)).json(),
+    );
     if (
       status.last_published_at !== current.last_published_at ||
       stableJson(status.sources) !== stableJson(current.source_status)
     ) {
       throw new Error("source-status.json does not match current.json");
+    }
+    const statusIds = status.sources
+      .map((source) => source.source_id)
+      .sort()
+      .join("\n");
+    const checkIds = checks.sources
+      .map((source) => source.source_id)
+      .sort()
+      .join("\n");
+    if (checks.status !== "not_checked" && statusIds !== checkIds) {
+      throw new Error("check-status.json does not cover the published sources");
     }
   },
   catch: (error) =>

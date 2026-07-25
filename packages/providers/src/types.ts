@@ -11,6 +11,8 @@ export interface SourceDefinition {
   readonly id: SourceId;
   readonly provider: Provider;
   readonly platform: Platform;
+  readonly label: string;
+  readonly scope: string;
   readonly url: string;
 }
 
