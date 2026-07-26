@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-07-25T10:00:44.499Z",
+  "last_published_at": "2026-07-26T01:00:27.195Z",
   "records": [
     {
       "provider": "anthropic",
@@ -925,8 +925,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-kimi-k2-5-and-qwen-3-6-plus",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus",
-      "content_hash": "6db4fbc5f09be60c9addf3749c745376ff5993e5102de1805fe4c66f34696277"
+      "content_hash": "6db4fbc5f09be60c9addf3749c745376ff5993e5102de1805fe4c66f34696277",
+      "raw_status": "Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus"
     },
     {
       "provider": "fireworks",
@@ -944,8 +944,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-kimi-k2-5-and-qwen-3-6-plus",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus",
-      "content_hash": "a8e9fe0a47127a12c9becc432f79173a1cbbc4b6e079ec947ff1b86caa675cce"
+      "content_hash": "a8e9fe0a47127a12c9becc432f79173a1cbbc4b6e079ec947ff1b86caa675cce",
+      "raw_status": "Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus"
     },
     {
       "provider": "fireworks",
@@ -964,8 +964,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
-      "content_hash": "a50d2871b37d74fa0abf10f81076dbfc78d270dd94a84355aaca3c45e491317f"
+      "content_hash": "a50d2871b37d74fa0abf10f81076dbfc78d270dd94a84355aaca3c45e491317f",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
     },
     {
       "provider": "fireworks",
@@ -984,8 +984,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
-      "content_hash": "af330a14d6be7716000cf052ba03de34e10ddb3a667a4536a462f62c99d2f128"
+      "content_hash": "af330a14d6be7716000cf052ba03de34e10ddb3a667a4536a462f62c99d2f128",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
     },
     {
       "provider": "fireworks",
@@ -1003,8 +1003,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
-      "content_hash": "96c7f9d21cff57396f637e9c2fcd48ac0fd5d38f9e60be54e62801d076cffac7"
+      "content_hash": "96c7f9d21cff57396f637e9c2fcd48ac0fd5d38f9e60be54e62801d076cffac7",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
     },
     {
       "provider": "fireworks",
@@ -1022,8 +1022,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
-      "content_hash": "e7754956fe45382a8d8ca3a37739bbd6b897dc6abc38d40ffd5c0ddacf84f787"
+      "content_hash": "e7754956fe45382a8d8ca3a37739bbd6b897dc6abc38d40ffd5c0ddacf84f787",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
     },
     {
       "provider": "fireworks",
@@ -1041,8 +1041,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
-      "content_hash": "7cda49a267404c523d9bfb13968139fd5e0d1df14a9af5aacf722680c1634074"
+      "content_hash": "7cda49a267404c523d9bfb13968139fd5e0d1df14a9af5aacf722680c1634074",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
     },
     {
       "provider": "fireworks",
@@ -1060,8 +1060,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-minimax-m2-5",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.5",
-      "content_hash": "19bec9bbad1b3fe204a092f089319d9bdc643eb3a3706599777ddccac2e1f652"
+      "content_hash": "19bec9bbad1b3fe204a092f089319d9bdc643eb3a3706599777ddccac2e1f652",
+      "raw_status": "Serverless deprecation: MiniMax M2.5"
     },
     {
       "provider": "fireworks",
@@ -1079,8 +1079,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
-      "content_hash": "2566b89476a081ade8fc071f0cfd8e5a736ec55734e87846b339eca72c49d441"
+      "content_hash": "2566b89476a081ade8fc071f0cfd8e5a736ec55734e87846b339eca72c49d441",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
     },
     {
       "provider": "fireworks",
@@ -1098,8 +1098,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
-      "content_hash": "295e5683bfb5ce37b777292c838d0a686cfb780b236d5e31926a7e292312f6fb"
+      "content_hash": "295e5683bfb5ce37b777292c838d0a686cfb780b236d5e31926a7e292312f6fb",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
     },
     {
       "provider": "fireworks",
@@ -1117,8 +1117,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-legacy-models-removed-may-14-2026",
       "observed_at": "2026-07-25T10:00:44.499Z",
-      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026",
-      "content_hash": "5e9571125ff739bc14397fae1be581505611eb13f57874e603bc33a2b43576df"
+      "content_hash": "5e9571125ff739bc14397fae1be581505611eb13f57874e603bc33a2b43576df",
+      "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
     },
     {
       "provider": "openai",
@@ -3835,23 +3835,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "z-ai/glm-4.5v",
-      "canonical_model_id": "z-ai/glm-4.5v",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-12-31",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-07-25T05:23:39.673Z",
-      "content_hash": "2b002ee0889e87e41523a4cd8654d52d287cc60793a32f0966766cee5d071b20",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-5-turbo",
       "canonical_model_id": "z-ai/glm-5-turbo-20260315",
       "regions": [],
@@ -3929,9 +3912,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 8,
-      "content_hash": "1c85dd2b736d2f87b88e4d35629e46c97748385928ffd428ad54c46c41fd1516",
-      "last_successful_observation_at": "2026-07-25T05:23:39.673Z",
+      "record_count": 7,
+      "content_hash": "0ae996da04678ef2241ddb03b3f7f816a4b82ad3328aba49592c7ee6babfdf8b",
+      "last_successful_observation_at": "2026-07-26T01:00:27.195Z",
       "error_code": null
     }
   ]
