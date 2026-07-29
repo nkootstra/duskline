@@ -10911,6 +10911,50 @@
           "after": null
         }
       ]
+    },
+    {
+      "id": "e1c083f537bc0a6040d8551c8c3b7a248008d8b20f4a0c89821006a23387b6b0",
+      "published_at": "2026-07-29T00:54:08.438Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:poolside/laguna-m.1:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "poolside/laguna-m.1:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-07-28",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "edc46631de448a23c81a614fa645a6ad7753764282a6aebe9a6869fcde3e1779",
+      "published_at": "2026-07-29T00:54:08.438Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:poolside/laguna-m.1:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "poolside/laguna-m.1",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-07-28",
+          "after": null
+        }
+      ]
     }
   ]
 }
