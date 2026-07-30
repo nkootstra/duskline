@@ -10955,6 +10955,28 @@
           "after": null
         }
       ]
+    },
+    {
+      "id": "aac645130d13c31f907363868d5ea74b1d84e406df50068953086d60971aec36",
+      "published_at": "2026-07-30T00:51:34.727Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-4.5v:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-4.5v",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-12-31"
+        }
+      ]
     }
   ]
 }
