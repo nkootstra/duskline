@@ -10977,6 +10977,96 @@
           "after": "2026-12-31"
         }
       ]
+    },
+    {
+      "id": "1d824d285da46d2d13df5b62dd31a21dba694ab02a42fddfbf67b0fc13f3e434",
+      "published_at": "2026-07-31T00:57:28.538Z",
+      "kind": "status_changed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-3-7-sonnet-20250219-v1:0:us-gov-east-1,us-gov-west-1",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "55ca60d5e12ccce6c555fd43ae46e6c7b64f1dfcd3b5cce5aacbcd9e457dced7",
+      "published_at": "2026-07-31T00:57:28.538Z",
+      "kind": "status_changed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-3-sonnet-20240229-v1:0:eu-west-1,eu-west-3,us-east-1,us-west-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "anthropic.claude-3-sonnet-20240229-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "5b866dadecf2a79f1f2b18546548f1cc36ce11dad8c74cd6b9cd4789be6f4489",
+      "published_at": "2026-07-31T00:57:28.538Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-4.5v:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-4.5v",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-12-31",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "65abe9ed4c9ff80a978e1f29ff1c14b1c39ff77938541e7242f77433016185ff",
+      "published_at": "2026-07-31T00:57:28.538Z",
+      "kind": "status_changed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-3-5-sonnet-20241022-v2:0:ap-northeast-1,ap-northeast-3,ap-south-2,ap-southeast-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "a1240542104a0c8463daa627228d430c87105c5df05647141ab6a4f0c45937cf",
+      "published_at": "2026-07-31T00:57:28.538Z",
+      "kind": "status_changed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-3-5-sonnet-20240620-v1:0:ap-northeast-1,ap-southeast-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": "retired"
+        }
+      ]
     }
   ]
 }

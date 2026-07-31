@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-07-30T00:51:34.727Z",
+  "last_published_at": "2026-07-31T00:57:28.538Z",
   "records": [
     {
       "provider": "anthropic",
@@ -684,15 +684,15 @@
         "ap-northeast-1",
         "ap-southeast-2"
       ],
-      "status": "legacy",
+      "status": "retired",
       "announcement_date": null,
       "deprecation_date": "2026-01-30",
       "shutdown_date": "2026-07-30",
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-24T08:25:20.827Z",
-      "content_hash": "690b82cf0faa4d4ba149297e5c5700d8d6390df859805972c168f869d1bed370",
-      "raw_status": "legacy with scheduled end of life"
+      "observed_at": "2026-07-31T00:57:28.538Z",
+      "raw_status": "legacy with scheduled end of life",
+      "content_hash": "7cb35def325ca433b6a6d34df151915eea454a326258b3bff6452cb0d06e8220"
     },
     {
       "provider": "aws_bedrock",
@@ -706,15 +706,15 @@
         "ap-south-2",
         "ap-southeast-2"
       ],
-      "status": "legacy",
+      "status": "retired",
       "announcement_date": null,
       "deprecation_date": "2026-01-30",
       "shutdown_date": "2026-07-30",
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-24T08:25:20.827Z",
-      "content_hash": "11c93b1f128e40d3d3825d59d9f10d35860225c1008eca25a326cd459910af0b",
-      "raw_status": "legacy with scheduled end of life"
+      "observed_at": "2026-07-31T00:57:28.538Z",
+      "raw_status": "legacy with scheduled end of life",
+      "content_hash": "97561563916d9779a11e75da75ed65248f4dcef56a3a63424d0b9bc41c310c3d"
     },
     {
       "provider": "aws_bedrock",
@@ -726,15 +726,15 @@
         "us-gov-east-1",
         "us-gov-west-1"
       ],
-      "status": "legacy",
+      "status": "retired",
       "announcement_date": null,
       "deprecation_date": "2026-01-30",
       "shutdown_date": "2026-07-30",
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-24T08:25:20.827Z",
-      "content_hash": "51ed5d125f618311fa4ffcc813713f221a6365bfb76ca4af37fc5340118d7fb6",
-      "raw_status": "legacy with scheduled end of life"
+      "observed_at": "2026-07-31T00:57:28.538Z",
+      "raw_status": "legacy with scheduled end of life",
+      "content_hash": "aeaa0137e84df89926fa79a4644ca797b3e1b03d71f69a775dbf910d9bc20955"
     },
     {
       "provider": "aws_bedrock",
@@ -775,15 +775,15 @@
         "us-east-1",
         "us-west-2"
       ],
-      "status": "legacy",
+      "status": "retired",
       "announcement_date": null,
       "deprecation_date": "2026-01-30",
       "shutdown_date": "2026-07-30",
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-24T08:25:20.827Z",
-      "content_hash": "d3a1cccbc63463e89e7612ff75e1440f34a87584b84c0a13cf2f5749110f0989",
-      "raw_status": "legacy with scheduled end of life"
+      "observed_at": "2026-07-31T00:57:28.538Z",
+      "raw_status": "legacy with scheduled end of life",
+      "content_hash": "720e305ab2c5ba130e724f58d0b6477697d75238316745e85884dee0e599fe02"
     },
     {
       "provider": "aws_bedrock",
@@ -3801,23 +3801,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "z-ai/glm-4.5v",
-      "canonical_model_id": "z-ai/glm-4.5v",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-12-31",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-07-30T00:51:34.727Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "2b002ee0889e87e41523a4cd8654d52d287cc60793a32f0966766cee5d071b20"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-5-turbo",
       "canonical_model_id": "z-ai/glm-5-turbo-20260315",
       "regions": [],
@@ -3866,8 +3849,8 @@
       "platform": "bedrock",
       "status": "healthy",
       "record_count": 17,
-      "content_hash": "e5bdb6e05ef7c9e6e30f8ef7d4304a25c2b65b4952768097867387241670aad2",
-      "last_successful_observation_at": "2026-07-24T08:26:01.889Z",
+      "content_hash": "361a3f9e272ae39794208a327d1c9c42f4f862913cba6de09d13110d829da763",
+      "last_successful_observation_at": "2026-07-31T00:57:28.538Z",
       "error_code": null
     },
     {
@@ -3895,9 +3878,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 6,
-      "content_hash": "abe82281573f54d6d8172cfa6e1e43a7370de9b1c83826a38f3733b2ae2798d6",
-      "last_successful_observation_at": "2026-07-30T00:51:34.727Z",
+      "record_count": 5,
+      "content_hash": "8d6902095722c602777455b754d9321313a62fe61e9f9e9ee43ffb300f577de5",
+      "last_successful_observation_at": "2026-07-31T00:57:28.538Z",
       "error_code": null
     }
   ]
