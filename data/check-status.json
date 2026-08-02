@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_checked_at": "2026-08-01T00:58:19.462Z",
+  "last_checked_at": "2026-08-02T00:58:52.723Z",
   "status": "healthy",
   "sources": [
     {
@@ -11,8 +11,8 @@
       "scope": "Anthropic-operated model deprecations and retirement dates.",
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
       "outcome": "success",
-      "checked_at": "2026-08-01T00:58:19.462Z",
-      "last_successful_check_at": "2026-08-01T00:58:19.462Z",
+      "checked_at": "2026-08-02T00:58:52.723Z",
+      "last_successful_check_at": "2026-08-02T00:58:52.723Z",
       "error_code": null
     },
     {
@@ -23,8 +23,8 @@
       "scope": "Public Bedrock legacy and end-of-life dates, not account access.",
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "outcome": "success",
-      "checked_at": "2026-08-01T00:58:19.462Z",
-      "last_successful_check_at": "2026-08-01T00:58:19.462Z",
+      "checked_at": "2026-08-02T00:58:52.723Z",
+      "last_successful_check_at": "2026-08-02T00:58:52.723Z",
       "error_code": null
     },
     {
@@ -35,8 +35,8 @@
       "scope": "Official serverless deprecation announcements and migration notices.",
       "source_url": "https://docs.fireworks.ai/updates/changelog",
       "outcome": "success",
-      "checked_at": "2026-08-01T00:58:19.462Z",
-      "last_successful_check_at": "2026-08-01T00:58:19.462Z",
+      "checked_at": "2026-08-02T00:58:52.723Z",
+      "last_successful_check_at": "2026-08-02T00:58:52.723Z",
       "error_code": null
     },
     {
@@ -47,8 +47,8 @@
       "scope": "Direct API deprecations, deletion dates, and replacements.",
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "outcome": "success",
-      "checked_at": "2026-08-01T00:58:19.462Z",
-      "last_successful_check_at": "2026-08-01T00:58:19.462Z",
+      "checked_at": "2026-08-02T00:58:52.723Z",
+      "last_successful_check_at": "2026-08-02T00:58:52.723Z",
       "error_code": null
     },
     {
@@ -59,8 +59,8 @@
       "scope": "OpenRouter catalog expiration metadata, not upstream lifecycle.",
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "outcome": "success",
-      "checked_at": "2026-08-01T00:58:19.462Z",
-      "last_successful_check_at": "2026-08-01T00:58:19.462Z",
+      "checked_at": "2026-08-02T00:58:52.723Z",
+      "last_successful_check_at": "2026-08-02T00:58:52.723Z",
       "error_code": null
     }
   ]
