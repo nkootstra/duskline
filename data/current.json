@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-07-31T00:57:28.538Z",
+  "last_published_at": "2026-08-05T00:50:38.185Z",
   "records": [
     {
       "provider": "anthropic",
@@ -691,8 +691,8 @@
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "observed_at": "2026-07-31T00:57:28.538Z",
-      "raw_status": "legacy with scheduled end of life",
-      "content_hash": "7cb35def325ca433b6a6d34df151915eea454a326258b3bff6452cb0d06e8220"
+      "content_hash": "7cb35def325ca433b6a6d34df151915eea454a326258b3bff6452cb0d06e8220",
+      "raw_status": "legacy with scheduled end of life"
     },
     {
       "provider": "aws_bedrock",
@@ -713,8 +713,8 @@
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "observed_at": "2026-07-31T00:57:28.538Z",
-      "raw_status": "legacy with scheduled end of life",
-      "content_hash": "97561563916d9779a11e75da75ed65248f4dcef56a3a63424d0b9bc41c310c3d"
+      "content_hash": "97561563916d9779a11e75da75ed65248f4dcef56a3a63424d0b9bc41c310c3d",
+      "raw_status": "legacy with scheduled end of life"
     },
     {
       "provider": "aws_bedrock",
@@ -733,8 +733,8 @@
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "observed_at": "2026-07-31T00:57:28.538Z",
-      "raw_status": "legacy with scheduled end of life",
-      "content_hash": "aeaa0137e84df89926fa79a4644ca797b3e1b03d71f69a775dbf910d9bc20955"
+      "content_hash": "aeaa0137e84df89926fa79a4644ca797b3e1b03d71f69a775dbf910d9bc20955",
+      "raw_status": "legacy with scheduled end of life"
     },
     {
       "provider": "aws_bedrock",
@@ -782,8 +782,8 @@
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "observed_at": "2026-07-31T00:57:28.538Z",
-      "raw_status": "legacy with scheduled end of life",
-      "content_hash": "720e305ab2c5ba130e724f58d0b6477697d75238316745e85884dee0e599fe02"
+      "content_hash": "720e305ab2c5ba130e724f58d0b6477697d75238316745e85884dee0e599fe02",
+      "raw_status": "legacy with scheduled end of life"
     },
     {
       "provider": "aws_bedrock",
@@ -1151,13 +1151,12 @@
       "deprecation_date": null,
       "shutdown_date": "2026-09-28",
       "replacement_models": [
-        "gpt-5-mini",
-        "gpt-5.4-mini"
+        "gpt-5.6-terra"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "6f01c160a7f03b91b4740cd91c1720f486afe6b8bf475817aac24015b571fd3b",
-      "raw_status": null
+      "observed_at": "2026-08-05T00:50:38.185Z",
+      "raw_status": null,
+      "content_hash": "9eefd52b7111da2a6a3d2e22736910249ae8f6e354d09a31c6702d36b68d94f2"
     },
     {
       "provider": "openai",
@@ -1517,13 +1516,12 @@
       "deprecation_date": null,
       "shutdown_date": "2026-09-28",
       "replacement_models": [
-        "gpt-5-mini",
-        "gpt-5.4-mini"
+        "gpt-5.6-terra"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "4d5daae6165ae77835c5a0abffcb26266292f4e1aa50dff9d2ebd2ee44783fc3",
-      "raw_status": null
+      "observed_at": "2026-08-05T00:50:38.185Z",
+      "raw_status": null,
+      "content_hash": "cdc9f57085e98adb5b563285439b55e8cb62e4f3ca39ed10ca4801538727b9d4"
     },
     {
       "provider": "openai",
@@ -1558,12 +1556,12 @@
       "deprecation_date": null,
       "shutdown_date": "2026-10-23",
       "replacement_models": [
-        "gpt-5.4-mini"
+        "gpt-5.6-terra"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "e1eb44664da548bb30b2de1c14c94275c5e9c07dd7338376dcba5152ff004b11",
-      "raw_status": null
+      "observed_at": "2026-08-05T00:50:38.185Z",
+      "raw_status": null,
+      "content_hash": "51b6306af46e9e02e298a7e608ac90dd59a02943fcc61d8e908ea8651fc85461"
     },
     {
       "provider": "openai",
@@ -1577,12 +1575,12 @@
       "deprecation_date": null,
       "shutdown_date": "2026-10-23",
       "replacement_models": [
-        "gpt-5.4-mini"
+        "gpt-5.6-terra"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "5db2550c8ff1641ee7a07a51dc6f4e34da90c01513318eeb35d91c3c8ae5f186",
-      "raw_status": null
+      "observed_at": "2026-08-05T00:50:38.185Z",
+      "raw_status": null,
+      "content_hash": "9ed93c924d606c593d8992eaf11a37a2ca047cf7daf98afb8232f654451ddd4c"
     },
     {
       "provider": "openai",
@@ -1596,12 +1594,12 @@
       "deprecation_date": null,
       "shutdown_date": "2026-10-23",
       "replacement_models": [
-        "gpt-5.4-mini"
+        "gpt-5.6-terra"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "78997f7c4bf31ff55bbe719b88d8aab68c780cd5ca6192356058d45e4ecab2f4",
-      "raw_status": null
+      "observed_at": "2026-08-05T00:50:38.185Z",
+      "raw_status": null,
+      "content_hash": "45e506eb94b0a35565d1707460e2bfb61882063f07ba054d3060203055de7222"
     },
     {
       "provider": "openai",
@@ -1615,12 +1613,12 @@
       "deprecation_date": null,
       "shutdown_date": "2026-10-23",
       "replacement_models": [
-        "gpt-5.5"
+        "gpt-5.6-sol"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "736cc17aa928fa5d2776e83390c32899273f7f100a9ddc308b27980bd926f45b",
-      "raw_status": null
+      "observed_at": "2026-08-05T00:50:38.185Z",
+      "raw_status": null,
+      "content_hash": "687e36d2e5608e8a204db0c2466e483054091b0a44c94ee87f0457fa095e5fac"
     },
     {
       "provider": "openai",
@@ -1634,12 +1632,12 @@
       "deprecation_date": null,
       "shutdown_date": "2026-10-23",
       "replacement_models": [
-        "gpt-5.4-nano"
+        "gpt-5.6-luna"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "75775f96d3dfb2ca00a6a6ff6014b90a88064f0acbebcd68f33cf81b290133e2",
-      "raw_status": null
+      "observed_at": "2026-08-05T00:50:38.185Z",
+      "raw_status": null,
+      "content_hash": "e6e09bc4a3d6f344ed2bc09057103b229bc5f14b09cf8d467be4935f6f0f8990"
     },
     {
       "provider": "openai",
@@ -1729,13 +1727,12 @@
       "deprecation_date": null,
       "shutdown_date": "2026-09-28",
       "replacement_models": [
-        "gpt-5-mini",
-        "gpt-5.4-mini"
+        "gpt-5.6-terra"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "5abdcfaefa5a57d9132a01ff1212a5c1549303fa50dc98f18a9497f0448388b2",
-      "raw_status": null
+      "observed_at": "2026-08-05T00:50:38.185Z",
+      "raw_status": null,
+      "content_hash": "e9186b6f41f8ee2d411b01258516a58dc8a1335160a2fa49b23fd7a7a5fb1092"
     },
     {
       "provider": "openai",
@@ -1787,13 +1784,12 @@
       "deprecation_date": null,
       "shutdown_date": "2026-09-28",
       "replacement_models": [
-        "gpt-5-mini",
-        "gpt-5.4-mini"
+        "gpt-5.6-terra"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "e57e853a4a9b5667ed96de7d678e1431e89563e653b25983a939246003588985",
-      "raw_status": null
+      "observed_at": "2026-08-05T00:50:38.185Z",
+      "raw_status": null,
+      "content_hash": "322cac06622367add1375f069f9b3c3c25e0e8fee8cba182462b296083ac7156"
     },
     {
       "provider": "openai",
@@ -2386,25 +2382,6 @@
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-07-24T18:47:24.072Z",
       "content_hash": "d3b0efa270fe0e978f8f445b87adc6ef023304eac8252bb91d35e5e3f716da8e",
-      "raw_status": null
-    },
-    {
-      "provider": "openai",
-      "platform": "direct",
-      "source_id": "openai-lifecycle",
-      "model_id": "gpt-4o-mini-tts-2025-03-20",
-      "canonical_model_id": null,
-      "regions": [],
-      "status": "retired",
-      "announcement_date": "2026-04-22",
-      "deprecation_date": null,
-      "shutdown_date": "2026-07-23",
-      "replacement_models": [
-        "gpt-4o-mini-tts-2025-12-15"
-      ],
-      "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "a3a359337b3652979fdd48461adac17e2dbc923abb0b62f5cb46acc4b6ca199d",
       "raw_status": null
     },
     {
@@ -3868,9 +3845,9 @@
       "provider": "openai",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 138,
-      "content_hash": "6238be207db0453d3e41982ba09add9a219abda2fcd6b318f5c49c6d5371dc92",
-      "last_successful_observation_at": "2026-07-24T18:47:24.072Z",
+      "record_count": 137,
+      "content_hash": "bf8230f1ce18309e9d6cc058a80fb0aae03028c803a8b1bb8f32881df218ab75",
+      "last_successful_observation_at": "2026-08-05T00:50:38.185Z",
       "error_code": null
     },
     {

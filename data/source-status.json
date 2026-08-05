@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-07-31T00:57:28.538Z",
+  "last_published_at": "2026-08-05T00:50:38.185Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
@@ -37,9 +37,9 @@
       "provider": "openai",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 138,
-      "content_hash": "6238be207db0453d3e41982ba09add9a219abda2fcd6b318f5c49c6d5371dc92",
-      "last_successful_observation_at": "2026-07-24T18:47:24.072Z",
+      "record_count": 137,
+      "content_hash": "bf8230f1ce18309e9d6cc058a80fb0aae03028c803a8b1bb8f32881df218ab75",
+      "last_successful_observation_at": "2026-08-05T00:50:38.185Z",
       "error_code": null
     },
     {
