@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-05T00:50:38.185Z",
+  "last_published_at": "2026-08-06T03:41:54.363Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
@@ -8,8 +8,8 @@
       "platform": "direct",
       "status": "healthy",
       "record_count": 29,
-      "content_hash": "07859f29820e857d610ca64b044f8676668f49b3fbd317a94b5dd4e845997538",
-      "last_successful_observation_at": "2026-07-24T18:47:24.072Z",
+      "content_hash": "4ef25ca4f0717599897af031c83ccb40f8c55e560c3f93429332256206e18e1e",
+      "last_successful_observation_at": "2026-08-06T03:41:54.363Z",
       "error_code": null
     },
     {

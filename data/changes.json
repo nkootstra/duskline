@@ -11294,6 +11294,23 @@
           ]
         }
       ]
+    },
+    {
+      "id": "c7ea3aad9c1b46ad45484540ba562e5f83227827be0255c580881a955c692b10",
+      "published_at": "2026-08-06T03:41:54.363Z",
+      "kind": "status_changed",
+      "identity": "anthropic-lifecycle:anthropic:direct:claude-opus-4-1-20250805:",
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "model_id": "claude-opus-4-1-20250805",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
     }
   ]
 }

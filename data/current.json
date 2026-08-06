@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-05T00:50:38.185Z",
+  "last_published_at": "2026-08-06T03:41:54.363Z",
   "records": [
     {
       "provider": "anthropic",
@@ -347,7 +347,7 @@
       "model_id": "claude-opus-4-1-20250805",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": null,
       "deprecation_date": "2026-06-05",
       "shutdown_date": "2026-08-05",
@@ -355,9 +355,9 @@
         "claude-opus-4-8"
       ],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
-      "observed_at": "2026-07-24T10:58:44.472Z",
-      "content_hash": "39536e8142e64a7f11c852925f80c558bedaf4b29b19f0cdf4f0f13fb340a21b",
-      "raw_status": null
+      "observed_at": "2026-08-06T03:41:54.363Z",
+      "raw_status": null,
+      "content_hash": "fa83442cdd65231dca6c9c5da3692aeda41f1d52f68ceee9275e745e9455b4b4"
     },
     {
       "provider": "anthropic",
@@ -1155,8 +1155,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-05T00:50:38.185Z",
-      "raw_status": null,
-      "content_hash": "9eefd52b7111da2a6a3d2e22736910249ae8f6e354d09a31c6702d36b68d94f2"
+      "content_hash": "9eefd52b7111da2a6a3d2e22736910249ae8f6e354d09a31c6702d36b68d94f2",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1520,8 +1520,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-05T00:50:38.185Z",
-      "raw_status": null,
-      "content_hash": "cdc9f57085e98adb5b563285439b55e8cb62e4f3ca39ed10ca4801538727b9d4"
+      "content_hash": "cdc9f57085e98adb5b563285439b55e8cb62e4f3ca39ed10ca4801538727b9d4",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1560,8 +1560,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-05T00:50:38.185Z",
-      "raw_status": null,
-      "content_hash": "51b6306af46e9e02e298a7e608ac90dd59a02943fcc61d8e908ea8651fc85461"
+      "content_hash": "51b6306af46e9e02e298a7e608ac90dd59a02943fcc61d8e908ea8651fc85461",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1579,8 +1579,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-05T00:50:38.185Z",
-      "raw_status": null,
-      "content_hash": "9ed93c924d606c593d8992eaf11a37a2ca047cf7daf98afb8232f654451ddd4c"
+      "content_hash": "9ed93c924d606c593d8992eaf11a37a2ca047cf7daf98afb8232f654451ddd4c",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1598,8 +1598,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-05T00:50:38.185Z",
-      "raw_status": null,
-      "content_hash": "45e506eb94b0a35565d1707460e2bfb61882063f07ba054d3060203055de7222"
+      "content_hash": "45e506eb94b0a35565d1707460e2bfb61882063f07ba054d3060203055de7222",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1617,8 +1617,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-05T00:50:38.185Z",
-      "raw_status": null,
-      "content_hash": "687e36d2e5608e8a204db0c2466e483054091b0a44c94ee87f0457fa095e5fac"
+      "content_hash": "687e36d2e5608e8a204db0c2466e483054091b0a44c94ee87f0457fa095e5fac",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1636,8 +1636,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-05T00:50:38.185Z",
-      "raw_status": null,
-      "content_hash": "e6e09bc4a3d6f344ed2bc09057103b229bc5f14b09cf8d467be4935f6f0f8990"
+      "content_hash": "e6e09bc4a3d6f344ed2bc09057103b229bc5f14b09cf8d467be4935f6f0f8990",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1731,8 +1731,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-05T00:50:38.185Z",
-      "raw_status": null,
-      "content_hash": "e9186b6f41f8ee2d411b01258516a58dc8a1335160a2fa49b23fd7a7a5fb1092"
+      "content_hash": "e9186b6f41f8ee2d411b01258516a58dc8a1335160a2fa49b23fd7a7a5fb1092",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1788,8 +1788,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-05T00:50:38.185Z",
-      "raw_status": null,
-      "content_hash": "322cac06622367add1375f069f9b3c3c25e0e8fee8cba182462b296083ac7156"
+      "content_hash": "322cac06622367add1375f069f9b3c3c25e0e8fee8cba182462b296083ac7156",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -3816,8 +3816,8 @@
       "platform": "direct",
       "status": "healthy",
       "record_count": 29,
-      "content_hash": "07859f29820e857d610ca64b044f8676668f49b3fbd317a94b5dd4e845997538",
-      "last_successful_observation_at": "2026-07-24T18:47:24.072Z",
+      "content_hash": "4ef25ca4f0717599897af031c83ccb40f8c55e560c3f93429332256206e18e1e",
+      "last_successful_observation_at": "2026-08-06T03:41:54.363Z",
       "error_code": null
     },
     {
