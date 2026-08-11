@@ -11311,6 +11311,84 @@
           "after": "retired"
         }
       ]
+    },
+    {
+      "id": "13bb820a0988871c991bb72f624dd13396f7dca0b87d5570439166c86f7c35ff",
+      "published_at": "2026-08-11T02:29:54.036Z",
+      "kind": "status_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5.3-chat-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5.3-chat-latest",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "357643a03c663dde6ed4a7b2705c1af8cec2b55b074b9a78f04d6b8bd343ef92",
+      "published_at": "2026-08-11T02:29:54.036Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:openai/gpt-5.2-chat:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "openai/gpt-5.2-chat",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-10",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "78ae11c7cfe8494be8a14d5bfc71964bc1a596ea44a8509a12b7366682a512fe",
+      "published_at": "2026-08-11T02:29:54.036Z",
+      "kind": "status_changed",
+      "identity": "openai-lifecycle:openai:direct:gpt-5.2-chat-latest:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-5.2-chat-latest",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "8a36a43d2331b83b5183900023ac9c94763595504c20b0c551f9bf5195c4a826",
+      "published_at": "2026-08-11T02:29:54.036Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:openai/gpt-5.3-chat:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "openai/gpt-5.3-chat",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-10",
+          "after": null
+        }
+      ]
     }
   ]
 }

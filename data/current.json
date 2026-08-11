@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-06T03:41:54.363Z",
+  "last_published_at": "2026-08-11T02:29:54.036Z",
   "records": [
     {
       "provider": "anthropic",
@@ -356,8 +356,8 @@
       ],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
       "observed_at": "2026-08-06T03:41:54.363Z",
-      "raw_status": null,
-      "content_hash": "fa83442cdd65231dca6c9c5da3692aeda41f1d52f68ceee9275e745e9455b4b4"
+      "content_hash": "fa83442cdd65231dca6c9c5da3692aeda41f1d52f68ceee9275e745e9455b4b4",
+      "raw_status": null
     },
     {
       "provider": "anthropic",
@@ -2695,7 +2695,7 @@
       "model_id": "gpt-5.2-chat-latest",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": "2026-05-08",
       "deprecation_date": null,
       "shutdown_date": "2026-08-10",
@@ -2703,9 +2703,9 @@
         "gpt-5.6-sol"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "c1c992673e37611ecbc58334ca52e4ceb10213678040a420205e5f5300506e88",
-      "raw_status": null
+      "observed_at": "2026-08-11T02:29:54.036Z",
+      "raw_status": null,
+      "content_hash": "97b7f4a8ac588fbe4cbe5ac38bf8b17a592bc9dd4a509dc38ec08f886b305587"
     },
     {
       "provider": "openai",
@@ -2733,7 +2733,7 @@
       "model_id": "gpt-5.3-chat-latest",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": "2026-05-08",
       "deprecation_date": null,
       "shutdown_date": "2026-08-10",
@@ -2741,9 +2741,9 @@
         "gpt-5.6-sol"
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
-      "observed_at": "2026-07-24T18:47:24.072Z",
-      "content_hash": "3d699d12abbb7cafb2229b7aba7d2812c222076d54c9f6fbe1fb2a6e7b00829f",
-      "raw_status": null
+      "observed_at": "2026-08-11T02:29:54.036Z",
+      "raw_status": null,
+      "content_hash": "07165af6bfbcec0c38aca541e1f354734dfb6400f0ffab7b7501b22237dd0c47"
     },
     {
       "provider": "openai",
@@ -3727,40 +3727,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "openai/gpt-5.2-chat",
-      "canonical_model_id": "openai/gpt-5.2-chat-20251211",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-08-10",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-07-24T08:25:20.827Z",
-      "content_hash": "084d1eb6180c25ce0b7581de6257cfa48bd8d2e9c0425898021093b8fe69a073",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
-      "model_id": "openai/gpt-5.3-chat",
-      "canonical_model_id": "openai/gpt-5.3-chat-20260303",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-08-10",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-07-24T08:25:20.827Z",
-      "content_hash": "3ca47fe970f8ae9c6e0001dacbef5fac5a90435a533fdae205c0141930761238",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-4.5",
       "canonical_model_id": "z-ai/glm-4.5",
       "regions": [],
@@ -3846,8 +3812,8 @@
       "platform": "direct",
       "status": "healthy",
       "record_count": 137,
-      "content_hash": "bf8230f1ce18309e9d6cc058a80fb0aae03028c803a8b1bb8f32881df218ab75",
-      "last_successful_observation_at": "2026-08-05T00:50:38.185Z",
+      "content_hash": "0593200047c5129e43a76e26510c678636e3339b0ed874238695be76e9367c28",
+      "last_successful_observation_at": "2026-08-11T02:29:54.036Z",
       "error_code": null
     },
     {
@@ -3855,9 +3821,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 5,
-      "content_hash": "8d6902095722c602777455b754d9321313a62fe61e9f9e9ee43ffb300f577de5",
-      "last_successful_observation_at": "2026-07-31T00:57:28.538Z",
+      "record_count": 3,
+      "content_hash": "e7487e7eabe19c559ddcd87364e34766fd8938b8829c88529ebbec0d5a8782ca",
+      "last_successful_observation_at": "2026-08-11T02:29:54.036Z",
       "error_code": null
     }
   ]
