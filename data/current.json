@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-11T02:29:54.036Z",
+  "last_published_at": "2026-08-13T02:49:36.008Z",
   "records": [
     {
       "provider": "anthropic",
@@ -2704,8 +2704,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-11T02:29:54.036Z",
-      "raw_status": null,
-      "content_hash": "97b7f4a8ac588fbe4cbe5ac38bf8b17a592bc9dd4a509dc38ec08f886b305587"
+      "content_hash": "97b7f4a8ac588fbe4cbe5ac38bf8b17a592bc9dd4a509dc38ec08f886b305587",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -2742,8 +2742,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-11T02:29:54.036Z",
-      "raw_status": null,
-      "content_hash": "07165af6bfbcec0c38aca541e1f354734dfb6400f0ffab7b7501b22237dd0c47"
+      "content_hash": "07165af6bfbcec0c38aca541e1f354734dfb6400f0ffab7b7501b22237dd0c47",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -3727,6 +3727,23 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "inclusionai/ling-3.0-tiny:free",
+      "canonical_model_id": "inclusionai/ling-3.0-tiny-20260806",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-08-13",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-13T02:49:36.008Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "51c92feaca8161ee22521026887b43fd6ac076f71962503f9981267ef1decbfd"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-4.5",
       "canonical_model_id": "z-ai/glm-4.5",
       "regions": [],
@@ -3821,9 +3838,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 3,
-      "content_hash": "e7487e7eabe19c559ddcd87364e34766fd8938b8829c88529ebbec0d5a8782ca",
-      "last_successful_observation_at": "2026-08-11T02:29:54.036Z",
+      "record_count": 4,
+      "content_hash": "418eacfb09778015d9b0f189489e09ff3b5cfbaae8e5767899f5d24f8a40cbff",
+      "last_successful_observation_at": "2026-08-13T02:49:36.008Z",
       "error_code": null
     }
   ]
