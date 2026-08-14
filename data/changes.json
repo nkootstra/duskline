@@ -11411,6 +11411,28 @@
           "after": "2026-08-13"
         }
       ]
+    },
+    {
+      "id": "e83fd81fde04a42c39727ac547a00e7d8a52d6d2ed675d8d2cb0ffe52587303c",
+      "published_at": "2026-08-14T02:48:20.657Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:inclusionai/ling-3.0-tiny:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "inclusionai/ling-3.0-tiny:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-13",
+          "after": null
+        }
+      ]
     }
   ]
 }
