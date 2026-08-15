@@ -11433,6 +11433,62 @@
           "after": null
         }
       ]
+    },
+    {
+      "id": "b50650c812776b9cf5ef7858e2cbc7e5c5572a8c75e08896b7623b0d026ca4cf",
+      "published_at": "2026-08-15T01:51:40.155Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:deepseek/deepseek-v3.1-terminus:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "deepseek/deepseek-v3.1-terminus",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "id": "e0d10f35c8ab0524a9d0ae9e6baba541ae4b553bfe628d89a11e204816b2de33",
+      "published_at": "2026-08-15T01:51:40.155Z",
+      "kind": "added",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:DeepSeek V4 Flash:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "DeepSeek V4 Flash",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-08-14"
+        },
+        {
+          "field": "deprecation_date",
+          "before": null,
+          "after": "2026-08-14"
+        },
+        {
+          "field": "replacement_models",
+          "before": null,
+          "after": [
+            "accounts/fireworks/models/deepseek-v4-flash-0731"
+          ]
+        }
+      ]
     }
   ]
 }

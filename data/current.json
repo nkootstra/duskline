@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-14T02:48:20.657Z",
+  "last_published_at": "2026-08-15T01:51:40.155Z",
   "records": [
     {
       "provider": "anthropic",
@@ -986,6 +986,25 @@
       "observed_at": "2026-07-25T10:00:44.499Z",
       "content_hash": "af330a14d6be7716000cf052ba03de34e10ddb3a667a4536a462f62c99d2f128",
       "raw_status": "Serverless deprecation: legacy models removed May 14, 2026"
+    },
+    {
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "source_id": "fireworks-changelog",
+      "model_id": "DeepSeek V4 Flash",
+      "canonical_model_id": null,
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": "2026-08-14",
+      "deprecation_date": "2026-08-14",
+      "shutdown_date": null,
+      "replacement_models": [
+        "accounts/fireworks/models/deepseek-v4-flash-0731"
+      ],
+      "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-deepseek-v4-flash",
+      "observed_at": "2026-08-15T01:51:40.155Z",
+      "raw_status": "Serverless deprecation: DeepSeek V4 Flash",
+      "content_hash": "de3b8c136e74bfa03f769f7382f39e591580cf92d7e612058ebb25576c95d27b"
     },
     {
       "provider": "fireworks",
@@ -3727,6 +3746,23 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "deepseek/deepseek-v3.1-terminus",
+      "canonical_model_id": "deepseek/deepseek-v3.1-terminus",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-08-17",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-15T01:51:40.155Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "d6a955a18b0fd067c865ad1f5b16a18d29ecc11009618003ce5ce9e95017b38e"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-4.5",
       "canonical_model_id": "z-ai/glm-4.5",
       "regions": [],
@@ -3801,9 +3837,9 @@
       "provider": "fireworks",
       "platform": "fireworks_serverless",
       "status": "healthy",
-      "record_count": 11,
-      "content_hash": "05f7557cb310289a4d11781e5eab6823eb19e9fc7ff698e2d239ccfd84505f87",
-      "last_successful_observation_at": "2026-07-25T10:00:44.499Z",
+      "record_count": 12,
+      "content_hash": "295b98ff1765b6612ea33fb1760cb352a1a31a0897570e2be2683335d6e487fb",
+      "last_successful_observation_at": "2026-08-15T01:51:40.155Z",
       "error_code": null
     },
     {
@@ -3821,9 +3857,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 3,
-      "content_hash": "e7487e7eabe19c559ddcd87364e34766fd8938b8829c88529ebbec0d5a8782ca",
-      "last_successful_observation_at": "2026-08-14T02:48:20.657Z",
+      "record_count": 4,
+      "content_hash": "3320ca26b9d96c57091ee2531c847b95c131ba6f883ee0dd1621241dec9b7260",
+      "last_successful_observation_at": "2026-08-15T01:51:40.155Z",
       "error_code": null
     }
   ]
