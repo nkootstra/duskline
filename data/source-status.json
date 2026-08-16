@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-15T01:51:40.155Z",
+  "last_published_at": "2026-08-16T01:59:01.264Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
@@ -18,8 +18,8 @@
       "platform": "bedrock",
       "status": "healthy",
       "record_count": 17,
-      "content_hash": "361a3f9e272ae39794208a327d1c9c42f4f862913cba6de09d13110d829da763",
-      "last_successful_observation_at": "2026-07-31T00:57:28.538Z",
+      "content_hash": "e17d73d7ed7000584d2010331d3685a8decf8a276c69c46ccc96491e40199a28",
+      "last_successful_observation_at": "2026-08-16T01:59:01.264Z",
       "error_code": null
     },
     {

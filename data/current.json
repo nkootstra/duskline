@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-15T01:51:40.155Z",
+  "last_published_at": "2026-08-16T01:59:01.264Z",
   "records": [
     {
       "provider": "anthropic",
@@ -832,7 +832,6 @@
         "eu-west-1",
         "eu-west-3",
         "il-central-1",
-        "me-central-1",
         "us-east-1",
         "us-east-2",
         "us-west-1",
@@ -844,9 +843,9 @@
       "shutdown_date": "2026-10-14",
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-24T08:25:20.827Z",
-      "content_hash": "349d3c6105243b418073106a9b0891085589d71731a864f26918d391827d55b1",
-      "raw_status": "legacy with scheduled end of life"
+      "observed_at": "2026-08-16T01:59:01.264Z",
+      "raw_status": "legacy with scheduled end of life",
+      "content_hash": "7104629b73285fd1fc86fd3f929d5d40561d7f69c12048127214df1a574cc597"
     },
     {
       "provider": "aws_bedrock",
@@ -1003,8 +1002,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-deepseek-v4-flash",
       "observed_at": "2026-08-15T01:51:40.155Z",
-      "raw_status": "Serverless deprecation: DeepSeek V4 Flash",
-      "content_hash": "de3b8c136e74bfa03f769f7382f39e591580cf92d7e612058ebb25576c95d27b"
+      "content_hash": "de3b8c136e74bfa03f769f7382f39e591580cf92d7e612058ebb25576c95d27b",
+      "raw_status": "Serverless deprecation: DeepSeek V4 Flash"
     },
     {
       "provider": "fireworks",
@@ -3756,8 +3755,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-08-15T01:51:40.155Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "d6a955a18b0fd067c865ad1f5b16a18d29ecc11009618003ce5ce9e95017b38e"
+      "content_hash": "d6a955a18b0fd067c865ad1f5b16a18d29ecc11009618003ce5ce9e95017b38e",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -3828,8 +3827,8 @@
       "platform": "bedrock",
       "status": "healthy",
       "record_count": 17,
-      "content_hash": "361a3f9e272ae39794208a327d1c9c42f4f862913cba6de09d13110d829da763",
-      "last_successful_observation_at": "2026-07-31T00:57:28.538Z",
+      "content_hash": "e17d73d7ed7000584d2010331d3685a8decf8a276c69c46ccc96491e40199a28",
+      "last_successful_observation_at": "2026-08-16T01:59:01.264Z",
       "error_code": null
     },
     {

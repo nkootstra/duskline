@@ -11489,6 +11489,60 @@
           ]
         }
       ]
+    },
+    {
+      "id": "0b99c0f2b42372b1ff3529a939f9fb363dd24f332104fe0245693cbd3b9702f1",
+      "published_at": "2026-08-16T01:59:01.264Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-sonnet-4-20250514-v1:0:ap-east-2,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,ap-south-2,ap-southeast-1,ap-southeast-2,ap-southeast-3,ap-southeast-4,ap-southeast-5,ap-southeast-7,eu-central-1,eu-north-1,eu-south-1,eu-south-2,eu-west-1,eu-west-3,il-central-1,me-central-1,us-east-1,us-east-2,us-west-1,us-west-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "anthropic.claude-sonnet-4-20250514-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-04-14",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-10-14",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "524cb671c312f464016b819eb3880752c305a9404f0b54c3c5a123d47a9785fe",
+      "published_at": "2026-08-16T01:59:01.264Z",
+      "kind": "added",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-sonnet-4-20250514-v1:0:ap-east-2,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,ap-south-2,ap-southeast-1,ap-southeast-2,ap-southeast-3,ap-southeast-4,ap-southeast-5,ap-southeast-7,eu-central-1,eu-north-1,eu-south-1,eu-south-2,eu-west-1,eu-west-3,il-central-1,us-east-1,us-east-2,us-west-1,us-west-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "anthropic.claude-sonnet-4-20250514-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "legacy"
+        },
+        {
+          "field": "deprecation_date",
+          "before": null,
+          "after": "2026-04-14"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-14"
+        }
+      ]
     }
   ]
 }
