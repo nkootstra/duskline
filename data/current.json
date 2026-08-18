@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-16T01:59:01.264Z",
+  "last_published_at": "2026-08-18T01:52:45.142Z",
   "records": [
     {
       "provider": "anthropic",
@@ -678,68 +678,6 @@
       "provider": "aws_bedrock",
       "platform": "bedrock",
       "source_id": "bedrock-lifecycle",
-      "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
-      "canonical_model_id": null,
-      "regions": [
-        "ap-northeast-1",
-        "ap-southeast-2"
-      ],
-      "status": "retired",
-      "announcement_date": null,
-      "deprecation_date": "2026-01-30",
-      "shutdown_date": "2026-07-30",
-      "replacement_models": [],
-      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-31T00:57:28.538Z",
-      "content_hash": "7cb35def325ca433b6a6d34df151915eea454a326258b3bff6452cb0d06e8220",
-      "raw_status": "legacy with scheduled end of life"
-    },
-    {
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "source_id": "bedrock-lifecycle",
-      "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
-      "canonical_model_id": null,
-      "regions": [
-        "ap-northeast-1",
-        "ap-northeast-3",
-        "ap-south-2",
-        "ap-southeast-2"
-      ],
-      "status": "retired",
-      "announcement_date": null,
-      "deprecation_date": "2026-01-30",
-      "shutdown_date": "2026-07-30",
-      "replacement_models": [],
-      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-31T00:57:28.538Z",
-      "content_hash": "97561563916d9779a11e75da75ed65248f4dcef56a3a63424d0b9bc41c310c3d",
-      "raw_status": "legacy with scheduled end of life"
-    },
-    {
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "source_id": "bedrock-lifecycle",
-      "model_id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
-      "canonical_model_id": null,
-      "regions": [
-        "us-gov-east-1",
-        "us-gov-west-1"
-      ],
-      "status": "retired",
-      "announcement_date": null,
-      "deprecation_date": "2026-01-30",
-      "shutdown_date": "2026-07-30",
-      "replacement_models": [],
-      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-31T00:57:28.538Z",
-      "content_hash": "aeaa0137e84df89926fa79a4644ca797b3e1b03d71f69a775dbf910d9bc20955",
-      "raw_status": "legacy with scheduled end of life"
-    },
-    {
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "source_id": "bedrock-lifecycle",
       "model_id": "anthropic.claude-3-haiku-20240307-v1:0",
       "canonical_model_id": null,
       "regions": [
@@ -761,28 +699,6 @@
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "observed_at": "2026-07-24T08:25:20.827Z",
       "content_hash": "1451e68238cbb65e75bc9c599130b1435588c5971db3ae6630e9c356ca10c63c",
-      "raw_status": "legacy with scheduled end of life"
-    },
-    {
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "source_id": "bedrock-lifecycle",
-      "model_id": "anthropic.claude-3-sonnet-20240229-v1:0",
-      "canonical_model_id": null,
-      "regions": [
-        "eu-west-1",
-        "eu-west-3",
-        "us-east-1",
-        "us-west-2"
-      ],
-      "status": "retired",
-      "announcement_date": null,
-      "deprecation_date": "2026-01-30",
-      "shutdown_date": "2026-07-30",
-      "replacement_models": [],
-      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-31T00:57:28.538Z",
-      "content_hash": "720e305ab2c5ba130e724f58d0b6477697d75238316745e85884dee0e599fe02",
       "raw_status": "legacy with scheduled end of life"
     },
     {
@@ -844,8 +760,8 @@
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "observed_at": "2026-08-16T01:59:01.264Z",
-      "raw_status": "legacy with scheduled end of life",
-      "content_hash": "7104629b73285fd1fc86fd3f929d5d40561d7f69c12048127214df1a574cc597"
+      "content_hash": "7104629b73285fd1fc86fd3f929d5d40561d7f69c12048127214df1a574cc597",
+      "raw_status": "legacy with scheduled end of life"
     },
     {
       "provider": "aws_bedrock",
@@ -865,26 +781,6 @@
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "observed_at": "2026-07-24T08:25:20.827Z",
       "content_hash": "4aa85cf26409d76d9dd26bc5fab3025852b92f467cbd918f377c9b7ef0bd7a9e",
-      "raw_status": "legacy with scheduled end of life"
-    },
-    {
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "source_id": "bedrock-lifecycle",
-      "model_id": "cohere.command-r-v1:0",
-      "canonical_model_id": null,
-      "regions": [
-        "us-east-1",
-        "us-west-2"
-      ],
-      "status": "legacy",
-      "announcement_date": null,
-      "deprecation_date": "2026-02-19",
-      "shutdown_date": "2026-08-19",
-      "replacement_models": [],
-      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-24T08:25:20.827Z",
-      "content_hash": "0e9da97d5587ded1f86f1f1feaf3c85a112ed8147784d1e31bf1c9ad0e2551c0",
       "raw_status": "legacy with scheduled end of life"
     },
     {
@@ -3745,23 +3641,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "deepseek/deepseek-v3.1-terminus",
-      "canonical_model_id": "deepseek/deepseek-v3.1-terminus",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-08-17",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-08-15T01:51:40.155Z",
-      "content_hash": "d6a955a18b0fd067c865ad1f5b16a18d29ecc11009618003ce5ce9e95017b38e",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-4.5",
       "canonical_model_id": "z-ai/glm-4.5",
       "regions": [],
@@ -3826,9 +3705,9 @@
       "provider": "aws_bedrock",
       "platform": "bedrock",
       "status": "healthy",
-      "record_count": 17,
-      "content_hash": "e17d73d7ed7000584d2010331d3685a8decf8a276c69c46ccc96491e40199a28",
-      "last_successful_observation_at": "2026-08-16T01:59:01.264Z",
+      "record_count": 12,
+      "content_hash": "dcdaa5d5e5d5b25408258b1ebdc4561055c659c687e9fea7ef184cd6f8af8208",
+      "last_successful_observation_at": "2026-08-18T01:52:45.142Z",
       "error_code": null
     },
     {
@@ -3856,9 +3735,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 4,
-      "content_hash": "3320ca26b9d96c57091ee2531c847b95c131ba6f883ee0dd1621241dec9b7260",
-      "last_successful_observation_at": "2026-08-15T01:51:40.155Z",
+      "record_count": 3,
+      "content_hash": "e7487e7eabe19c559ddcd87364e34766fd8938b8829c88529ebbec0d5a8782ca",
+      "last_successful_observation_at": "2026-08-18T01:52:45.142Z",
       "error_code": null
     }
   ]

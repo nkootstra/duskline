@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-16T01:59:01.264Z",
+  "last_published_at": "2026-08-18T01:52:45.142Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
@@ -17,9 +17,9 @@
       "provider": "aws_bedrock",
       "platform": "bedrock",
       "status": "healthy",
-      "record_count": 17,
-      "content_hash": "e17d73d7ed7000584d2010331d3685a8decf8a276c69c46ccc96491e40199a28",
-      "last_successful_observation_at": "2026-08-16T01:59:01.264Z",
+      "record_count": 12,
+      "content_hash": "dcdaa5d5e5d5b25408258b1ebdc4561055c659c687e9fea7ef184cd6f8af8208",
+      "last_successful_observation_at": "2026-08-18T01:52:45.142Z",
       "error_code": null
     },
     {
@@ -47,9 +47,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 4,
-      "content_hash": "3320ca26b9d96c57091ee2531c847b95c131ba6f883ee0dd1621241dec9b7260",
-      "last_successful_observation_at": "2026-08-15T01:51:40.155Z",
+      "record_count": 3,
+      "content_hash": "e7487e7eabe19c559ddcd87364e34766fd8938b8829c88529ebbec0d5a8782ca",
+      "last_successful_observation_at": "2026-08-18T01:52:45.142Z",
       "error_code": null
     }
   ]
