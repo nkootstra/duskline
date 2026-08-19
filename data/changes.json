@@ -2,60 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "0f2258e9fc5222dc0592b27856a32c68c3c9c3f8817a2fee7c4d62f6d9707dc0",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:ai21.jamba-1-5-large-v1:0:us-east-1",
-      "source_id": "bedrock-lifecycle",
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "model_id": "ai21.jamba-1-5-large-v1:0",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "legacy"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-05-26"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-11-26"
-        }
-      ]
-    },
-    {
-      "id": "10939072600063138ea15ae34b05155a78f7474b5d1b3c6788ddfeb71073c526",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-3-sonnet-20240229-v1:0:eu-west-1,eu-west-3,us-east-1,us-west-2",
-      "source_id": "bedrock-lifecycle",
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "model_id": "anthropic.claude-3-sonnet-20240229-v1:0",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "legacy"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-01-30"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-30"
-        }
-      ]
-    },
-    {
       "id": "11f35225930ef7d06b20bc4b007dab9f54e438b0e80c17a912881b6281b73724",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11540,6 +11486,50 @@
           "field": "shutdown_date",
           "before": "2026-08-19",
           "after": null
+        }
+      ]
+    },
+    {
+      "id": "2c8a5b34112805e4b94ef31bbc8be6bc3da1d5ae4d5f21f804fce0a5b299c8c9",
+      "published_at": "2026-08-19T01:55:03.629Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-5.3:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-5.3",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2098-12-31"
+        }
+      ]
+    },
+    {
+      "id": "a311e1f6836068e3bee19d9dfd810d57dfd23cafe6c4eadd9c9b10efc72255de",
+      "published_at": "2026-08-19T01:55:03.629Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:nvidia/nemotron-nano-12b-v2-vl:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-08-24"
         }
       ]
     }

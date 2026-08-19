@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-18T01:52:45.142Z",
+  "last_published_at": "2026-08-19T01:55:03.629Z",
   "records": [
     {
       "provider": "anthropic",
@@ -3641,6 +3641,23 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "canonical_model_id": "nvidia/nemotron-nano-12b-v2-vl",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-08-24",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-19T01:55:03.629Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "52add1362d14ab0bb84a1cc70737c8040f62fadaef2cccaa9f3709549a58d584"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-4.5",
       "canonical_model_id": "z-ai/glm-4.5",
       "regions": [],
@@ -3670,6 +3687,23 @@
       "observed_at": "2026-07-24T08:25:20.827Z",
       "content_hash": "67de3ed9020da46600f6df281de1074b894b1a613746d1b652ab919e1ad293f1",
       "raw_status": "expiration scheduled"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "z-ai/glm-5.3",
+      "canonical_model_id": "z-ai/glm-5.3-20260816",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2098-12-31",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-19T01:55:03.629Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "a04d0a301111278474087ea36e2910122d73518f70d24e6d552e5a0d435ffa3f"
     },
     {
       "provider": "openrouter",
@@ -3735,9 +3769,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 3,
-      "content_hash": "e7487e7eabe19c559ddcd87364e34766fd8938b8829c88529ebbec0d5a8782ca",
-      "last_successful_observation_at": "2026-08-18T01:52:45.142Z",
+      "record_count": 5,
+      "content_hash": "fcacf5f219e5d9dba98f511a53656b5f66d831e81fc3acffcd44567375a86b12",
+      "last_successful_observation_at": "2026-08-19T01:55:03.629Z",
       "error_code": null
     }
   ]
