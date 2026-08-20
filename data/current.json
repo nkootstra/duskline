@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-19T01:55:03.629Z",
+  "last_published_at": "2026-08-20T01:53:18.067Z",
   "records": [
     {
       "provider": "anthropic",
@@ -773,15 +773,15 @@
         "us-east-1",
         "us-west-2"
       ],
-      "status": "legacy",
+      "status": "retired",
       "announcement_date": null,
       "deprecation_date": "2026-02-19",
       "shutdown_date": "2026-08-19",
       "replacement_models": [],
       "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "observed_at": "2026-07-24T08:25:20.827Z",
-      "content_hash": "4aa85cf26409d76d9dd26bc5fab3025852b92f467cbd918f377c9b7ef0bd7a9e",
-      "raw_status": "legacy with scheduled end of life"
+      "observed_at": "2026-08-20T01:53:18.067Z",
+      "raw_status": "legacy with scheduled end of life",
+      "content_hash": "5257dbdf3150363804121086222be2ab3fc52f7aaaa30ce049f28d626eea91fc"
     },
     {
       "provider": "aws_bedrock",
@@ -3641,6 +3641,91 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "~z-ai/glm-latest",
+      "canonical_model_id": "~z-ai/glm-latest",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2098-12-31",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-20T01:53:18.067Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "20b8d605d95545faa265417a9e2448f47ae740ca546a8e5f1fe75585f6b66a55"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "inclusionai/ling-2.6-1t",
+      "canonical_model_id": "inclusionai/ling-2.6-1t-20260423",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-08-24",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-20T01:53:18.067Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "e2ca8429d8fb557b0d18fe8e63c6c1de7c94a2d572667c58951e9f0e80e25685"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "inclusionai/ling-2.6-flash",
+      "canonical_model_id": "inclusionai/ling-2.6-flash-20260421",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-08-24",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-20T01:53:18.067Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "203921ff16e1018accfdc7fbf8f443fe72edfc70a7491c13b22415896a63c2d1"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "inclusionai/ring-2.6-1t",
+      "canonical_model_id": "inclusionai/ring-2.6-1t-20260508",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-08-24",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-20T01:53:18.067Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "d11e2e10c60d95122fc8ccca120968668a23b535c98e6334c6a122db51250434"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "canonical_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-08-24",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-20T01:53:18.067Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "bad9ea371e43549638906483dc97a7a3001c1a507b3984c28777db9cbf5dd980"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
       "canonical_model_id": "nvidia/nemotron-nano-12b-v2-vl",
       "regions": [],
@@ -3651,8 +3736,25 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-08-19T01:55:03.629Z",
+      "content_hash": "52add1362d14ab0bb84a1cc70737c8040f62fadaef2cccaa9f3709549a58d584",
+      "raw_status": "expiration scheduled"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "nvidia/nemotron-nano-9b-v2:free",
+      "canonical_model_id": "nvidia/nemotron-nano-9b-v2",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-08-24",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-20T01:53:18.067Z",
       "raw_status": "expiration scheduled",
-      "content_hash": "52add1362d14ab0bb84a1cc70737c8040f62fadaef2cccaa9f3709549a58d584"
+      "content_hash": "206536152aa6d1999abac30794e74960ab90aa31a80d7d45c508bc6c965b080c"
     },
     {
       "provider": "openrouter",
@@ -3702,8 +3804,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-08-19T01:55:03.629Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "a04d0a301111278474087ea36e2910122d73518f70d24e6d552e5a0d435ffa3f"
+      "content_hash": "a04d0a301111278474087ea36e2910122d73518f70d24e6d552e5a0d435ffa3f",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -3740,8 +3842,8 @@
       "platform": "bedrock",
       "status": "healthy",
       "record_count": 12,
-      "content_hash": "dcdaa5d5e5d5b25408258b1ebdc4561055c659c687e9fea7ef184cd6f8af8208",
-      "last_successful_observation_at": "2026-08-18T01:52:45.142Z",
+      "content_hash": "6c9bce92d0c6fcf929d33f53dfbd583cbadbeef719c5c31a4a8c68736cdb1c52",
+      "last_successful_observation_at": "2026-08-20T01:53:18.067Z",
       "error_code": null
     },
     {
@@ -3769,9 +3871,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 5,
-      "content_hash": "fcacf5f219e5d9dba98f511a53656b5f66d831e81fc3acffcd44567375a86b12",
-      "last_successful_observation_at": "2026-08-19T01:55:03.629Z",
+      "record_count": 11,
+      "content_hash": "dc3cf0d6731a2dcfb5c922ae5872a898a85a6877bd37f037a2684fd59dd98cd3",
+      "last_successful_observation_at": "2026-08-20T01:53:18.067Z",
       "error_code": null
     }
   ]
