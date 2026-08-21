@@ -2,57 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "197ce1272d8ebd9f6d6df6f7414c1095e8a00e18ccc1fe99d9d214588fe0e089",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:code-davinci-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "code-davinci-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2023-03-23"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4o"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "1dab1c3762627606934f03b3579f941dcab047974a3fe328566656cd894e8efa",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-search-preview-2025-03-11:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-mini-search-preview-2025-03-11",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-23"
-        }
-      ]
-    },
-    {
       "id": "1eee9ba016bec6743a4f95d64bc0f4feff0943bbabc6a592780ebd2be6d92bd2",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11475,6 +11424,50 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "model_id": "~z-ai/glm-latest",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2098-12-31"
+        }
+      ]
+    },
+    {
+      "id": "34e9424b0984e1be63c5fb8badaed7713bda89260e02944261f9255e34139660",
+      "published_at": "2026-08-21T01:59:32.353Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:dots-studio/dots-3-note-preview:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "dots-studio/dots-3-note-preview:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "id": "39db057cba4d51e1580f5dcf26acc84b1da9a4c870504bd327678f2af7b14c60",
+      "published_at": "2026-08-21T01:59:32.353Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:stealth/ox-alpha:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "stealth/ox-alpha",
       "changes": [
         {
           "field": "status",

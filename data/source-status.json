@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-20T01:53:18.067Z",
+  "last_published_at": "2026-08-21T01:59:32.353Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
@@ -47,9 +47,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 11,
-      "content_hash": "dc3cf0d6731a2dcfb5c922ae5872a898a85a6877bd37f037a2684fd59dd98cd3",
-      "last_successful_observation_at": "2026-08-20T01:53:18.067Z",
+      "record_count": 13,
+      "content_hash": "5c0f4d9c54fd1f41f88ccf9d58158bef9fac4fa2e72f94f901ad23c57ce96ba6",
+      "last_successful_observation_at": "2026-08-21T01:59:32.353Z",
       "error_code": null
     }
   ]
