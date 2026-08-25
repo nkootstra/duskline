@@ -2,225 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "1eee9ba016bec6743a4f95d64bc0f4feff0943bbabc6a592780ebd2be6d92bd2",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-sonnet-4-5-20250929:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-sonnet-4-5-20250929",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-09-29"
-        }
-      ]
-    },
-    {
-      "id": "1f45c3d1a0fd6f00eba12d671a841d2d812b7818806eb182f333682158e014cc",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4-0314:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4-0314",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-06-13"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4o",
-            "gpt-5 or gpt-4.1*"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "1f8e6317caa11c38d5fdd779069164f3e98c453677c9a334a795ef5be71ad8b2",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:sora-2-2025-12-08:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "sora-2-2025-12-08",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-09-24"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "--"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "22409b08835c77e3bc7f28a87ffee7ab8ae34671205e658f0fd79463afcaf0a2",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-5-2025-08-07:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-5-2025-08-07",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-12-11"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.6-sol"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "25ca673e7b2f09c23402c861515fa0900f5d7fe415767b7ec558c1811d776ae8",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4-turbo-completions:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4-turbo-completions",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "id": "26835c8012ce7e692e5825ea687fe485446414e67e7ffad0a5704c78a8c53a66",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-audio-preview-2024-10-01:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-audio-preview-2024-10-01",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2025-10-10"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-audio-1.5"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2a2f5f6408896251d11e92142cb7d59ffdd871f5d22957796a4532a790f46925",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-moderation-latest:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-moderation-latest",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2025-10-27"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "omni-moderation"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2ac81000d84c1280571effe0c9f6cef2780295607be916bc8ad23fe08bd343b2",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-audio:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-audio",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2027-01-20"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-audio-1.5"
-          ]
-        }
-      ]
-    },
-    {
       "id": "2adbdf60bb0f20706aaa3622aec1226627cc0c7fd73e00018aacda49062a324c",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11478,6 +11259,182 @@
           "field": "shutdown_date",
           "before": null,
           "after": "2098-12-31"
+        }
+      ]
+    },
+    {
+      "id": "4114547f71d0f20e9c13ba6e6f6c215dd80c1bb2c267d772343820c2f3375c48",
+      "published_at": "2026-08-25T01:54:00.995Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:moonshotai/kimi-k2.5:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "moonshotai/kimi-k2.5",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "id": "8076ebcd6f21410d2cfe9daec20313eaf5b979080b14f4fe9ee042ebc31f62c9",
+      "published_at": "2026-08-25T01:54:00.995Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:inclusionai/ling-2.6-1t:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "inclusionai/ling-2.6-1t",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-24",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "84b351d18e9eeac30b86be85fdc8f78fde4900fe6e3b3cea92b3dd288b523cdb",
+      "published_at": "2026-08-25T01:54:00.995Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:nvidia/nemotron-nano-12b-v2-vl:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-24",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "a1c3c1929d0c8979fdc836d01011665cccad60019dc2a77be3d7853afa49d9cf",
+      "published_at": "2026-08-25T01:54:00.995Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:inclusionai/ling-2.6-flash:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "inclusionai/ling-2.6-flash",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-24",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "ce3b0027fe9bed30d29c30c4f891df4bb320fab7c5017fdf55114dcbd4bafb64",
+      "published_at": "2026-08-25T01:54:00.995Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:nvidia/nemotron-nano-9b-v2:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nvidia/nemotron-nano-9b-v2:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-24",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "df1677654f27708950d29c65cfd9f65aa2971ae7aa3a3597d7cf82a00d407ff0",
+      "published_at": "2026-08-25T01:54:00.995Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-4.5v:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-4.5v",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "id": "e7ce01a56965f08706fe994a80e7cecfef073e15e4403ff7794e3d25c130471d",
+      "published_at": "2026-08-25T01:54:00.995Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:inclusionai/ring-2.6-1t:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "inclusionai/ring-2.6-1t",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-24",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "ec77b088c640554e5fee502406f2cfd6af8aaf8cb4471a9687ea3d1557f97c11",
+      "published_at": "2026-08-25T01:54:00.995Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:nvidia/nemotron-3-nano-30b-a3b:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-24",
+          "after": null
         }
       ]
     }
