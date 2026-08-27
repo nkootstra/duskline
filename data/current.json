@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-25T01:54:00.995Z",
+  "last_published_at": "2026-08-27T09:53:40.168Z",
   "records": [
     {
       "provider": "anthropic",
@@ -3685,24 +3685,7 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-08-25T01:54:00.995Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "06ced7a4bbf93d8fb0dea471b16b8618248ffcca25a7c576b0d90724ddaa52e0"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
-      "model_id": "stealth/ox-alpha",
-      "canonical_model_id": "stealth/ox-alpha",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2098-12-31",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-08-21T01:59:32.353Z",
-      "content_hash": "c7ff6a36a0d5940d0207632ab355c16d2bea12356e390d01e3b71c59da67ec07",
+      "content_hash": "06ced7a4bbf93d8fb0dea471b16b8618248ffcca25a7c576b0d90724ddaa52e0",
       "raw_status": "expiration scheduled"
     },
     {
@@ -3736,8 +3719,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-08-25T01:54:00.995Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "2b002ee0889e87e41523a4cd8654d52d287cc60793a32f0966766cee5d071b20"
+      "content_hash": "2b002ee0889e87e41523a4cd8654d52d287cc60793a32f0966766cee5d071b20",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -3755,6 +3738,23 @@
       "observed_at": "2026-07-24T08:25:20.827Z",
       "content_hash": "67de3ed9020da46600f6df281de1074b894b1a613746d1b652ab919e1ad293f1",
       "raw_status": "expiration scheduled"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "z-ai/glm-5.3-flash",
+      "canonical_model_id": "z-ai/glm-5.3-flash-20260826",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2098-12-31",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-08-27T09:53:40.168Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "2abad696c8e663dd9199119d8e1666c8e7daef15795bb2c4ce53e841b26721c0"
     },
     {
       "provider": "openrouter",
@@ -3838,8 +3838,8 @@
       "platform": "openrouter",
       "status": "healthy",
       "record_count": 9,
-      "content_hash": "b45a23403f004a2e7031165978f311c7b765dedaf3bc04b05dbe51fbedcf646d",
-      "last_successful_observation_at": "2026-08-25T01:54:00.995Z",
+      "content_hash": "ae18c045ff952e9fe1af3c9c38eff37646ac12c34a5d682d9e6db05b7be4afee",
+      "last_successful_observation_at": "2026-08-27T09:53:40.168Z",
       "error_code": null
     }
   ]
