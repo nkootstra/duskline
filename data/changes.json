@@ -2,40 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "2e43a504d1dea045e3ee9c7e81ad9330237a5d0fc34a90230ccc0f49f6f3ba0c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-3-5-haiku-20241022:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-3-5-haiku-20241022",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2025-12-19"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-02-19"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "claude-haiku-4-5-20251001"
-          ]
-        }
-      ]
-    },
-    {
       "id": "30424bc31868063ef52a4976d9fb347b504ad860df094d9952a80e58f3e27f2b",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11420,6 +11386,28 @@
         {
           "field": "shutdown_date",
           "before": "2026-12-31",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "c185a9f50ac86dfbc8f1b0c73f281f1aaaf18cdc906bb1a2e66d1489b6caeb69",
+      "published_at": "2026-08-29T07:07:54.992Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:~z-ai/glm-latest:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "~z-ai/glm-latest",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2098-12-31",
           "after": null
         }
       ]

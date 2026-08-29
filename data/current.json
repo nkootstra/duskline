@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-28T11:27:38.246Z",
+  "last_published_at": "2026-08-29T07:07:54.992Z",
   "records": [
     {
       "provider": "anthropic",
@@ -3641,23 +3641,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "~z-ai/glm-latest",
-      "canonical_model_id": "~z-ai/glm-latest",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2098-12-31",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-08-20T01:53:18.067Z",
-      "content_hash": "20b8d605d95545faa265417a9e2448f47ae740ca546a8e5f1fe75585f6b66a55",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "dots-studio/dots-3-note-preview:free",
       "canonical_model_id": "dots-studio/dots-3-note-preview-20260813",
       "regions": [],
@@ -3820,9 +3803,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 8,
-      "content_hash": "d0118f6e9b4c52e8e88d9ce86243da2e03bf355faf076ec689df921e373c5079",
-      "last_successful_observation_at": "2026-08-28T11:27:38.246Z",
+      "record_count": 7,
+      "content_hash": "5ee2a9435f99b44f902e7fbdaf8097046fa6e564245b58ca0756b9fd0602b8e5",
+      "last_successful_observation_at": "2026-08-29T07:07:54.992Z",
       "error_code": null
     }
   ]
