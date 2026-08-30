@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-29T07:07:54.992Z",
+  "last_published_at": "2026-08-30T05:28:11.037Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
@@ -27,9 +27,9 @@
       "provider": "fireworks",
       "platform": "fireworks_serverless",
       "status": "healthy",
-      "record_count": 12,
-      "content_hash": "295b98ff1765b6612ea33fb1760cb352a1a31a0897570e2be2683335d6e487fb",
-      "last_successful_observation_at": "2026-08-15T01:51:40.155Z",
+      "record_count": 17,
+      "content_hash": "8b5cc98eed82e2b9695d2d6850980e04652703b48fd9f8404515b1aeff521af1",
+      "last_successful_observation_at": "2026-08-30T05:28:11.037Z",
       "error_code": null
     },
     {
