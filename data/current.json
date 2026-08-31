@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-30T05:28:11.037Z",
+  "last_published_at": "2026-08-31T05:40:43.270Z",
   "records": [
     {
       "provider": "anthropic",
@@ -820,8 +820,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-minimax-m2-7-gpt-oss-20b-kimi-k2-6-turbo-fast-kimi-k2-7-code-fast-deepseek-v4-pro",
       "observed_at": "2026-08-30T05:28:11.037Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "deeeea05dcdcba0f4d42d6cdee16661aa0370401dea7abeec4a269aaef41c294"
+      "content_hash": "deeeea05dcdcba0f4d42d6cdee16661aa0370401dea7abeec4a269aaef41c294",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -840,8 +840,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-minimax-m2-7-gpt-oss-20b-kimi-k2-6-turbo-fast-kimi-k2-7-code-fast-deepseek-v4-pro",
       "observed_at": "2026-08-30T05:28:11.037Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "6e90e8b48789954b73c0bf1e112681e3c06070a716c761cda0e262e0fe98abce"
+      "content_hash": "6e90e8b48789954b73c0bf1e112681e3c06070a716c761cda0e262e0fe98abce",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -878,8 +878,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-minimax-m2-7-gpt-oss-20b-kimi-k2-6-turbo-fast-kimi-k2-7-code-fast-deepseek-v4-pro",
       "observed_at": "2026-08-30T05:28:11.037Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "afbcf1e2bdf411dca12eaa054f60516bf78854befecf8401e247e2462a14ed67"
+      "content_hash": "afbcf1e2bdf411dca12eaa054f60516bf78854befecf8401e247e2462a14ed67",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -897,8 +897,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-minimax-m2-7-gpt-oss-20b-kimi-k2-6-turbo-fast-kimi-k2-7-code-fast-deepseek-v4-pro",
       "observed_at": "2026-08-30T05:28:11.037Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "3f97318e3cbe44028f9b1e5de1e8be24f6b0800fe58585f459ad8bacc3245e98"
+      "content_hash": "3f97318e3cbe44028f9b1e5de1e8be24f6b0800fe58585f459ad8bacc3245e98",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -916,8 +916,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-minimax-m2-7-gpt-oss-20b-kimi-k2-6-turbo-fast-kimi-k2-7-code-fast-deepseek-v4-pro",
       "observed_at": "2026-08-30T05:28:11.037Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "70845a5b766cf76a77fb0080ffbef1f91b19d85f1dc2712addd954e4d965be73"
+      "content_hash": "70845a5b766cf76a77fb0080ffbef1f91b19d85f1dc2712addd954e4d965be73",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -2398,6 +2398,26 @@
       "provider": "openai",
       "platform": "direct",
       "source_id": "openai-lifecycle",
+      "model_id": "gpt-4o-mini-transcribe",
+      "canonical_model_id": null,
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": "2026-08-26",
+      "deprecation_date": null,
+      "shutdown_date": "2027-02-26",
+      "replacement_models": [
+        "gpt-live-transcribe",
+        "gpt-transcribe"
+      ],
+      "source_url": "https://developers.openai.com/api/docs/deprecations",
+      "observed_at": "2026-08-31T05:40:43.270Z",
+      "raw_status": null,
+      "content_hash": "cbd2cf0a469ad8e826ea0f9b3b4177411869c862f2424e01042620eea04df248"
+    },
+    {
+      "provider": "openai",
+      "platform": "direct",
+      "source_id": "openai-lifecycle",
       "model_id": "gpt-4o-realtime-preview-2024-10-01",
       "canonical_model_id": null,
       "regions": [],
@@ -2507,6 +2527,46 @@
       "observed_at": "2026-07-24T18:47:24.072Z",
       "content_hash": "e71c251b88ea5fb6758541ba76ca66702d972a9d80905b026fdf3c6e9ffe4157",
       "raw_status": null
+    },
+    {
+      "provider": "openai",
+      "platform": "direct",
+      "source_id": "openai-lifecycle",
+      "model_id": "gpt-4o-transcribe-diarize",
+      "canonical_model_id": null,
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": "2026-08-26",
+      "deprecation_date": null,
+      "shutdown_date": "2027-02-26",
+      "replacement_models": [
+        "gpt-live-transcribe",
+        "gpt-transcribe"
+      ],
+      "source_url": "https://developers.openai.com/api/docs/deprecations",
+      "observed_at": "2026-08-31T05:40:43.270Z",
+      "raw_status": null,
+      "content_hash": "b0973df981877073b38719b84497d18023e487023502785b165d86792fb99324"
+    },
+    {
+      "provider": "openai",
+      "platform": "direct",
+      "source_id": "openai-lifecycle",
+      "model_id": "gpt-4o-transcribe",
+      "canonical_model_id": null,
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": "2026-08-26",
+      "deprecation_date": null,
+      "shutdown_date": "2027-02-26",
+      "replacement_models": [
+        "gpt-live-transcribe",
+        "gpt-transcribe"
+      ],
+      "source_url": "https://developers.openai.com/api/docs/deprecations",
+      "observed_at": "2026-08-31T05:40:43.270Z",
+      "raw_status": null,
+      "content_hash": "4fedc269ceeaf31d7ee787be0570219a4d7ea5382ec5f954993eb18f00e15bd9"
     },
     {
       "provider": "openai",
@@ -3734,6 +3794,26 @@
       "raw_status": null
     },
     {
+      "provider": "openai",
+      "platform": "direct",
+      "source_id": "openai-lifecycle",
+      "model_id": "whisper-1",
+      "canonical_model_id": null,
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": "2026-08-26",
+      "deprecation_date": null,
+      "shutdown_date": "2027-02-26",
+      "replacement_models": [
+        "gpt-live-transcribe",
+        "gpt-transcribe"
+      ],
+      "source_url": "https://developers.openai.com/api/docs/deprecations",
+      "observed_at": "2026-08-31T05:40:43.270Z",
+      "raw_status": null,
+      "content_hash": "f6ae58359a037fdc45188903c2fd02ec0249771f4959aaaadc388fe11201783f"
+    },
+    {
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
@@ -3748,23 +3828,6 @@
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-08-21T01:59:32.353Z",
       "content_hash": "ec9982311b7ab4c181386a1729330ad5b9d5fc74e7d0e087a3d116437d3661ff",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
-      "model_id": "moonshotai/kimi-k2.5",
-      "canonical_model_id": "moonshotai/kimi-k2.5-0127",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-08-31",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-08-25T01:54:00.995Z",
-      "content_hash": "06ced7a4bbf93d8fb0dea471b16b8618248ffcca25a7c576b0d90724ddaa52e0",
       "raw_status": "expiration scheduled"
     },
     {
@@ -3889,9 +3952,9 @@
       "provider": "openai",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 137,
-      "content_hash": "0593200047c5129e43a76e26510c678636e3339b0ed874238695be76e9367c28",
-      "last_successful_observation_at": "2026-08-11T02:29:54.036Z",
+      "record_count": 141,
+      "content_hash": "f55040e15533236ddf3d2af65d2ecb63339ed6ee181178cfe832574fc91bdf14",
+      "last_successful_observation_at": "2026-08-31T05:40:43.270Z",
       "error_code": null
     },
     {
@@ -3899,9 +3962,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 7,
-      "content_hash": "5ee2a9435f99b44f902e7fbdaf8097046fa6e564245b58ca0756b9fd0602b8e5",
-      "last_successful_observation_at": "2026-08-29T07:07:54.992Z",
+      "record_count": 6,
+      "content_hash": "0301aa94e3a41b85f6e30aecd62c5640859961da7793283ae496fbb4b2288758",
+      "last_successful_observation_at": "2026-08-31T05:40:43.270Z",
       "error_code": null
     }
   ]

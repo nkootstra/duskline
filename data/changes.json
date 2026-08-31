@@ -2,140 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "3b3678878aa5678ccf35a3b37bdb436019f0eecb173e9da8b11d328d757947be",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-similarity-curie-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-similarity-curie-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "text-embedding-3-small"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "3ea20e4df0f561027ea2adaf3b46a6fe6124ec56f3497d4e20936615dad9e082",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-3-5-sonnet-20241022-v2:0:ap-northeast-1,ap-northeast-3,ap-south-2,ap-southeast-2",
-      "source_id": "bedrock-lifecycle",
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "legacy"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-01-30"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-30"
-        }
-      ]
-    },
-    {
-      "id": "3fde4f3f71863005facf57b11dd9340581688959d8d7a3bfbb764047c5dabe17",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-3-7-sonnet-20250219-v1:0:us-gov-east-1,us-gov-west-1",
-      "source_id": "bedrock-lifecycle",
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "model_id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "legacy"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-01-30"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-30"
-        }
-      ]
-    },
-    {
-      "id": "434f01d9199e61d1569654a5fc502a4ea1fbf3237b76f7eff3c4e0d23410508e",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-5.2-codex:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-5.2-codex",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-23"
-        }
-      ]
-    },
-    {
-      "id": "44bd9289e628e9cc9063e6ab2f6c44ffb8eedf2ed017c63a6d971ca15d563a5b",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:Videos API:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "Videos API",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-09-24"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "--"
-          ]
-        }
-      ]
-    },
-    {
       "id": "475d5e513f9fdf459be1245f6980518f1ef0836ad20feb87069c7b3e66131f29",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11448,6 +11314,168 @@
           "after": [
             "accounts/fireworks/models/gpt-oss-120b",
             "accounts/fireworks/models/qwen3-8b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "65bea715a3c3037eb3a01c823e8c4a40223504ef52ea42ec22666bc62b3567a8",
+      "published_at": "2026-08-31T05:40:43.270Z",
+      "kind": "added",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-transcribe:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-transcribe",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-08-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-02-26"
+        },
+        {
+          "field": "replacement_models",
+          "before": null,
+          "after": [
+            "gpt-live-transcribe",
+            "gpt-transcribe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "89c42c7f0c6caf0b597f34ae07ab12d048c9ea2bebcbdb8cdb42e02044862e49",
+      "published_at": "2026-08-31T05:40:43.270Z",
+      "kind": "added",
+      "identity": "openai-lifecycle:openai:direct:whisper-1:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "whisper-1",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-08-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-02-26"
+        },
+        {
+          "field": "replacement_models",
+          "before": null,
+          "after": [
+            "gpt-live-transcribe",
+            "gpt-transcribe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "98b06466eae5e827d4148a7942d7b9d920897fc5c19205892080f24cc1ecd679",
+      "published_at": "2026-08-31T05:40:43.270Z",
+      "kind": "added",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-transcribe-diarize:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-transcribe-diarize",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-08-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-02-26"
+        },
+        {
+          "field": "replacement_models",
+          "before": null,
+          "after": [
+            "gpt-live-transcribe",
+            "gpt-transcribe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9c299582266490dbb6026d725ef6f038cd115c0d5d6fc0f0d9961ed0906b6faa",
+      "published_at": "2026-08-31T05:40:43.270Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:moonshotai/kimi-k2.5:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "moonshotai/kimi-k2.5",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-31",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "ce1978e94ec33e3b3ca5fad76b48fc00cdd2a561effc4035122b28409d9ade5e",
+      "published_at": "2026-08-31T05:40:43.270Z",
+      "kind": "added",
+      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-transcribe:",
+      "source_id": "openai-lifecycle",
+      "provider": "openai",
+      "platform": "direct",
+      "model_id": "gpt-4o-mini-transcribe",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "announcement_date",
+          "before": null,
+          "after": "2026-08-26"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-02-26"
+        },
+        {
+          "field": "replacement_models",
+          "before": null,
+          "after": [
+            "gpt-live-transcribe",
+            "gpt-transcribe"
           ]
         }
       ]
