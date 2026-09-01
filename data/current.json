@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-08-31T05:40:43.270Z",
+  "last_published_at": "2026-09-01T05:14:15.531Z",
   "records": [
     {
       "provider": "anthropic",
@@ -2411,8 +2411,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-31T05:40:43.270Z",
-      "raw_status": null,
-      "content_hash": "cbd2cf0a469ad8e826ea0f9b3b4177411869c862f2424e01042620eea04df248"
+      "content_hash": "cbd2cf0a469ad8e826ea0f9b3b4177411869c862f2424e01042620eea04df248",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -2545,8 +2545,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-31T05:40:43.270Z",
-      "raw_status": null,
-      "content_hash": "b0973df981877073b38719b84497d18023e487023502785b165d86792fb99324"
+      "content_hash": "b0973df981877073b38719b84497d18023e487023502785b165d86792fb99324",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -2565,8 +2565,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-31T05:40:43.270Z",
-      "raw_status": null,
-      "content_hash": "4fedc269ceeaf31d7ee787be0570219a4d7ea5382ec5f954993eb18f00e15bd9"
+      "content_hash": "4fedc269ceeaf31d7ee787be0570219a4d7ea5382ec5f954993eb18f00e15bd9",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -3810,8 +3810,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-08-31T05:40:43.270Z",
-      "raw_status": null,
-      "content_hash": "f6ae58359a037fdc45188903c2fd02ec0249771f4959aaaadc388fe11201783f"
+      "content_hash": "f6ae58359a037fdc45188903c2fd02ec0249771f4959aaaadc388fe11201783f",
+      "raw_status": null
     },
     {
       "provider": "openrouter",
@@ -3829,6 +3829,40 @@
       "observed_at": "2026-08-21T01:59:32.353Z",
       "content_hash": "ec9982311b7ab4c181386a1729330ad5b9d5fc74e7d0e087a3d116437d3661ff",
       "raw_status": "expiration scheduled"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "nex-agi/nex-n2-mini",
+      "canonical_model_id": "nex-agi/nex-n2-mini",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-09-04",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-01T05:14:15.531Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "f06ee01ece752c13d9654f137acf728d96f8ac1232bfdc61ff1cc9753b6d66ff"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "nex-agi/nex-n2-pro",
+      "canonical_model_id": "nex-agi/nex-n2-pro",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-09-04",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-01T05:14:15.531Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "289b556289196ae218f145dcea8a2bb7eff531de97f19522208333ffd7fa458a"
     },
     {
       "provider": "openrouter",
@@ -3962,9 +3996,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 6,
-      "content_hash": "0301aa94e3a41b85f6e30aecd62c5640859961da7793283ae496fbb4b2288758",
-      "last_successful_observation_at": "2026-08-31T05:40:43.270Z",
+      "record_count": 8,
+      "content_hash": "3492b8c7b269c9006b0d22ae2fb5d476bad948c983752dc9385c13f28704ed1b",
+      "last_successful_observation_at": "2026-09-01T05:14:15.531Z",
       "error_code": null
     }
   ]

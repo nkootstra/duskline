@@ -2,64 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "475d5e513f9fdf459be1245f6980518f1ef0836ad20feb87069c7b3e66131f29",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:o3-2025-04-16:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "o3-2025-04-16",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-12-11"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.6-sol"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "48bfd880c181b24537bf49b3c45b3e7336659b57c9a49957b857902a2832152c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:code-cushman-002:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "code-cushman-002",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2023-03-23"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4o"
-          ]
-        }
-      ]
-    },
-    {
       "id": "4a2be682705cbbb53bd2b47f9488aba14e6ef1cf542464f7a7703ecce9205bad",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11477,6 +11419,50 @@
             "gpt-live-transcribe",
             "gpt-transcribe"
           ]
+        }
+      ]
+    },
+    {
+      "id": "73a00189f90513748b9ebca842e92dba11b7500f8b175981bd491cfdb4489a81",
+      "published_at": "2026-09-01T05:14:15.531Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:nex-agi/nex-n2-pro:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nex-agi/nex-n2-pro",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "id": "9c48e9e7caa6d3ef1d00608430d194024297099e070a742e5fca486edc7cb80f",
+      "published_at": "2026-09-01T05:14:15.531Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:nex-agi/nex-n2-mini:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nex-agi/nex-n2-mini",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-09-04"
         }
       ]
     }
