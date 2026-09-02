@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-01T05:14:15.531Z",
+  "last_published_at": "2026-09-02T04:39:12.615Z",
   "records": [
     {
       "provider": "anthropic",
@@ -248,6 +248,23 @@
       "observed_at": "2026-07-24T08:25:20.827Z",
       "content_hash": "23ce3354aa645b0bdbb61997f7b3f5aec561aec8a74cfb72b03ddf6f4ef190d5",
       "raw_status": null
+    },
+    {
+      "provider": "anthropic",
+      "platform": "direct",
+      "source_id": "anthropic-lifecycle",
+      "model_id": "claude-fable-5-1",
+      "canonical_model_id": null,
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2027-09-01",
+      "replacement_models": [],
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "observed_at": "2026-09-02T04:39:12.615Z",
+      "raw_status": null,
+      "content_hash": "e293d49f5b06258f578ea33de067cf03b7f03eb02c1816ec22bfae03e7ee4913"
     },
     {
       "provider": "anthropic",
@@ -3817,6 +3834,23 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "~z-ai/glm-flash-latest",
+      "canonical_model_id": "~z-ai/glm-flash-latest",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2098-12-31",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-02T04:39:12.615Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "be4964233d9c2fe076e3b3fc6becbd310cb32779c6f315d78397715acc34b6b5"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "dots-studio/dots-3-note-preview:free",
       "canonical_model_id": "dots-studio/dots-3-note-preview-20260813",
       "regions": [],
@@ -3840,12 +3874,12 @@
       "status": "deprecated",
       "announcement_date": null,
       "deprecation_date": null,
-      "shutdown_date": "2026-09-04",
+      "shutdown_date": "2026-09-08",
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-09-01T05:14:15.531Z",
+      "observed_at": "2026-09-02T04:39:12.615Z",
       "raw_status": "expiration scheduled",
-      "content_hash": "f06ee01ece752c13d9654f137acf728d96f8ac1232bfdc61ff1cc9753b6d66ff"
+      "content_hash": "f379c27d2aac8dd569ce7683b8f25d9d4d7e31a7a0705cd05dbf69a1af0575ed"
     },
     {
       "provider": "openrouter",
@@ -3857,12 +3891,12 @@
       "status": "deprecated",
       "announcement_date": null,
       "deprecation_date": null,
-      "shutdown_date": "2026-09-04",
+      "shutdown_date": "2026-09-08",
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-09-01T05:14:15.531Z",
+      "observed_at": "2026-09-02T04:39:12.615Z",
       "raw_status": "expiration scheduled",
-      "content_hash": "289b556289196ae218f145dcea8a2bb7eff531de97f19522208333ffd7fa458a"
+      "content_hash": "99c38ba3087600daa6fc0f58e66fe8975b2d69bb0a3c6846b19bf99e7b9bbfee"
     },
     {
       "provider": "openrouter",
@@ -3880,6 +3914,23 @@
       "observed_at": "2026-07-24T08:25:20.827Z",
       "content_hash": "66c12397b4fa872beb394a3a7a5bb69e6f6df165baf56830c9cba9de40ae26ac",
       "raw_status": "expiration scheduled"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "z-ai/glm-4.5v",
+      "canonical_model_id": "z-ai/glm-4.5v",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-12-31",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-02T04:39:12.615Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "2b002ee0889e87e41523a4cd8654d52d287cc60793a32f0966766cee5d071b20"
     },
     {
       "provider": "openrouter",
@@ -3956,9 +4007,9 @@
       "provider": "anthropic",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 29,
-      "content_hash": "4ef25ca4f0717599897af031c83ccb40f8c55e560c3f93429332256206e18e1e",
-      "last_successful_observation_at": "2026-08-06T03:41:54.363Z",
+      "record_count": 30,
+      "content_hash": "7d841e5e785d7bab6f494d587741ce161ba137c4f406aecf0d1052fd5243fde9",
+      "last_successful_observation_at": "2026-09-02T04:39:12.615Z",
       "error_code": null
     },
     {
@@ -3996,9 +4047,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 8,
-      "content_hash": "3492b8c7b269c9006b0d22ae2fb5d476bad948c983752dc9385c13f28704ed1b",
-      "last_successful_observation_at": "2026-09-01T05:14:15.531Z",
+      "record_count": 10,
+      "content_hash": "b2e417be161346d5696faa22dba4b0992fe4b987922cca4f79dddf6e32687a77",
+      "last_successful_observation_at": "2026-09-02T04:39:12.615Z",
       "error_code": null
     }
   ]
