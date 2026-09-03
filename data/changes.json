@@ -2,35 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "4aebb02a1748c005adf2793e48b07f232d134f2f80c0ec773546471b7f894e7c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-search-curie-doc-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-search-curie-doc-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "text-embedding-3-small"
-          ]
-        }
-      ]
-    },
-    {
       "id": "4bdaa4b105bda803cd1d38a7773e9814b9a72675ad0658649d4c08c6f3938c59",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11434,6 +11405,28 @@
           "field": "shutdown_date",
           "before": null,
           "after": "2027-09-01"
+        }
+      ]
+    },
+    {
+      "id": "15c127892a881b7f1bb21beab3372d5b75019a23d9a9aff95760bd4ae841e1ab",
+      "published_at": "2026-09-03T04:36:58.143Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:~z-ai/glm-flash-latest:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "~z-ai/glm-flash-latest",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2098-12-31",
+          "after": null
         }
       ]
     }
