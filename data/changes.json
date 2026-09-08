@@ -2,35 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "5344caf63e9044413c2e4aaba2c022538c95f0f4e7a1844bac189579eb16046f",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-1.3:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-1.3",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-11-06"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "claude-haiku-4-5-20251001"
-          ]
-        }
-      ]
-    },
-    {
       "id": "536974bb9a60aaf7fbaaac3ed2ffb0e46571777937a1efe3f1dfc48c1eec9f9c",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11412,6 +11383,28 @@
         {
           "field": "shutdown_date",
           "before": "2098-12-31",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "8554883ec5b147fe5be13e0d2268297dae7e384cb6e30dea50f02fa4c140ca68",
+      "published_at": "2026-09-08T04:41:57.417Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-4.7-flash:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-4.7-flash",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-10",
           "after": null
         }
       ]
