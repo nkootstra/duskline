@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-08T04:41:57.417Z",
+  "last_published_at": "2026-09-09T04:47:00.107Z",
   "records": [
     {
       "provider": "anthropic",
@@ -3851,40 +3851,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "nex-agi/nex-n2-mini",
-      "canonical_model_id": "nex-agi/nex-n2-mini",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-09-08",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-09-02T04:39:12.615Z",
-      "content_hash": "f379c27d2aac8dd569ce7683b8f25d9d4d7e31a7a0705cd05dbf69a1af0575ed",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
-      "model_id": "nex-agi/nex-n2-pro",
-      "canonical_model_id": "nex-agi/nex-n2-pro",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-09-08",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-09-02T04:39:12.615Z",
-      "content_hash": "99c38ba3087600daa6fc0f58e66fe8975b2d69bb0a3c6846b19bf99e7b9bbfee",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-4.5",
       "canonical_model_id": "z-ai/glm-4.5",
       "regions": [],
@@ -3896,23 +3862,6 @@
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-07-24T08:25:20.827Z",
       "content_hash": "66c12397b4fa872beb394a3a7a5bb69e6f6df165baf56830c9cba9de40ae26ac",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
-      "model_id": "z-ai/glm-4.5v",
-      "canonical_model_id": "z-ai/glm-4.5v",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-12-31",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-09-02T04:39:12.615Z",
-      "content_hash": "2b002ee0889e87e41523a4cd8654d52d287cc60793a32f0966766cee5d071b20",
       "raw_status": "expiration scheduled"
     },
     {
@@ -3982,11 +3931,11 @@
       "source_id": "bedrock-lifecycle",
       "provider": "aws_bedrock",
       "platform": "bedrock",
-      "status": "healthy",
+      "status": "stale",
       "record_count": 12,
       "content_hash": "6c9bce92d0c6fcf929d33f53dfbd583cbadbeef719c5c31a4a8c68736cdb1c52",
       "last_successful_observation_at": "2026-08-20T01:53:18.067Z",
-      "error_code": null
+      "error_code": "invalid_source_result"
     },
     {
       "source_id": "fireworks-changelog",
@@ -4013,9 +3962,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 8,
-      "content_hash": "d728fa631f7853e506e2549e5ecd903af121893babb4fcaf2b24d04ef11b1786",
-      "last_successful_observation_at": "2026-09-08T04:41:57.417Z",
+      "record_count": 5,
+      "content_hash": "1031d940f6429b7d87d2457e70dfe1c3d7ac74297ed438600199f0964ffed8f9",
+      "last_successful_observation_at": "2026-09-09T04:47:00.107Z",
       "error_code": null
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-08T04:41:57.417Z",
+  "last_published_at": "2026-09-09T04:47:00.107Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
@@ -16,11 +16,11 @@
       "source_id": "bedrock-lifecycle",
       "provider": "aws_bedrock",
       "platform": "bedrock",
-      "status": "healthy",
+      "status": "stale",
       "record_count": 12,
       "content_hash": "6c9bce92d0c6fcf929d33f53dfbd583cbadbeef719c5c31a4a8c68736cdb1c52",
       "last_successful_observation_at": "2026-08-20T01:53:18.067Z",
-      "error_code": null
+      "error_code": "invalid_source_result"
     },
     {
       "source_id": "fireworks-changelog",
@@ -47,9 +47,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 8,
-      "content_hash": "d728fa631f7853e506e2549e5ecd903af121893babb4fcaf2b24d04ef11b1786",
-      "last_successful_observation_at": "2026-09-08T04:41:57.417Z",
+      "record_count": 5,
+      "content_hash": "1031d940f6429b7d87d2457e70dfe1c3d7ac74297ed438600199f0964ffed8f9",
+      "last_successful_observation_at": "2026-09-09T04:47:00.107Z",
       "error_code": null
     }
   ]

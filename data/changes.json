@@ -2,86 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "536974bb9a60aaf7fbaaac3ed2ffb0e46571777937a1efe3f1dfc48c1eec9f9c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-3-sonnet-20240229:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-3-sonnet-20240229",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2025-07-21"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "claude-sonnet-4-6"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "54c2a23a92d537766f7dfbe3942be4f79b9fa2340e1b9631afa7ab2c8d736e27",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:/v1/edits:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "/v1/edits",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "/v1/chat/completions"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "566a7a1e61d96904131733e0a0a92032d4c148ce3f9da48affc1190ad3d9be60",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-tts-2025-03-20:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-mini-tts-2025-03-20",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-23"
-        }
-      ]
-    },
-    {
       "id": "58e42c649627f8e3e1307ee2e3a30e65a5fe3188781229dd06149b7421398f81",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11405,6 +11325,72 @@
         {
           "field": "shutdown_date",
           "before": "2026-09-10",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "0673cbea0e59084728fc2ceb8c5310cdc2804f46e9e576867b7ff6a7fc5a5bfe",
+      "published_at": "2026-09-09T04:47:00.107Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-4.5v:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-4.5v",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-12-31",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "a70d9e03b3de623e473ad1dfa65cb52463f0fc94e6a7a7fc8191611b4aef3f9b",
+      "published_at": "2026-09-09T04:47:00.107Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:nex-agi/nex-n2-pro:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nex-agi/nex-n2-pro",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-08",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "d46b3703a067786be9d8ffab8d939ebd956d748c5a838aa3c58b89bba79c4108",
+      "published_at": "2026-09-09T04:47:00.107Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:nex-agi/nex-n2-mini:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nex-agi/nex-n2-mini",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-08",
           "after": null
         }
       ]
