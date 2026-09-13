@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-09T04:47:00.107Z",
+  "last_published_at": "2026-09-13T04:53:01.811Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
@@ -27,9 +27,9 @@
       "provider": "fireworks",
       "platform": "fireworks_serverless",
       "status": "healthy",
-      "record_count": 17,
-      "content_hash": "8b5cc98eed82e2b9695d2d6850980e04652703b48fd9f8404515b1aeff521af1",
-      "last_successful_observation_at": "2026-08-30T05:28:11.037Z",
+      "record_count": 22,
+      "content_hash": "5f718c216c95ce4bfed144d569503ee13a6c8d3f7488ffb0488164beb706e32a",
+      "last_successful_observation_at": "2026-09-13T04:53:01.811Z",
       "error_code": null
     },
     {
@@ -37,9 +37,9 @@
       "provider": "openai",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 141,
-      "content_hash": "f55040e15533236ddf3d2af65d2ecb63339ed6ee181178cfe832574fc91bdf14",
-      "last_successful_observation_at": "2026-08-31T05:40:43.270Z",
+      "record_count": 142,
+      "content_hash": "eaf5eb15cee2dcceb9963294b759ba42ecb3dd67671d4f445825c30f75881e1e",
+      "last_successful_observation_at": "2026-09-13T04:53:01.811Z",
       "error_code": null
     },
     {
