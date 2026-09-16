@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-13T04:53:01.811Z",
+  "last_published_at": "2026-09-16T04:53:22.004Z",
   "records": [
     {
       "provider": "anthropic",
@@ -837,8 +837,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-13T04:53:01.811Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "adfed53bdbbf1f1844089111fa7e100fb82a00482146a2a7ad45bb6439d3b8d7"
+      "content_hash": "adfed53bdbbf1f1844089111fa7e100fb82a00482146a2a7ad45bb6439d3b8d7",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -856,8 +856,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-13T04:53:01.811Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "51a34e861144c321c2ee16c5caef52a91a30baa297a0af17a77d63adf82156c8"
+      "content_hash": "51a34e861144c321c2ee16c5caef52a91a30baa297a0af17a77d63adf82156c8",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -875,8 +875,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-13T04:53:01.811Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "52b1484a9e64e6f9545090583596761198207df2fd02b0ca94b46d9fd9964e24"
+      "content_hash": "52b1484a9e64e6f9545090583596761198207df2fd02b0ca94b46d9fd9964e24",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -913,8 +913,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-13T04:53:01.811Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "5c812263657127af9e65e53627bfc01c72e496dd8330836e1a539270a65edc3d"
+      "content_hash": "5c812263657127af9e65e53627bfc01c72e496dd8330836e1a539270a65edc3d",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -973,8 +973,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-13T04:53:01.811Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "846bd4db7a6c9af1fb7133bef1ce3fdf8d31105d9fbf9296e1eb4fafcc209168"
+      "content_hash": "846bd4db7a6c9af1fb7133bef1ce3fdf8d31105d9fbf9296e1eb4fafcc209168",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -994,8 +994,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-13T04:53:01.811Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "a9cf23f505831f5cbd2389700860390228ea1e371b9a631dec094f48c990c474"
+      "content_hash": "a9cf23f505831f5cbd2389700860390228ea1e371b9a631dec094f48c990c474",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -1032,8 +1032,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-13T04:53:01.811Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "2515e216b214d3f1972ec2ad553f7515d4fb05bcfe420e2f2dc20e3d5c251503"
+      "content_hash": "2515e216b214d3f1972ec2ad553f7515d4fb05bcfe420e2f2dc20e3d5c251503",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -2947,8 +2947,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-13T04:53:01.811Z",
-      "raw_status": null,
-      "content_hash": "50206a041dbb1c7ca781be3b73eba1dc6896a207b485fe0ba76c49ee83f6d1ae"
+      "content_hash": "50206a041dbb1c7ca781be3b73eba1dc6896a207b485fe0ba76c49ee83f6d1ae",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -4003,23 +4003,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "z-ai/glm-5.3-flash",
-      "canonical_model_id": "z-ai/glm-5.3-flash-20260826",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2098-12-31",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-08-27T09:53:40.168Z",
-      "content_hash": "2abad696c8e663dd9199119d8e1666c8e7daef15795bb2c4ce53e841b26721c0",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-5v-turbo",
       "canonical_model_id": "z-ai/glm-5v-turbo-20260401",
       "regions": [],
@@ -4080,9 +4063,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 5,
-      "content_hash": "1031d940f6429b7d87d2457e70dfe1c3d7ac74297ed438600199f0964ffed8f9",
-      "last_successful_observation_at": "2026-09-09T04:47:00.107Z",
+      "record_count": 4,
+      "content_hash": "f9ef5744e3b9d5431b4ffe924729f323d5be22b93aae5ec4b0fea5bcc59d9403",
+      "last_successful_observation_at": "2026-09-16T04:53:22.004Z",
       "error_code": null
     }
   ]

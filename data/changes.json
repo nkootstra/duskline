@@ -2,35 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "614b388e76f9c90f9bb78a86eb287bf0fb03f2a319c811d3cf045652d574437f",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:davinci-002:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "davinci-002",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-09-28"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.4-mini or gpt-5-mini"
-          ]
-        }
-      ]
-    },
-    {
       "id": "626882ca39a7674b8997f3e1c842ce3f9e0e6be0bf6482c3dbe8b283d05f2375",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11456,6 +11427,28 @@
           "after": [
             "gpt-5.6-cyber"
           ]
+        }
+      ]
+    },
+    {
+      "id": "0ad9546dfd20ea54df58a468cf28cedc00e1e44ed650f9cf637480ffad891371",
+      "published_at": "2026-09-16T04:53:22.004Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-5.3-flash:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-5.3-flash",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2098-12-31",
+          "after": null
         }
       ]
     }
