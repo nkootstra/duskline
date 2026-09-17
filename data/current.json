@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-16T04:53:22.004Z",
+  "last_published_at": "2026-09-17T04:57:01.960Z",
   "records": [
     {
       "provider": "anthropic",
@@ -3969,6 +3969,23 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "stealth/union-alpha",
+      "canonical_model_id": "stealth/union-alpha",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2098-12-31",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-17T04:57:01.960Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "8f6a62d1512a29a941b14592e0f5ad1c0ef9d012e553e567be64c687ec682080"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "z-ai/glm-4.5",
       "canonical_model_id": "z-ai/glm-4.5",
       "regions": [],
@@ -4063,9 +4080,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 4,
-      "content_hash": "f9ef5744e3b9d5431b4ffe924729f323d5be22b93aae5ec4b0fea5bcc59d9403",
-      "last_successful_observation_at": "2026-09-16T04:53:22.004Z",
+      "record_count": 5,
+      "content_hash": "f67efe7eb13bd6d987192f87ee26bd6dce733882a152bb3bb1396ee25a2e29d5",
+      "last_successful_observation_at": "2026-09-17T04:57:01.960Z",
       "error_code": null
     }
   ]
