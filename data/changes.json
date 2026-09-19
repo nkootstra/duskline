@@ -2,240 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "6360f84bd1dd3f96d6aef9980de73ea9fb9700099c30e8877fd4237c16349e41",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:code-cushman-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "code-cushman-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2023-03-23"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4o"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "648ade494ea66e406cbd559b4df2ba65c5a3377f1c3cecf8b4c9af661a82f81b",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-3-5-sonnet-20241022:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-3-5-sonnet-20241022",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2025-10-28"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "claude-sonnet-4-6"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "6515a487e8d9c71b2ebd93b5d6a2ebd3c6a50fea15b869d5996e4fec79decf39",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-5.1-codex:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-5.1-codex",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-23"
-        }
-      ]
-    },
-    {
-      "id": "655e14c3855313332ed878b504661e3f65bc0f8acc430cfd0b5148001034feae",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-search-babbage-doc-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-search-babbage-doc-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "text-embedding-3-small"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "6600bccdda7cd62239f84fcb448aecc176e65b465d7684a9b742d3bf614f00d8",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:code-davinci-002:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "code-davinci-002",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2023-03-23"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-3.5-turbo-instruct",
-            "gpt-4o"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "671f60b85f856df37ab60b2922d63bbdb35873fa384fdfe1c7578b2afc7eab32",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-5v-turbo:",
-      "source_id": "openrouter-models",
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "model_id": "z-ai/glm-5v-turbo",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2098-12-31"
-        }
-      ]
-    },
-    {
-      "id": "678e9e6f64c7cdef357bf88e4ffa838e2d3842913bb4d4b026146d89ff668a88",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-search-preview-2025-03-11:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-search-preview-2025-03-11",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-23"
-        }
-      ]
-    },
-    {
-      "id": "685969db5e0fec24111d947080e01e314f8ae0485ebb4ade055b310af015bff7",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-5-codex:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-5-codex",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-23"
-        }
-      ]
-    },
-    {
-      "id": "6ad0320b6d448afe7db2c614b080f72b64cf5624828c99b3bb0cb76f4a122708",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-image-1.5:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-image-1.5",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-12-01"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-image-2"
-          ]
-        }
-      ]
-    },
-    {
       "id": "6d4804b630ca3b059cb7f2d7c5364551b6938b0a129c8b613b5eb883592e8cd0",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11437,6 +11203,204 @@
           "field": "shutdown_date",
           "before": "2098-12-31",
           "after": null
+        }
+      ]
+    },
+    {
+      "id": "25d21af4cabcdb7340eb781282c025c2da5ab7bed933db2878c331ae4fa91286",
+      "published_at": "2026-09-19T04:41:34.977Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:google/gemini-2.5-flash:batch:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "google/gemini-2.5-flash:batch",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "3cabe44372acb77c596dfb17b121ead66f4a7c0037c8571fda719a595bac0b5f",
+      "published_at": "2026-09-19T04:41:34.977Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:google/gemini-2.5-pro:batch:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "google/gemini-2.5-pro:batch",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "3cfcebdd2aed6209549cb294afa824eda777c9b03e9c78eef64106b08095c635",
+      "published_at": "2026-09-19T04:41:34.977Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:google/gemini-2.5-flash-image:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "google/gemini-2.5-flash-image",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-03-15"
+        }
+      ]
+    },
+    {
+      "id": "3d8e1d0d9dc71018f2365c333ae200ae54a821eb4b2dcb3c0f2066a3822779cb",
+      "published_at": "2026-09-19T04:41:34.977Z",
+      "kind": "added",
+      "identity": "anthropic-lifecycle:anthropic:direct:claude-mythos-5:",
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "model_id": "claude-mythos-5",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-06-09"
+        }
+      ]
+    },
+    {
+      "id": "48016efb21f422d786980107d6cebbc8c9057844b7445bde9937018eef0ce055",
+      "published_at": "2026-09-19T04:41:34.977Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:google/gemini-2.5-flash:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "google/gemini-2.5-flash",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "4b78bf17822d71b376abdfdbcd8c06129f4fba66c6e76e1dd06a36147896aa11",
+      "published_at": "2026-09-19T04:41:34.977Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:google/gemini-2.5-pro:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "google/gemini-2.5-pro",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "5fafbad5b642deb102ba81f7fec459ce674d655bc1b8a7380268a93ce26413c5",
+      "published_at": "2026-09-19T04:41:34.977Z",
+      "kind": "added",
+      "identity": "anthropic-lifecycle:anthropic:direct:claude-mythos-5-1:",
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "model_id": "claude-mythos-5-1",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-09-01"
+        }
+      ]
+    },
+    {
+      "id": "d30e1f50da135a1acd191abe7aa4dae1a1ef157cd4a148d163eb9023f9de619e",
+      "published_at": "2026-09-19T04:41:34.977Z",
+      "kind": "added",
+      "identity": "anthropic-lifecycle:anthropic:direct:claude-mythos-preview:",
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "model_id": "claude-mythos-preview",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "deprecation_date",
+          "before": null,
+          "after": "2026-06-09"
+        }
+      ]
+    },
+    {
+      "id": "e31293096907187a42824f2a1cca1133d39d5d4f3604c50adf94aea61f13c47c",
+      "published_at": "2026-09-19T04:41:34.977Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:google/gemini-2.5-flash-lite:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "google/gemini-2.5-flash-lite",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-20"
         }
       ]
     }

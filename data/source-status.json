@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-18T04:48:07.217Z",
+  "last_published_at": "2026-09-19T04:41:34.977Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
       "provider": "anthropic",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 30,
-      "content_hash": "7d841e5e785d7bab6f494d587741ce161ba137c4f406aecf0d1052fd5243fde9",
-      "last_successful_observation_at": "2026-09-02T04:39:12.615Z",
+      "record_count": 33,
+      "content_hash": "1538b715a3e74121b2374558dfb5a0f064306d64a7c7d46f156f71fff5eb97bf",
+      "last_successful_observation_at": "2026-09-19T04:41:34.977Z",
       "error_code": null
     },
     {
@@ -47,9 +47,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 4,
-      "content_hash": "f9ef5744e3b9d5431b4ffe924729f323d5be22b93aae5ec4b0fea5bcc59d9403",
-      "last_successful_observation_at": "2026-09-18T04:48:07.217Z",
+      "record_count": 10,
+      "content_hash": "79c8ada87460eff9fc0801d7ea8858730774fabf99f80da37869c46d389ccab5",
+      "last_successful_observation_at": "2026-09-19T04:41:34.977Z",
       "error_code": null
     }
   ]
