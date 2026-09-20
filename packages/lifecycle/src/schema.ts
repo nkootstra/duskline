@@ -1,11 +1,18 @@
 import { Schema } from "effect";
 
-export const SOURCE_IDS = [
+export const ACTIVE_SOURCE_IDS = [
   "openai-lifecycle",
   "anthropic-lifecycle",
-  "bedrock-lifecycle",
   "fireworks-changelog",
   "openrouter-models",
+] as const;
+
+// Sources that are no longer collected but still appear in published history.
+export const RETIRED_SOURCE_IDS = ["bedrock-lifecycle"] as const;
+
+export const SOURCE_IDS = [
+  ...ACTIVE_SOURCE_IDS,
+  ...RETIRED_SOURCE_IDS,
 ] as const;
 
 export const SourceId = Schema.Literals(SOURCE_IDS);

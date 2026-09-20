@@ -6,7 +6,6 @@ import { effectiveLifecycleStatus } from "@duskline/lifecycle";
 import {
   collectOpenAi,
   parseAnthropic,
-  parseBedrock,
   parseFireworksChangelog,
   parseOpenAi,
   parseOpenRouter,
@@ -484,26 +483,6 @@ describe("provider fixtures", () => {
     )[0]!;
     expect(effectiveLifecycleStatus(record, "2026-07-01")).toBe("deprecated");
     expect(effectiveLifecycleStatus(record, "2026-07-24")).toBe("retired");
-  });
-
-  it("extracts Bedrock legacy lifecycle", () => {
-    expect(
-      parseBedrock(fixture("bedrock/lifecycle.html"), observedAt)[0],
-    ).toMatchObject({
-      platform: "bedrock",
-      status: "legacy",
-      shutdown_date: "2026-12-01",
-    });
-  });
-
-  it("keeps Bedrock parsing independent from the wall clock", () => {
-    const html = fixture("bedrock/lifecycle.html");
-    expect(parseBedrock(html, "2025-01-01T00:00:00.000Z")[0]?.status).toBe(
-      "legacy",
-    );
-    expect(parseBedrock(html, "2027-01-01T00:00:00.000Z")[0]?.status).toBe(
-      "legacy",
-    );
   });
 
   it("extracts Fireworks serverless lifecycle from the Markdown feed", () => {
