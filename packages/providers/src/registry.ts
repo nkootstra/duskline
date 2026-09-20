@@ -1,6 +1,5 @@
-import { SOURCE_IDS } from "@duskline/lifecycle";
+import { ACTIVE_SOURCE_IDS } from "@duskline/lifecycle";
 import { ANTHROPIC_SOURCE, collectAnthropic } from "./anthropic";
-import { BEDROCK_SOURCE, collectBedrock } from "./bedrock";
 import {
   FIREWORKS_CHANGELOG_SOURCE,
   collectFireworksChangelog,
@@ -12,7 +11,6 @@ import type { SourceRegistryEntry } from "./types";
 export const SOURCE_REGISTRY = [
   { source: OPENAI_SOURCE, collect: collectOpenAi },
   { source: ANTHROPIC_SOURCE, collect: collectAnthropic },
-  { source: BEDROCK_SOURCE, collect: collectBedrock },
   {
     source: FIREWORKS_CHANGELOG_SOURCE,
     collect: collectFireworksChangelog,
@@ -21,7 +19,7 @@ export const SOURCE_REGISTRY = [
 ] as const satisfies ReadonlyArray<SourceRegistryEntry>;
 
 const registryIds = SOURCE_REGISTRY.map(({ source }) => source.id).sort();
-const contractIds = [...SOURCE_IDS].sort();
+const contractIds = [...ACTIVE_SOURCE_IDS].sort();
 if (
   registryIds.length !== contractIds.length ||
   registryIds.some((id, index) => id !== contractIds[index])

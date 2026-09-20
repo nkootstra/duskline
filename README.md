@@ -81,7 +81,6 @@ The live collector uses official sources:
 
 - OpenAI API deprecations
 - Anthropic model deprecations
-- Amazon Bedrock model lifecycle
 - Fireworks changelog Markdown feed
 - OpenRouter models API with `output_modalities=all`
 

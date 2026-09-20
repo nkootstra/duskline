@@ -2,350 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "7246da1167392e2ac619765e073a896ba6b70decb62c686170ff8439d26b3f05",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-search-davinci-query-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-search-davinci-query-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "text-embedding-3-small"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "75231efc6f0c7adbe6db6085158a952660083e6c2e9e6bee565041200a780c3c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-image-1:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-image-1",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "id": "75bee7743e586ab849ed10a72bbe716160b6ecf9b99df2c81296f8ab09b1d4be",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-3-haiku-20240307:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-3-haiku-20240307",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-02-19"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-04-20"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "claude-haiku-4-5-20251001"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "778b39c0f1becf05288e5cb47dd479e89547e100236af61e906e0f7b43fc915b",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4-32k-0314:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4-32k-0314",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2025-06-06"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4o"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "77e4e8a174d4a9d30a9ac0a0011bf67695a39caf05220715704826b2513e10db",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-5.1-codex-mini:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-5.1-codex-mini",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-23"
-        }
-      ]
-    },
-    {
-      "id": "785a63778ea12715a42be7d97e1d65d06820944d896e0d768b8f285f90392ef6",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-5-pro-2025-10-06:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-5-pro-2025-10-06",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-12-11"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.6-sol (reasoning.mode: pro)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "78d95e0768227b1c12f994ba86fdacc5d0f4e75e0c2d7615e61f96f57629e275",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-opus-4-20250514:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-opus-4-20250514",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-04-14"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-06-15"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "claude-opus-4-8"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7a1b397d0eb8ac68b3865b0e48db9a4f3d1be09059297995f3b88681663b9071",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:code-search-ada-code-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "code-search-ada-code-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "text-embedding-3-small"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7a5fdce97cf36b7f46cd652ed6365c8ee1fcf7ffb78c587d8493f35f910b5f59",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-similarity-davinci-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-similarity-davinci-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "text-embedding-3-small"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7c2b5bc937c18ee31713c719d0c32e1a44052700355260dff42c80984d1a0e77",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:/v1/answers:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "/v1/answers",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2022-12-03"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "View transition guide"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7ee995a4fb8e8b6597986400ebdb42c7abdf38dcc982880d2fd6a7d7f9ba7976",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-davinci-002:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-davinci-002",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-3.5-turbo-instruct"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7f58f8ee15119574bc2cf0f65b36e3452716529f9d551e1668edcec79df68171",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-babbage-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-babbage-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-3.5-turbo-instruct"
-          ]
-        }
-      ]
-    },
-    {
       "id": "813df143461628c0431891df3ce21a37418e090ce54d3e477ac0b2b687d6230c",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11366,6 +11022,330 @@
           "field": "shutdown_date",
           "before": null,
           "after": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "2415d05de7f18d5b90abc712a01a234510529ceffa4bc7cda92b769a8d47311f",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:amazon.nova-sonic-v1:0:ap-northeast-1,eu-north-1,us-east-1",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "amazon.nova-sonic-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-03-13",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-14",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "2ae637e2380110dbb68ada7e820a028c53dae8cf012baefa63bba729e5b560eb",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:ai21.jamba-1-5-mini-v1:0:us-east-1",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "ai21.jamba-1-5-mini-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-05-26",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-11-26",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "3a7d1c7c4a5029c431c532b51761d0afe55c26e3e24c86d6d86e9ad86251eeaf",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:amazon.nova-reel-v1:1:us-east-1",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "amazon.nova-reel-v1:1",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-03-30",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-30",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "4e6c9ab291ce081c2c104a83de0cdcc8f5cdadc7f3d3e665df8c6b3924a1468f",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-sonnet-4-20250514-v1:0:ap-east-2,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,ap-south-2,ap-southeast-1,ap-southeast-2,ap-southeast-3,ap-southeast-4,ap-southeast-5,ap-southeast-7,eu-central-1,eu-north-1,eu-south-1,eu-south-2,eu-west-1,eu-west-3,il-central-1,us-east-1,us-east-2,us-west-1,us-west-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "anthropic.claude-sonnet-4-20250514-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-04-14",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-10-14",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "50fb5a0faa71bb8f04cffc600fab303878466eb2645b7a9e1449f213c4efd22d",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:amazon.nova-reel-v1:0:ap-northeast-1,eu-west-1,us-east-1",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "amazon.nova-reel-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-03-30",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-30",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "52aa1f16ea6b5036ae2dcbc46dc2bdebeb7dcee945eabcadd140543d67384969",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:amazon.nova-canvas-v1:0:ap-northeast-1,eu-west-1,us-east-1",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "amazon.nova-canvas-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-03-30",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-30",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "64442bb6da67e4226c2cbdbe98836aa7e0c3d1c7e6bfdfe3c061bf80bdf5ef7c",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-opus-4-1-20250805-v1:0:us-east-1,us-east-2,us-west-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "anthropic.claude-opus-4-1-20250805-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-07-08",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2027-01-08",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "65a559c26e67f4e8ec0264bd102675a1f08c136b1a1380b5611ff3d1a12e770e",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:amazon.nova-premier-v1:0:us-east-1,us-east-2,us-west-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "amazon.nova-premier-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-03-13",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-14",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "99734cae82e67d349f33f3752a71f766417781d55920d7ff3284c782e8e1ea23",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:cohere.command-r-plus-v1:0:us-east-1,us-west-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "cohere.command-r-plus-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "retired",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-02-19",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-08-19",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "efc80e1b3a532517b75202dcc704051344a7b1ea6843f338e28e676babcf5cff",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:ai21.jamba-1-5-large-v1:0:us-east-1",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "ai21.jamba-1-5-large-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-05-26",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-11-26",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "f26f145f51e3117b1ac1f66468231cfea508d07b48b6c99ed2dc9fa2c8abfc6b",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:twelvelabs.marengo-embed-2-7-v1:0:ap-northeast-2,eu-west-1,us-east-1",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "twelvelabs.marengo-embed-2-7-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-05-29",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-11-30",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "f664fa04307931a82b9e6c981fedfb46a09d7336aa55f7d860fce2a91f8229b4",
+      "published_at": "2026-09-20T08:01:11.979Z",
+      "kind": "removed",
+      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-3-haiku-20240307-v1:0:ap-northeast-1,ap-southeast-2,eu-central-1,eu-west-1,eu-west-2,eu-west-3,us-east-1,us-east-2,us-west-2",
+      "source_id": "bedrock-lifecycle",
+      "provider": "aws_bedrock",
+      "platform": "bedrock",
+      "model_id": "anthropic.claude-3-haiku-20240307-v1:0",
+      "changes": [
+        {
+          "field": "status",
+          "before": "legacy",
+          "after": null
+        },
+        {
+          "field": "deprecation_date",
+          "before": "2026-03-10",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-10",
+          "after": null
         }
       ]
     }
