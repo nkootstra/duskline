@@ -2,173 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "813df143461628c0431891df3ce21a37418e090ce54d3e477ac0b2b687d6230c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-audio-mini:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-audio-mini",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2027-01-20"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-audio-1.5"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "864f73f86eb3cd57c192bd9a2c64a6fe4b7a723096e1f2ec5391a88304c97a1c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-search-curie-query-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-search-curie-query-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "text-embedding-3-small"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "87a10fe7d5e63f54d6187042fe164bb094bad8c16d4d28c62bd30f4290edc059",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4-1106-vision-preview:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4-1106-vision-preview",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-12-06"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4o"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "87fb7dedebe152d7746fa4f0d504a7b56b114a9a2ee1c6b833e72178c810adc7",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-instruct:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-3.5-turbo-instruct",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-09-28"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.4-mini or gpt-5-mini"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "883be31350b83c9d94dc200529d4a6921d7921a6a46f4a13ec15989a9d22e934",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-davinci-003:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-davinci-003",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-3.5-turbo-instruct"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "8bf2b45971a4f3b7b2ce8f824d7622b249259fa610e43e95b4093d01f69389cf",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4-0613-completions:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4-0613-completions",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        }
-      ]
-    },
-    {
       "id": "8ca3e39bc6114a219e28f9a48b3362927f397cccd7353672bef585c82b4e0357",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11346,6 +11179,138 @@
           "field": "shutdown_date",
           "before": "2026-09-10",
           "after": null
+        }
+      ]
+    },
+    {
+      "id": "04f1453275ca9df3f6ad23fd7d54bc59f88e446274933808c76cf94576540ab8",
+      "published_at": "2026-09-22T05:01:20.761Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:nex-agi/nex-n2.5-pro:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nex-agi/nex-n2.5-pro:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "1ad9c4c7a4bd9d73a6982578bb475941133eb62265b5635ac23b2bc9c412a459",
+      "published_at": "2026-09-22T05:01:20.761Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:bytedance/seedance-1-5-pro:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "bytedance/seedance-1-5-pro",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "31edfd4efbdf5833154e47560fc705c5a4d4a76807f2fc17242230afb61d0bdb",
+      "published_at": "2026-09-22T05:01:20.761Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:bytedance-seed/seed-1.6:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "bytedance-seed/seed-1.6",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "aa74ebc90f787f880e02c12e35f1fc67fb833384d91752b603b01c4d2109b808",
+      "published_at": "2026-09-22T05:01:20.761Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:bytedance-seed/seed-1.6-flash:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "bytedance-seed/seed-1.6-flash",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "f4b08d999cd3045ced440730cdaa57786aecbf9b31bcad92184c4869229a9ac5",
+      "published_at": "2026-09-22T05:01:20.761Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:nex-agi/nex-n2.5-mini:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nex-agi/nex-n2.5-mini:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "f67a9c2d3a6a1044ffa7df1259d5f5854e7d8ba6c3f5024e64ba8b83daeb19a2",
+      "published_at": "2026-09-22T05:01:20.761Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:bytedance-seed/seed-2.0-code:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "bytedance-seed/seed-2.0-code",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-11-11"
         }
       ]
     }
