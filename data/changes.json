@@ -2,64 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "8ca3e39bc6114a219e28f9a48b3362927f397cccd7353672bef585c82b4e0357",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:code-search-babbage-code-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "code-search-babbage-code-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "text-embedding-3-small"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "8e92112cca487b061bc7b1f8abea6fbd7f12469d4b5e22edbd82c9a7abd6ed2d",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4.5-preview:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4.5-preview",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2025-07-14"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4.1"
-          ]
-        }
-      ]
-    },
-    {
       "id": "90c43bd092c9589775521482ca95465993ba541250e72ca61786eb09fde4abdc",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11311,6 +11253,45 @@
           "field": "shutdown_date",
           "before": null,
           "after": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "8c014c0385e5f20f78b8bda6df59c9c20d32a3f74b8b71f6957946e8d5b2328e",
+      "published_at": "2026-09-23T04:48:59.565Z",
+      "kind": "dates_changed",
+      "identity": "openrouter-models:openrouter:openrouter:dots-studio/dots-3-note-preview:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "dots-studio/dots-3-note-preview:free",
+      "changes": [
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-30",
+          "after": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "id": "a712ef5e7d0100da5f7f3e8ae869a5ce1275870102844d85f1c94c191d46eb1c",
+      "published_at": "2026-09-23T04:48:59.565Z",
+      "kind": "added",
+      "identity": "anthropic-lifecycle:anthropic:direct:claude-opus-5-5:",
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "model_id": "claude-opus-5-5",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-09-22"
         }
       ]
     }
