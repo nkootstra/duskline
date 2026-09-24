@@ -2,57 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "90c43bd092c9589775521482ca95465993ba541250e72ca61786eb09fde4abdc",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:o3-pro-2025-06-10:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "o3-pro-2025-06-10",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-12-11"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.6-sol (reasoning.mode: pro)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "90c8e7a3a429088c67059196ed3e0967c1e16e28800dfa037ea830b6406ff80a",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-2024-05-13:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-2024-05-13",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        }
-      ]
-    },
-    {
       "id": "90ff7e9a4f16473a7cdb29baf081797e8c32f31fa82d787acd87ffaf3c13785b",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11292,6 +11241,50 @@
           "field": "shutdown_date",
           "before": null,
           "after": "2027-09-22"
+        }
+      ]
+    },
+    {
+      "id": "79a387e504182895ed9d8def7b7340896274f2dd42fe031b441aa8cfe566df60",
+      "published_at": "2026-09-24T04:56:24.515Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:stealth/space-bunny-alpha:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "stealth/space-bunny-alpha",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2098-12-31"
+        }
+      ]
+    },
+    {
+      "id": "b99d8bd88969bfa00ce4d2a3fa9586d9a5a52f7a8e4bdb62e34560a31a79e95d",
+      "published_at": "2026-09-24T04:56:24.515Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-5.3-flashx:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-5.3-flashx",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2098-12-31"
         }
       ]
     }
