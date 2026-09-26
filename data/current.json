@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-25T05:01:20.093Z",
+  "last_published_at": "2026-09-26T05:03:32.262Z",
   "records": [
     {
       "provider": "anthropic",
@@ -625,7 +625,7 @@
       "model_id": "accounts/fireworks/models/deepseek-v4-flash-0731",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": "2026-09-12",
       "deprecation_date": "2026-09-12",
       "shutdown_date": "2026-09-25",
@@ -633,9 +633,9 @@
         "accounts/fireworks/models/deepseek-v4p1-flash"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
-      "observed_at": "2026-09-13T04:53:01.811Z",
-      "content_hash": "adfed53bdbbf1f1844089111fa7e100fb82a00482146a2a7ad45bb6439d3b8d7",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
+      "content_hash": "2365dca256e248429c94e12a3cb57f7c47fbacaac763650bc3a6fb9439277173"
     },
     {
       "provider": "fireworks",
@@ -644,7 +644,7 @@
       "model_id": "accounts/fireworks/models/deepseek-v4-flash-vision-exp",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": "2026-09-12",
       "deprecation_date": "2026-09-12",
       "shutdown_date": "2026-09-25",
@@ -652,9 +652,9 @@
         "accounts/fireworks/models/deepseek-v4p1-flash"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
-      "observed_at": "2026-09-13T04:53:01.811Z",
-      "content_hash": "51a34e861144c321c2ee16c5caef52a91a30baa297a0af17a77d63adf82156c8",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
+      "content_hash": "56175e981a81dd8c0bbf443ffb5c969645a515eb6350c8a247d15a2798bd862e"
     },
     {
       "provider": "fireworks",
@@ -663,7 +663,7 @@
       "model_id": "accounts/fireworks/models/deepseek-v4-pro-0813",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": "2026-09-12",
       "deprecation_date": "2026-09-12",
       "shutdown_date": "2026-09-25",
@@ -671,9 +671,9 @@
         "accounts/fireworks/models/deepseek-v4p1-flash"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
-      "observed_at": "2026-09-13T04:53:01.811Z",
-      "content_hash": "52b1484a9e64e6f9545090583596761198207df2fd02b0ca94b46d9fd9964e24",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
+      "content_hash": "26e01b5337ccc8d5a57b186d95d85a187124fc447f87008125c11d6639095a89"
     },
     {
       "provider": "fireworks",
@@ -701,7 +701,7 @@
       "model_id": "accounts/fireworks/models/glm-5p2",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": "2026-09-12",
       "deprecation_date": "2026-09-12",
       "shutdown_date": "2026-09-25",
@@ -709,9 +709,9 @@
         "accounts/fireworks/models/glm-5p3"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
-      "observed_at": "2026-09-13T04:53:01.811Z",
-      "content_hash": "5c812263657127af9e65e53627bfc01c72e496dd8330836e1a539270a65edc3d",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
+      "content_hash": "bf6eae14335587a4485648a3ba06961943b383984a5c2351c16fa27d42b2beb4"
     },
     {
       "provider": "fireworks",
@@ -759,7 +759,7 @@
       "model_id": "accounts/fireworks/models/kimi-k2p6",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": "2026-08-27",
       "deprecation_date": "2026-08-27",
       "shutdown_date": "2026-09-25",
@@ -769,9 +769,9 @@
         "accounts/fireworks/models/kimi-k3"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
-      "observed_at": "2026-09-13T04:53:01.811Z",
-      "content_hash": "846bd4db7a6c9af1fb7133bef1ce3fdf8d31105d9fbf9296e1eb4fafcc209168",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
+      "content_hash": "6854bca027006f013b7df0bb9963438c97fda03abcb5dcb913b0cd91b4793b92"
     },
     {
       "provider": "fireworks",
@@ -780,7 +780,7 @@
       "model_id": "accounts/fireworks/models/kimi-k2p7-code",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": "2026-08-27",
       "deprecation_date": "2026-08-27",
       "shutdown_date": "2026-09-25",
@@ -790,9 +790,9 @@
         "accounts/fireworks/models/kimi-k3"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
-      "observed_at": "2026-09-13T04:53:01.811Z",
-      "content_hash": "a9cf23f505831f5cbd2389700860390228ea1e371b9a631dec094f48c990c474",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
+      "content_hash": "611e41e036ea77d92dbd17632cdcc7312334319d48667434535c4e308e30f57c"
     },
     {
       "provider": "fireworks",
@@ -820,7 +820,7 @@
       "model_id": "accounts/fireworks/models/muse-glimmer-30b",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": "2026-09-12",
       "deprecation_date": "2026-09-12",
       "shutdown_date": "2026-09-25",
@@ -828,9 +828,9 @@
         "accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b"
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
-      "observed_at": "2026-09-13T04:53:01.811Z",
-      "content_hash": "2515e216b214d3f1972ec2ad553f7515d4fb05bcfe420e2f2dc20e3d5c251503",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
+      "content_hash": "a8569e456bd70abe2b6811b6738e8df4575b011ea9d18d8a46f5e180fe72490d"
     },
     {
       "provider": "fireworks",
@@ -3236,8 +3236,8 @@
       "replacement_models": [],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-25T05:01:20.093Z",
-      "raw_status": null,
-      "content_hash": "0187ca1eb4b301f46e187bb73a8d034174ce9b0055390db9ca9ae14d5a1bf1c7"
+      "content_hash": "0187ca1eb4b301f46e187bb73a8d034174ce9b0055390db9ca9ae14d5a1bf1c7",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -3253,8 +3253,8 @@
       "replacement_models": [],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-25T05:01:20.093Z",
-      "raw_status": null,
-      "content_hash": "2216447e06b4ba1dd5d8350f5d2f6799f0a2f8e532a6e68e591c87cc298f54bb"
+      "content_hash": "2216447e06b4ba1dd5d8350f5d2f6799f0a2f8e532a6e68e591c87cc298f54bb",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -3270,8 +3270,8 @@
       "replacement_models": [],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-25T05:01:20.093Z",
-      "raw_status": null,
-      "content_hash": "d73c0b6949d38d86f9da6f7c9cbc02bf6b35fb6ba52e3c680e7f1954a070393e"
+      "content_hash": "d73c0b6949d38d86f9da6f7c9cbc02bf6b35fb6ba52e3c680e7f1954a070393e",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -3287,8 +3287,8 @@
       "replacement_models": [],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-25T05:01:20.093Z",
-      "raw_status": null,
-      "content_hash": "41ac71b31fb139c7a655f78874c4c5aae9587eb8ea7e41a1595b75b2e255058d"
+      "content_hash": "41ac71b31fb139c7a655f78874c4c5aae9587eb8ea7e41a1595b75b2e255058d",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -3304,8 +3304,8 @@
       "replacement_models": [],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-25T05:01:20.093Z",
-      "raw_status": null,
-      "content_hash": "cda95b9d6ef197daf204e9531e26cece5ffe7f9b15ce47678f5fb2110ffb0781"
+      "content_hash": "cda95b9d6ef197daf204e9531e26cece5ffe7f9b15ce47678f5fb2110ffb0781",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -4004,35 +4004,256 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "nex-agi/nex-n2.5-mini:free",
-      "canonical_model_id": "nex-agi/nex-n2.5-mini-20260908",
+      "model_id": "qwen/qwen-plus-2025-07-28",
+      "canonical_model_id": "qwen/qwen-plus-2025-07-28",
       "regions": [],
       "status": "deprecated",
       "announcement_date": null,
       "deprecation_date": null,
-      "shutdown_date": "2026-09-25",
+      "shutdown_date": "2026-10-09",
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-09-22T05:01:20.761Z",
-      "content_hash": "4eaa543761af18204865543d626a671b696746709f24a52a00ce4e5261d3f2b1",
-      "raw_status": "expiration scheduled"
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "6dd25190e3d9c1a7597e3b11983b1ca12c7adc1092543067eb501b514e85a13c"
     },
     {
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "nex-agi/nex-n2.5-pro:free",
-      "canonical_model_id": "nex-agi/nex-n2.5-pro-20260907",
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "canonical_model_id": "qwen/qwen3-235b-a22b-thinking-2507",
       "regions": [],
       "status": "deprecated",
       "announcement_date": null,
       "deprecation_date": null,
-      "shutdown_date": "2026-09-25",
+      "shutdown_date": "2026-10-09",
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-09-22T05:01:20.761Z",
-      "content_hash": "37e90a221f58c2e11e444e4fa74223f03c02aec7f2631fbfc90343d49066eee4",
-      "raw_status": "expiration scheduled"
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "608b4f4344296df40d8559a7de563e96ebdc95f0f19f67757c49f5cb07f05bad"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-235b-a22b",
+      "canonical_model_id": "qwen/qwen3-235b-a22b-04-28",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "b1c8b592bec457f740a365b225ce34af0be67b01a653f4c068a5a0fe5a5194fe"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "canonical_model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "ab39c83ce7bc4c0b8b4e496f14451cea34d9904d447a4ea3c12e33e4694447ab"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-8b",
+      "canonical_model_id": "qwen/qwen3-8b-04-28",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "98d0db9c3bb56b1874f2819ec6ce21de1c4387cf300048273b75c10334846c78"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-asr-flash-2026-02-10",
+      "canonical_model_id": "qwen/qwen3-asr-flash-2026-02-10",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "d32dd364a433f25eb990a917ec7176d38c992c6e24438dda5e274b03a4168cd9"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-coder-plus",
+      "canonical_model_id": "qwen/qwen3-coder-plus",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "8dbd384f4d823dc0a7288ccc8f8cf4a2df5a39db2a32b0a34d412c58c3ee4c66"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-max-thinking",
+      "canonical_model_id": "qwen/qwen3-max-thinking-20260123",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "b6d6a2e1d10a714550f73e56797ef5c252bf3f88d672675933556ca5f0f899ae"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-max",
+      "canonical_model_id": "qwen/qwen3-max",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "a55177b10126f3ea5911ad7dd7fcbbb847f112825a977695b567ea57209d0cb3"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "canonical_model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "8ee14542154b60daf0b0de3dc18a36ccba956ad43e9ffbbdb2eaccf856039f88"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "canonical_model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "63c1d499a1fc267de14fd1ffaf399d70b0362548dcfdf792b1fe68cbdb87abbd"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-vl-32b-instruct",
+      "canonical_model_id": "qwen/qwen3-vl-32b-instruct",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "01a7e28b1364dc2ee2a9454373a2f18b69373126fa901996d8f1661fa116233a"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-vl-8b-instruct",
+      "canonical_model_id": "qwen/qwen3-vl-8b-instruct",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "b3ec39970ede25c4da2b55a9e23263124a1f066f98c8c5e87fd5524167f94a71"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-vl-8b-thinking",
+      "canonical_model_id": "qwen/qwen3-vl-8b-thinking",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "d40b26a58e33dfbbf040ae4e02118764c1c1267a0f4dee065a76b26c6464ae98"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3.6-max-preview",
+      "canonical_model_id": "qwen/qwen3.6-max-preview-20260420",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-09",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-09-26T05:03:32.262Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "76e0d14b6fbd24bd72118857bdd1658030167493bda5faa2e4ccb8c21e5ad68b"
     }
   ],
   "source_status": [
@@ -4052,8 +4273,8 @@
       "platform": "fireworks_serverless",
       "status": "healthy",
       "record_count": 22,
-      "content_hash": "5f718c216c95ce4bfed144d569503ee13a6c8d3f7488ffb0488164beb706e32a",
-      "last_successful_observation_at": "2026-09-13T04:53:01.811Z",
+      "content_hash": "d3e6f42a7df4e3824853eaa4d19ae16dddecf86581abb08e217f8561c0dd279a",
+      "last_successful_observation_at": "2026-09-26T05:03:32.262Z",
       "error_code": null
     },
     {
@@ -4071,9 +4292,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 17,
-      "content_hash": "b28376f10363125be8d3ecc271a9772e6216cf2e264e83d464c239833e848772",
-      "last_successful_observation_at": "2026-09-25T05:01:20.093Z",
+      "record_count": 30,
+      "content_hash": "906e0bf52893686831289b6eb31ecc9cc93efe73b2df9c13daa172c903c2a26b",
+      "last_successful_observation_at": "2026-09-26T05:03:32.262Z",
       "error_code": null
     }
   ]

@@ -2,678 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "a63f660a1046bf212957ba06b0e18c200837e37751737b3c35749ad7f9b3519c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-realtime-mini-2025-10-06:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-realtime-mini-2025-10-06",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-23"
-        }
-      ]
-    },
-    {
-      "id": "a66eb7d2a2d0383e364925abb999f06fa16f891ac9198649e6a8149848cc0f93",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:code-davinci-edit-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "code-davinci-edit-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4o"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "a77aca08a5ec942df04cc6e277ea02222e9166295a08ed7173187d1598226115",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-audio-preview:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-audio-preview",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-05-07"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-audio-1.5"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "a830313977e20e15cd6712142d9f7948e352eb860f6dad5d081a69083485c428",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-0613:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-3.5-turbo-0613",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-09-13"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-3.5-turbo"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "aa12c44cf799fb33f4d20c0fca560afa7b3b0f298f0707e5cb5cb214be615ec1",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:dall-e-3:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "dall-e-3",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-05-12"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-image-1",
-            "gpt-image-2",
-            "or gpt-image-1-mini"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ab028e51e0f96a018bb4461fca0f5312cdca947e404933f6061035c93aedb222",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-sonnet-4-20250514:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-sonnet-4-20250514",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-04-14"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-06-15"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "claude-sonnet-4-6"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ab8cff53ddb8dd77e74b7b2cd2cf689e97ddedc63dd22867a4ff0a4166f3c64c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:Assistants API:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "Assistants API",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "unknown"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "Conversations API",
-            "Responses API"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "abafd0c872a9006b5b0af3cd50abf2e208f036ed5e90fb510db1bb554c358bcf",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:sora-2-pro-2025-10-06:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "sora-2-pro-2025-10-06",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-09-24"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "--"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ac9675c864ad71e6c3b9d62ec619513eb2b82cbc797f2f9c2067c5a0f0ffd605",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-search-ada-doc-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-search-ada-doc-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "text-embedding-3-small"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "acea19d80f030af5db806547d627493dda9ac754a91d096cff1fcba97b36c79e",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:chatgpt-image-latest:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "chatgpt-image-latest",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-12-01"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-image-2"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ad2ece19471c8b930035452b090f8f3124df8e2b92a1e7e56fc382a75384aac1",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:ft-babbage-002:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "ft-babbage-002",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.4-mini"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b0f300ff28ce43851da395528ac23c4392a11e21c348c2d9f56a83b41a2b0a5e",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-3.5-turbo-completions:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-3.5-turbo-completions",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        }
-      ]
-    },
-    {
-      "id": "b3b401fc26bc64b6da25dfa6cddc9c3030072a0abadb95253b165ce2f2f054ee",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openrouter-models:openrouter:openrouter:poolside/laguna-m.1:",
-      "source_id": "openrouter-models",
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "model_id": "poolside/laguna-m.1",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-28"
-        }
-      ]
-    },
-    {
-      "id": "b4adefb27e4595ca7cbfac9ffb98c892c9b6fb206e7d90423d43df10892fddfa",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:/v1/engines:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "/v1/engines",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2022-12-03"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "/v1/models"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b6906f6a47662896e24ec7e7d345ca658df274dddd8ddf97e8cf3139d34e5a10",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-5.2-chat-latest:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-5.2-chat-latest",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-08-10"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.6-sol"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b7fee0499d34fe9ce6a37e8c208aa13577bc288a8bfb143e38e68f0a3deae80d",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:amazon.nova-sonic-v1:0:ap-northeast-1,eu-north-1,us-east-1",
-      "source_id": "bedrock-lifecycle",
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "model_id": "amazon.nova-sonic-v1:0",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "legacy"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-03-13"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-09-14"
-        }
-      ]
-    },
-    {
-      "id": "b9bdf988f5df96428895e36588b351e1e83e50588437afe3acdfe05bea73e7f7",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:anthropic.claude-opus-4-1-20250805-v1:0:us-east-1,us-east-2,us-west-2",
-      "source_id": "bedrock-lifecycle",
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "model_id": "anthropic.claude-opus-4-1-20250805-v1:0",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "legacy"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-07-08"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2027-01-08"
-        }
-      ]
-    },
-    {
-      "id": "b9cef903e625e466d0f68f32b086c926260769f73f47e3adda77a707553030c4",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:sora-2:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "sora-2",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-09-24"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "--"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bb82aa012e91dc9ba0611cc2531347f5fa886063d7468a45f8c8e74b2603804c",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:ft-gpt-4.1-nano-2025-04-14:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "ft-gpt-4.1-nano-2025-04-14",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.4-nano"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bbfa211df75237732d80f409c4051edb82c025b592549decea9799538d0c5ba5",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-realtime-preview-2025-06-03:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-realtime-preview-2025-06-03",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-05-07"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-realtime-1.5"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "c03f178f9a84f31fbbc1aa536760fc353464a37616dbd004786a687e41b41be0",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-curie-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-curie-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-3.5-turbo-instruct"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "c662a17b469193a3e33e95ab5440da42bc878ab349a81afbacd5429144d3757e",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-moderation-stable:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-moderation-stable",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2025-10-27"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "omni-moderation"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "c71c25265c50018f5e0033185c2af7f1ec0f1b5a4ce7cb9e5266353238852126",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:ai21.jamba-1-5-mini-v1:0:us-east-1",
-      "source_id": "bedrock-lifecycle",
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "model_id": "ai21.jamba-1-5-mini-v1:0",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "legacy"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-05-26"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-11-26"
-        }
-      ]
-    },
-    {
-      "id": "c8746e00733142dba82b495d3fa7dd229bf625b06018e0c276a1ac244da1ad03",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-realtime:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-realtime",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2027-01-20"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-realtime-2.1"
-          ]
-        }
-      ]
-    },
-    {
       "id": "c8e23b505b197d29c5e3843632e87a2abf7d928b68957fc0b7fd20c549e97992",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11178,6 +10506,499 @@
       "provider": "openai",
       "platform": "direct",
       "model_id": "sora-2-pro",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "112b753f265bbac6371d903aff2da761a2187d6d7bfd464aad592a1472a301f1",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-max:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-max",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "195134fb0f8eddf298e0855ae4a11c079197362e0650f59f31c6f9eb046d0497",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-vl-235b-a22b-thinking:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "1bf2ba771822eacc33921b22688769185658114f9e97976a51cd479c08483959",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:nex-agi/nex-n2.5-pro:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nex-agi/nex-n2.5-pro:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-25",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "348c9fceb2c1dde8fc4030e1db4c3cdd9dc4be4f836a5030624940ea623a4ffc",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-vl-8b-instruct:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-vl-8b-instruct",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "36a130c7a69f31787f1c390dda10a9ef7c88371ffe860dfc2c084e38c108f549",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-coder-plus:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-coder-plus",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "4dc59db7d56cf7205d1697ad7cb139212bfbb2da592d07a662a9c0d8c0cb551b",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-30b-a3b-thinking-2507:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "61d32eca0c91b67328885711611eae535d5255386a64bde7b578415ea3a89a68",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "status_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:accounts/fireworks/models/deepseek-v4-flash-0731:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "accounts/fireworks/models/deepseek-v4-flash-0731",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "64315e5ba2eec96bcbcd04c661f968d7924d66403f8a76d385fbe2ffa5aa6cf9",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3.6-max-preview:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3.6-max-preview",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "69c25ee4b3ca85998dedb7bc763c90e1a13379fa1dab423a6274e61d9a7bb2c0",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen-plus-2025-07-28:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen-plus-2025-07-28",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "6fb6f3efdcb38b6ad94e720589e9a8f57fe687c3cc63f65d91304d66c3e53d96",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "status_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:accounts/fireworks/models/glm-5p2:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "accounts/fireworks/models/glm-5p2",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "79df37d6e9cae19bde87a51ab896187ca1d8f323c70e51aa9b5188ce8b90389a",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-235b-a22b:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-235b-a22b",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "7e1e5678443a028f9875fcb4c340510e1a7581f8852f7452bea9566b853ff002",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-vl-32b-instruct:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-vl-32b-instruct",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "9a335674cf0bd5d2cdfde213bfa04bc74135c6610d35fd8acbecd0cb27638f84",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-vl-30b-a3b-thinking:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "9cb9bf10f0e98aac8bd03fab24efbe7651b93a3ec4d6e4bc20ef53bb63f67792",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-235b-a22b-thinking-2507:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "a094dda78a32f5afcce461798bf3292322b2f88998234ef241d6ed7add7c9746",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-vl-8b-thinking:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-vl-8b-thinking",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "a9bb894e192e5723817e1dfce088da464fa7e760af2f7e852259670d366a6034",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "status_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:accounts/fireworks/models/kimi-k2p6:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "accounts/fireworks/models/kimi-k2p6",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "abf6610635f3e4e41dc758c1717ae96d7f91248ad6527bbbab38f496bc646c8d",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "status_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:accounts/fireworks/models/muse-glimmer-30b:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "accounts/fireworks/models/muse-glimmer-30b",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "b7bb12756f670a19386cf74ed66e1ad8b3c72afcf786a8dfba9fcbd5ad644bf3",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-8b:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-8b",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "d6f1e541d485cbf5213c84a9db68c05269eea55e5430af0becaf0366af924b11",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-asr-flash-2026-02-10:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-asr-flash-2026-02-10",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "dcc585ace74a220feafb4c8e0b73e1965ff7d3e7c6cab3d6eb8e32b26960c360",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "status_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:accounts/fireworks/models/deepseek-v4-flash-vision-exp:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "e42334c6dcafced95e220ccbb64a8815090fe23e510bea1ef88576b1406ceb7e",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-max-thinking:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-max-thinking",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "f359bb887afacf8fbd39424ea108b9acba98d2c8b6762759152e000de2254a7f",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:nex-agi/nex-n2.5-mini:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "nex-agi/nex-n2.5-mini:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-25",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "f8b98a25116b541fb0bd94746dcb87a474819a7fce5c8789b320db1374f671b6",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "status_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:accounts/fireworks/models/deepseek-v4-pro-0813:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "accounts/fireworks/models/deepseek-v4-pro-0813",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "fc9674c7bd10be2e3a276caae919fcc1ae6fe95971b54841065fd9c97512dd39",
+      "published_at": "2026-09-26T05:03:32.262Z",
+      "kind": "status_changed",
+      "identity": "fireworks-changelog:fireworks:fireworks_serverless:accounts/fireworks/models/kimi-k2p7-code:",
+      "source_id": "fireworks-changelog",
+      "provider": "fireworks",
+      "platform": "fireworks_serverless",
+      "model_id": "accounts/fireworks/models/kimi-k2p7-code",
       "changes": [
         {
           "field": "status",
