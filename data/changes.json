@@ -2,35 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "c8e23b505b197d29c5e3843632e87a2abf7d928b68957fc0b7fd20c549e97992",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:ada:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "ada",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "babbage-002"
-          ]
-        }
-      ]
-    },
-    {
       "id": "c916e4263431208b8b06ab7e719a41dfc298a75fce2f8ce348672b619016eb24",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -11004,6 +10975,28 @@
           "field": "status",
           "before": "deprecated",
           "after": "retired"
+        }
+      ]
+    },
+    {
+      "id": "dd07fd1d1d7ea3c0e2c1a0abedc9f8f6e3de923738347de9ffe20c24ef975003",
+      "published_at": "2026-09-28T05:28:31.409Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:deepseek/deepseek-v3.2:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "deepseek/deepseek-v3.2",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-09-28",
+          "after": null
         }
       ]
     }

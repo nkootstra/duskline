@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-26T05:03:32.262Z",
+  "last_published_at": "2026-09-28T05:28:31.409Z",
   "records": [
     {
       "provider": "anthropic",
@@ -634,8 +634,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "2365dca256e248429c94e12a3cb57f7c47fbacaac763650bc3a6fb9439277173"
+      "content_hash": "2365dca256e248429c94e12a3cb57f7c47fbacaac763650bc3a6fb9439277173",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -653,8 +653,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "56175e981a81dd8c0bbf443ffb5c969645a515eb6350c8a247d15a2798bd862e"
+      "content_hash": "56175e981a81dd8c0bbf443ffb5c969645a515eb6350c8a247d15a2798bd862e",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -672,8 +672,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "26e01b5337ccc8d5a57b186d95d85a187124fc447f87008125c11d6639095a89"
+      "content_hash": "26e01b5337ccc8d5a57b186d95d85a187124fc447f87008125c11d6639095a89",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -710,8 +710,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "bf6eae14335587a4485648a3ba06961943b383984a5c2351c16fa27d42b2beb4"
+      "content_hash": "bf6eae14335587a4485648a3ba06961943b383984a5c2351c16fa27d42b2beb4",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -770,8 +770,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "6854bca027006f013b7df0bb9963438c97fda03abcb5dcb913b0cd91b4793b92"
+      "content_hash": "6854bca027006f013b7df0bb9963438c97fda03abcb5dcb913b0cd91b4793b92",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -791,8 +791,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "611e41e036ea77d92dbd17632cdcc7312334319d48667434535c4e308e30f57c"
+      "content_hash": "611e41e036ea77d92dbd17632cdcc7312334319d48667434535c4e308e30f57c",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -829,8 +829,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#upcoming-serverless-deprecation-older-deepseek-glm-muse-and-kimi-models",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "a8569e456bd70abe2b6811b6738e8df4575b011ea9d18d8a46f5e180fe72490d"
+      "content_hash": "a8569e456bd70abe2b6811b6738e8df4575b011ea9d18d8a46f5e180fe72490d",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -3885,23 +3885,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "deepseek/deepseek-v3.2",
-      "canonical_model_id": "deepseek/deepseek-v3.2-20251201",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-09-28",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-09-20T04:57:29.273Z",
-      "content_hash": "c05735b7588422d57f51d3103f38fddd3fcaec26f3ad9526d49eb0491fb5f19d",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "google/gemini-2.5-flash-lite",
       "canonical_model_id": "google/gemini-2.5-flash-lite",
       "regions": [],
@@ -4014,8 +3997,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "6dd25190e3d9c1a7597e3b11983b1ca12c7adc1092543067eb501b514e85a13c"
+      "content_hash": "6dd25190e3d9c1a7597e3b11983b1ca12c7adc1092543067eb501b514e85a13c",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4031,8 +4014,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "608b4f4344296df40d8559a7de563e96ebdc95f0f19f67757c49f5cb07f05bad"
+      "content_hash": "608b4f4344296df40d8559a7de563e96ebdc95f0f19f67757c49f5cb07f05bad",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4048,8 +4031,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "b1c8b592bec457f740a365b225ce34af0be67b01a653f4c068a5a0fe5a5194fe"
+      "content_hash": "b1c8b592bec457f740a365b225ce34af0be67b01a653f4c068a5a0fe5a5194fe",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4065,8 +4048,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "ab39c83ce7bc4c0b8b4e496f14451cea34d9904d447a4ea3c12e33e4694447ab"
+      "content_hash": "ab39c83ce7bc4c0b8b4e496f14451cea34d9904d447a4ea3c12e33e4694447ab",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4082,8 +4065,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "98d0db9c3bb56b1874f2819ec6ce21de1c4387cf300048273b75c10334846c78"
+      "content_hash": "98d0db9c3bb56b1874f2819ec6ce21de1c4387cf300048273b75c10334846c78",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4099,8 +4082,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "d32dd364a433f25eb990a917ec7176d38c992c6e24438dda5e274b03a4168cd9"
+      "content_hash": "d32dd364a433f25eb990a917ec7176d38c992c6e24438dda5e274b03a4168cd9",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4116,8 +4099,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "8dbd384f4d823dc0a7288ccc8f8cf4a2df5a39db2a32b0a34d412c58c3ee4c66"
+      "content_hash": "8dbd384f4d823dc0a7288ccc8f8cf4a2df5a39db2a32b0a34d412c58c3ee4c66",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4133,8 +4116,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "b6d6a2e1d10a714550f73e56797ef5c252bf3f88d672675933556ca5f0f899ae"
+      "content_hash": "b6d6a2e1d10a714550f73e56797ef5c252bf3f88d672675933556ca5f0f899ae",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4150,8 +4133,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "a55177b10126f3ea5911ad7dd7fcbbb847f112825a977695b567ea57209d0cb3"
+      "content_hash": "a55177b10126f3ea5911ad7dd7fcbbb847f112825a977695b567ea57209d0cb3",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4167,8 +4150,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "8ee14542154b60daf0b0de3dc18a36ccba956ad43e9ffbbdb2eaccf856039f88"
+      "content_hash": "8ee14542154b60daf0b0de3dc18a36ccba956ad43e9ffbbdb2eaccf856039f88",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4184,8 +4167,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "63c1d499a1fc267de14fd1ffaf399d70b0362548dcfdf792b1fe68cbdb87abbd"
+      "content_hash": "63c1d499a1fc267de14fd1ffaf399d70b0362548dcfdf792b1fe68cbdb87abbd",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4201,8 +4184,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "01a7e28b1364dc2ee2a9454373a2f18b69373126fa901996d8f1661fa116233a"
+      "content_hash": "01a7e28b1364dc2ee2a9454373a2f18b69373126fa901996d8f1661fa116233a",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4218,8 +4201,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "b3ec39970ede25c4da2b55a9e23263124a1f066f98c8c5e87fd5524167f94a71"
+      "content_hash": "b3ec39970ede25c4da2b55a9e23263124a1f066f98c8c5e87fd5524167f94a71",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4235,8 +4218,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "d40b26a58e33dfbbf040ae4e02118764c1c1267a0f4dee065a76b26c6464ae98"
+      "content_hash": "d40b26a58e33dfbbf040ae4e02118764c1c1267a0f4dee065a76b26c6464ae98",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4252,8 +4235,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-26T05:03:32.262Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "76e0d14b6fbd24bd72118857bdd1658030167493bda5faa2e4ccb8c21e5ad68b"
+      "content_hash": "76e0d14b6fbd24bd72118857bdd1658030167493bda5faa2e4ccb8c21e5ad68b",
+      "raw_status": "expiration scheduled"
     }
   ],
   "source_status": [
@@ -4292,9 +4275,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 30,
-      "content_hash": "906e0bf52893686831289b6eb31ecc9cc93efe73b2df9c13daa172c903c2a26b",
-      "last_successful_observation_at": "2026-09-26T05:03:32.262Z",
+      "record_count": 29,
+      "content_hash": "3e0980fcdbfd68349354a68ba478618aa05ccb5f10aee666122659124ad0611f",
+      "last_successful_observation_at": "2026-09-28T05:28:31.409Z",
       "error_code": null
     }
   ]
