@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-28T05:28:31.409Z",
+  "last_published_at": "2026-09-29T05:47:41.361Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
       "provider": "anthropic",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 34,
-      "content_hash": "06b2df0870d8232b07737639878bf1dc823f63ec22d7a81e2cec373cfd68b16f",
-      "last_successful_observation_at": "2026-09-23T04:48:59.565Z",
+      "record_count": 35,
+      "content_hash": "25254214d16e0d8ed9bfc8bde4e3670b135bbe20b689659824ca684963d007fe",
+      "last_successful_observation_at": "2026-09-29T05:47:41.361Z",
       "error_code": null
     },
     {
@@ -18,8 +18,8 @@
       "platform": "fireworks_serverless",
       "status": "healthy",
       "record_count": 22,
-      "content_hash": "d3e6f42a7df4e3824853eaa4d19ae16dddecf86581abb08e217f8561c0dd279a",
-      "last_successful_observation_at": "2026-09-26T05:03:32.262Z",
+      "content_hash": "2847e3f1f8d6a900b73bd459793a7b9d4e988dfc255c75f03f837bdf52054e05",
+      "last_successful_observation_at": "2026-09-29T05:47:41.361Z",
       "error_code": null
     },
     {
@@ -28,8 +28,8 @@
       "platform": "direct",
       "status": "healthy",
       "record_count": 142,
-      "content_hash": "1ad388d705fd1985c4c4de1f44ef7c2a85febd92d39e86deca9db2f708963142",
-      "last_successful_observation_at": "2026-09-25T05:01:20.093Z",
+      "content_hash": "e1f009c2f3c13cc88b8a5befacf9197585ee8a96e8c1c8aa631cd3a1182d190b",
+      "last_successful_observation_at": "2026-09-29T05:47:41.361Z",
       "error_code": null
     },
     {
@@ -37,9 +37,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 29,
-      "content_hash": "3e0980fcdbfd68349354a68ba478618aa05ccb5f10aee666122659124ad0611f",
-      "last_successful_observation_at": "2026-09-28T05:28:31.409Z",
+      "record_count": 27,
+      "content_hash": "0491b9d289a0f99a74502d8551c47e114570cef9ccd1647abbc0394d4e8e883e",
+      "last_successful_observation_at": "2026-09-29T05:47:41.361Z",
       "error_code": null
     }
   ]
