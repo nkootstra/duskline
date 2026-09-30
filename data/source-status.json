@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-29T05:47:41.361Z",
+  "last_published_at": "2026-09-30T05:37:03.631Z",
   "sources": [
     {
       "source_id": "anthropic-lifecycle",
@@ -8,8 +8,8 @@
       "platform": "direct",
       "status": "healthy",
       "record_count": 35,
-      "content_hash": "25254214d16e0d8ed9bfc8bde4e3670b135bbe20b689659824ca684963d007fe",
-      "last_successful_observation_at": "2026-09-29T05:47:41.361Z",
+      "content_hash": "766c0873e4bdd7e6b9b3bdce31e716cde92ce1bae82feb4771937991d10cc289",
+      "last_successful_observation_at": "2026-09-30T05:37:03.631Z",
       "error_code": null
     },
     {
@@ -26,11 +26,11 @@
       "source_id": "openai-lifecycle",
       "provider": "openai",
       "platform": "direct",
-      "status": "healthy",
+      "status": "stale",
       "record_count": 142,
       "content_hash": "e1f009c2f3c13cc88b8a5befacf9197585ee8a96e8c1c8aa631cd3a1182d190b",
       "last_successful_observation_at": "2026-09-29T05:47:41.361Z",
-      "error_code": null
+      "error_code": "invalid_source_result"
     },
     {
       "source_id": "openrouter-models",

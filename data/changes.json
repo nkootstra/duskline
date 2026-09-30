@@ -2,37 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "e0ec8d8cba2fad15eac7b69f3602b7cd860a563fa83be678b72e05a3ac07dee8",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:dall-e-2:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "dall-e-2",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-05-12"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-image-1",
-            "gpt-image-2",
-            "or gpt-image-1-mini"
-          ]
-        }
-      ]
-    },
-    {
       "id": "e38e3d86f350643e6db0375b94c04a70c31bc46de9db1f3867220cc3debb7a2f",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -10909,6 +10878,23 @@
             "gpt-image-2.5-flare",
             "gpt-image-2.5-sunburst"
           ]
+        }
+      ]
+    },
+    {
+      "id": "5cd471eaa6932879a52970cc079865ec35088aad40c8b4df5596e4f8a7351a1c",
+      "published_at": "2026-09-30T05:37:03.631Z",
+      "kind": "status_changed",
+      "identity": "anthropic-lifecycle:anthropic:direct:claude-sonnet-4-5-20250929:",
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "model_id": "claude-sonnet-4-5-20250929",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
         }
       ]
     }

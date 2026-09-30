@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-09-29T05:47:41.361Z",
+  "last_published_at": "2026-09-30T05:37:03.631Z",
   "records": [
     {
       "provider": "anthropic",
@@ -574,15 +574,15 @@
       "model_id": "claude-sonnet-4-5-20250929",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": null,
       "deprecation_date": null,
       "shutdown_date": "2026-09-29",
       "replacement_models": [],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
-      "observed_at": "2026-07-24T10:58:44.472Z",
-      "content_hash": "82817360dc1c5a2f85e6bb043c6567efc7bf758aed7ff81496c4def5bccac781",
-      "raw_status": null
+      "observed_at": "2026-09-30T05:37:03.631Z",
+      "raw_status": null,
+      "content_hash": "2b882154e2107f144ac0acf5e4995bd6a0ca213fa3fbc69ce1ff72d00fc07a0a"
     },
     {
       "provider": "anthropic",
@@ -615,8 +615,8 @@
       "replacement_models": [],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": null,
-      "content_hash": "a39c0524b5cdfc8d5a827d0d3d2a3c6ebd5e92f855b68ed3be4372ae3cc32087"
+      "content_hash": "a39c0524b5cdfc8d5a827d0d3d2a3c6ebd5e92f855b68ed3be4372ae3cc32087",
+      "raw_status": null
     },
     {
       "provider": "anthropic",
@@ -651,8 +651,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-deepseek-v4-pro-0813-deepseek-v4-flash-0731-and-related-models",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "c8c6a72dee3e85dee922e5279119e26b42afb1abaef68404c55c1c6682f51377"
+      "content_hash": "c8c6a72dee3e85dee922e5279119e26b42afb1abaef68404c55c1c6682f51377",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -670,8 +670,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-deepseek-v4-pro-0813-deepseek-v4-flash-0731-and-related-models",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "d19648ded329cb7f57978a0828fb3671106fb27838de14ced11655add481ec37"
+      "content_hash": "d19648ded329cb7f57978a0828fb3671106fb27838de14ced11655add481ec37",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -689,8 +689,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-deepseek-v4-pro-0813-deepseek-v4-flash-0731-and-related-models",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "1cabcad01882e27a696c145a9e98170be3705d95292a8ad410d5dc2a278f9110"
+      "content_hash": "1cabcad01882e27a696c145a9e98170be3705d95292a8ad410d5dc2a278f9110",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -727,8 +727,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-deepseek-v4-pro-0813-deepseek-v4-flash-0731-and-related-models",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "23809f67f7f453ca1a4932c249bf7368a8915409f6a2b17ee85968da89561e94"
+      "content_hash": "23809f67f7f453ca1a4932c249bf7368a8915409f6a2b17ee85968da89561e94",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -787,8 +787,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-deepseek-v4-pro-0813-deepseek-v4-flash-0731-and-related-models",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "069b23981fec2f1dfe5969ed5cdb32d4bbbd7febd73f115926c5e2d69329dfc7"
+      "content_hash": "069b23981fec2f1dfe5969ed5cdb32d4bbbd7febd73f115926c5e2d69329dfc7",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -808,8 +808,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-deepseek-v4-pro-0813-deepseek-v4-flash-0731-and-related-models",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro",
-      "content_hash": "fe851092fe5c6a091b50b9fd5e3ba271e6b41d7eceb8ba7a580885782e63d522"
+      "content_hash": "fe851092fe5c6a091b50b9fd5e3ba271e6b41d7eceb8ba7a580885782e63d522",
+      "raw_status": "Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro"
     },
     {
       "provider": "fireworks",
@@ -846,8 +846,8 @@
       ],
       "source_url": "https://docs.fireworks.ai/updates/changelog#serverless-deprecation-deepseek-v4-pro-0813-deepseek-v4-flash-0731-and-related-models",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models",
-      "content_hash": "4a5ab1abecb2a2b347e1983843ab9d41c48f6bef2324dda6f13e55497a411f6a"
+      "content_hash": "4a5ab1abecb2a2b347e1983843ab9d41c48f6bef2324dda6f13e55497a411f6a",
+      "raw_status": "Upcoming Serverless deprecation: older DeepSeek, GLM, Muse, and Kimi models"
     },
     {
       "provider": "fireworks",
@@ -1095,8 +1095,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": null,
-      "content_hash": "0e828c9b11261e930eadc7350301fc87365e46d50f9e0eb0a7eea1b1f97c79eb"
+      "content_hash": "0e828c9b11261e930eadc7350301fc87365e46d50f9e0eb0a7eea1b1f97c79eb",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1153,8 +1153,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": null,
-      "content_hash": "58a7c3df55e28b1e8941114122b102fcf91500b645e59c0ddb4fa62247f73f9f"
+      "content_hash": "58a7c3df55e28b1e8941114122b102fcf91500b645e59c0ddb4fa62247f73f9f",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1461,8 +1461,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": null,
-      "content_hash": "49b1ac1c907786571efd9af0f3a236ec9d4ac3003543b8a4817bb4269e933b03"
+      "content_hash": "49b1ac1c907786571efd9af0f3a236ec9d4ac3003543b8a4817bb4269e933b03",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1672,8 +1672,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": null,
-      "content_hash": "18998a9b4e6f273501a8d68a10dcfabb20601080146858c089c90b1bd93af104"
+      "content_hash": "18998a9b4e6f273501a8d68a10dcfabb20601080146858c089c90b1bd93af104",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -1729,8 +1729,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": null,
-      "content_hash": "48fab5a3d73497ca34c316bc66c64982ff583fe820704863118fb6e17a3ba9fc"
+      "content_hash": "48fab5a3d73497ca34c316bc66c64982ff583fe820704863118fb6e17a3ba9fc",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -2839,8 +2839,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": null,
-      "content_hash": "b85ed8840d816d1565aab931d00f13c4667efabb471da5b1a409a5ecd80e0386"
+      "content_hash": "b85ed8840d816d1565aab931d00f13c4667efabb471da5b1a409a5ecd80e0386",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -2859,8 +2859,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": null,
-      "content_hash": "eedede88967c2b409566b761e52533b71776d41e9559c6b91a492dd5ff2631f6"
+      "content_hash": "eedede88967c2b409566b761e52533b71776d41e9559c6b91a492dd5ff2631f6",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -2879,8 +2879,8 @@
       ],
       "source_url": "https://developers.openai.com/api/docs/deprecations",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": null,
-      "content_hash": "500c45bdda473462874c18537e1742a91d26392f767d69770c817744b15013b5"
+      "content_hash": "500c45bdda473462874c18537e1742a91d26392f767d69770c817744b15013b5",
+      "raw_status": null
     },
     {
       "provider": "openai",
@@ -4035,8 +4035,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-09-29T05:47:41.361Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "4172e2b9491ef5a2f54e43b9a73e4a75458d545eeb3a771d86b90345c0a4202f"
+      "content_hash": "4172e2b9491ef5a2f54e43b9a73e4a75458d545eeb3a771d86b90345c0a4202f",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4233,8 +4233,8 @@
       "platform": "direct",
       "status": "healthy",
       "record_count": 35,
-      "content_hash": "25254214d16e0d8ed9bfc8bde4e3670b135bbe20b689659824ca684963d007fe",
-      "last_successful_observation_at": "2026-09-29T05:47:41.361Z",
+      "content_hash": "766c0873e4bdd7e6b9b3bdce31e716cde92ce1bae82feb4771937991d10cc289",
+      "last_successful_observation_at": "2026-09-30T05:37:03.631Z",
       "error_code": null
     },
     {
@@ -4251,11 +4251,11 @@
       "source_id": "openai-lifecycle",
       "provider": "openai",
       "platform": "direct",
-      "status": "healthy",
+      "status": "stale",
       "record_count": 142,
       "content_hash": "e1f009c2f3c13cc88b8a5befacf9197585ee8a96e8c1c8aa631cd3a1182d190b",
       "last_successful_observation_at": "2026-09-29T05:47:41.361Z",
-      "error_code": null
+      "error_code": "invalid_source_result"
     },
     {
       "source_id": "openrouter-models",
