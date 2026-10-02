@@ -2,91 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "e54ba122991b61ad36f3a382edf40bfb3a470e04cdd54c9f64fe903cbfd67355",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4-1106-preview:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4-1106-preview",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5 or gpt-4.1*"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "e630e3a6ec91f7ee3b34794c64416164d82af095482cbc1b38467d4a66f8617d",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "bedrock-lifecycle:aws_bedrock:bedrock:amazon.nova-premier-v1:0:us-east-1,us-east-2,us-west-2",
-      "source_id": "bedrock-lifecycle",
-      "provider": "aws_bedrock",
-      "platform": "bedrock",
-      "model_id": "amazon.nova-premier-v1:0",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "legacy"
-        },
-        {
-          "field": "deprecation_date",
-          "before": null,
-          "after": "2026-03-13"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-09-14"
-        }
-      ]
-    },
-    {
-      "id": "e7c05b7a2026d9444473224ca142e4e82a98de09b4cd00fd8baa2265f2e9e46a",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4o-mini-transcribe-2025-03-20:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4o-mini-transcribe-2025-03-20",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2027-01-20"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4o-mini-transcribe-2025-12-15"
-          ]
-        }
-      ]
-    },
-    {
       "id": "e8176cb9e9b0ba664f1fdaec2bb9217b7c8ba231add80af37442a46354b2a042",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -10895,6 +10810,72 @@
           "after": [
             "claude-sonnet-5-5"
           ]
+        }
+      ]
+    },
+    {
+      "id": "4ad24adb02a0cc3219cccde18da9cfc7f8b7f0d376c9353473955428f1f35f6a",
+      "published_at": "2026-10-02T05:43:07.008Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-4.7:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-4.7",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "id": "8126f7094370af41f6b2f6ed8b6d76c9a863f5dfe2672f26ad1e1f0b008ad0dc",
+      "published_at": "2026-10-02T05:43:07.008Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:z-ai/glm-4.5:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "z-ai/glm-4.5",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "id": "8af83b86ba05dad73a1ec46fb83735dbc304777fcdc71679c28fc03a0aa1dcfa",
+      "published_at": "2026-10-02T05:43:07.008Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:dots-studio/dots-3-note-preview:free:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "dots-studio/dots-3-note-preview:free",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-12-31"
         }
       ]
     }
