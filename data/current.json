@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-10-03T05:22:36.632Z",
+  "last_published_at": "2026-10-05T05:46:25.143Z",
   "records": [
     {
       "provider": "anthropic",
@@ -3959,23 +3959,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "minimax/minimax-m2.1",
-      "canonical_model_id": "minimax/minimax-m2.1",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-10-08",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-09-20T04:57:29.273Z",
-      "content_hash": "2894ff49911037d7ce0c9c881a85c731efe138187cee380ad909d9423e3231ab",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "poolside/laguna-s-2.1",
       "canonical_model_id": "poolside/laguna-s-2.1-20260720",
       "regions": [],
@@ -3986,8 +3969,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-10-03T05:22:36.632Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "ef23ab5622ca28c42d3ab6b45506c3afeae63301a00de884c39b96848decae40"
+      "content_hash": "ef23ab5622ca28c42d3ab6b45506c3afeae63301a00de884c39b96848decae40",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4003,8 +3986,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-10-03T05:22:36.632Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "ef52a9e2f5f9e9cabbc338b5f4fde9ca64f44d57685847c23b76012efda4bb47"
+      "content_hash": "ef52a9e2f5f9e9cabbc338b5f4fde9ca64f44d57685847c23b76012efda4bb47",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4020,8 +4003,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-10-03T05:22:36.632Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "fdd635843f973de65bf91c345985052f3ca9e96d26926f6928b1b85611e4f40d"
+      "content_hash": "fdd635843f973de65bf91c345985052f3ca9e96d26926f6928b1b85611e4f40d",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4037,8 +4020,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-10-03T05:22:36.632Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "faf09f450d3b7caa99489d30d65398461979c386fff7c38ee142f66e2b5b872c"
+      "content_hash": "faf09f450d3b7caa99489d30d65398461979c386fff7c38ee142f66e2b5b872c",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4207,8 +4190,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-10-03T05:22:36.632Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "a4c2962f7fd00f7bbbda75c8e40314af38fce1abeb52a9688590c18182d311c4"
+      "content_hash": "a4c2962f7fd00f7bbbda75c8e40314af38fce1abeb52a9688590c18182d311c4",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4400,9 +4383,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 35,
-      "content_hash": "c8afaf642074402e8f5f8b1d5fb7b935050fd4050e1658a25b68cd74f89a0f79",
-      "last_successful_observation_at": "2026-10-03T05:22:36.632Z",
+      "record_count": 34,
+      "content_hash": "8dde1b48c3158ee9e0e9e98b6db239a510ea4ec69a4dda9c47652b11e00f00a9",
+      "last_successful_observation_at": "2026-10-05T05:46:25.143Z",
       "error_code": null
     }
   ]

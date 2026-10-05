@@ -2,35 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "ededd0d023b4a6f6d6dee86b7a389bbff27b9384e443e9fe1da9b5d44669bd48",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4-32k-0613:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4-32k-0613",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2025-06-06"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4o"
-          ]
-        }
-      ]
-    },
-    {
       "id": "ee3da11ebf0e5c758f94e284056558bbd9bba97236af521103406fd5c88850ec",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -10843,6 +10814,28 @@
           "field": "shutdown_date",
           "before": null,
           "after": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "d21cc469fa5977c02bd2aa19507b4f7007ad6ed6d849dd3ce2b7d3e310f805cc",
+      "published_at": "2026-10-05T05:46:25.143Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:minimax/minimax-m2.1:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "minimax/minimax-m2.1",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-10-08",
+          "after": null
         }
       ]
     }
