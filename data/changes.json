@@ -2,28 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "ee3da11ebf0e5c758f94e284056558bbd9bba97236af521103406fd5c88850ec",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-haiku-4-5-20251001:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-haiku-4-5-20251001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-15"
-        }
-      ]
-    },
-    {
       "id": "efd3005f1aa4f8115e21e55c06d8c197d142dab54e0f1200e90c55ed0a2ac170",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -10835,6 +10813,28 @@
         {
           "field": "shutdown_date",
           "before": "2026-10-08",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "c9165b710c7b9a10b020db6cc321801210e06287ad9d28b8abb330a7a5c322f4",
+      "published_at": "2026-10-06T06:25:56.569Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:stealth/space-bunny-alpha:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "stealth/space-bunny-alpha",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-10-05",
           "after": null
         }
       ]
