@@ -2,86 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "efd3005f1aa4f8115e21e55c06d8c197d142dab54e0f1200e90c55ed0a2ac170",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:ft-gpt-3.5-turbo:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "ft-gpt-3.5-turbo",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-5.4-mini"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "f02d55baa3468089205f2227cf4c07e741a18972f4d08a6cafe058c31d8c2f5e",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openrouter-models:openrouter:openrouter:openai/gpt-5.3-chat:",
-      "source_id": "openrouter-models",
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "model_id": "openai/gpt-5.3-chat",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-08-10"
-        }
-      ]
-    },
-    {
-      "id": "f078719c6d2d77ae5ce2524bdd328e499451bc1f120c3055b08ef8a8737dac55",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:/v1/fine-tunes:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "/v1/fine-tunes",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "/v1/fine_tuning/jobs"
-          ]
-        }
-      ]
-    },
-    {
       "id": "f1608d4ae28ff2e1803284be5bd4dd5ebcde9b078b7abb959502957f764019a6",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -10836,6 +10756,72 @@
           "field": "shutdown_date",
           "before": "2026-10-05",
           "after": null
+        }
+      ]
+    },
+    {
+      "id": "5ce7dc5424071c203ccf7ee94b415e53abd5d807c94591922c303b1207971c7e",
+      "published_at": "2026-10-08T06:10:10.510Z",
+      "kind": "added",
+      "identity": "anthropic-lifecycle:anthropic:direct:claude-haiku-5-5:",
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "model_id": "claude-haiku-5-5",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2027-10-07"
+        }
+      ]
+    },
+    {
+      "id": "84ed80d4443602c595ebf7f90d74f2c2e9ee6a071340bc45e14a5daf3b88b5df",
+      "published_at": "2026-10-08T06:10:10.510Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3.5-9b:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3.5-9b",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "ed96cf515b7411fd7bf7d9d1102f99329eefac09cd4a7f9862a0fb6b41ef8081",
+      "published_at": "2026-10-08T06:10:10.510Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-next-80b-a3b-instruct:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-08"
         }
       ]
     }

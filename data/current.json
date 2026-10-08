@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-10-06T06:25:56.569Z",
+  "last_published_at": "2026-10-08T06:10:10.510Z",
   "records": [
     {
       "provider": "anthropic",
@@ -299,6 +299,23 @@
       "observed_at": "2026-07-24T10:58:44.472Z",
       "content_hash": "63ac8142372a71e5488d5f575c2286ecfea33c0306ef335be015f4b75bcd12d2",
       "raw_status": null
+    },
+    {
+      "provider": "anthropic",
+      "platform": "direct",
+      "source_id": "anthropic-lifecycle",
+      "model_id": "claude-haiku-5-5",
+      "canonical_model_id": null,
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2027-10-07",
+      "replacement_models": [],
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "observed_at": "2026-10-08T06:10:10.510Z",
+      "raw_status": null,
+      "content_hash": "59673f2e6be30fcc26df710f3006f75f85ccb4d1ee7f99f41cee8b91332ec5b3"
     },
     {
       "provider": "anthropic",
@@ -4180,6 +4197,23 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "canonical_model_id": "qwen/qwen3-next-80b-a3b-instruct-2509",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-08",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-10-08T06:10:10.510Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "68e21b5dec20d899616db5ca1216685c9c72abe6a3ac23fed4d5553e1d351b74"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "qwen/qwen3-next-80b-a3b-thinking",
       "canonical_model_id": "qwen/qwen3-next-80b-a3b-thinking-2509",
       "regions": [],
@@ -4282,6 +4316,23 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "qwen/qwen3.5-9b",
+      "canonical_model_id": "qwen/qwen3.5-9b-20260310",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-21",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-10-08T06:10:10.510Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "e75cdc3e7f3fa62f983f24d7b3fce6f18c946876fcf954fbdaacd3b00f383208"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "qwen/qwen3.6-max-preview",
       "canonical_model_id": "qwen/qwen3.6-max-preview-20260420",
       "regions": [],
@@ -4336,9 +4387,9 @@
       "provider": "anthropic",
       "platform": "direct",
       "status": "healthy",
-      "record_count": 35,
-      "content_hash": "51dd4ba3a7c2eb82d68ea4ea4bc94f3c4e4fa0521294ff2cd7f3d7f374b33065",
-      "last_successful_observation_at": "2026-10-01T06:00:34.499Z",
+      "record_count": 36,
+      "content_hash": "050b062bfcfceebdc8544e0ffe8c748d3c1458c767375f8c6f0bd76cd8ba52aa",
+      "last_successful_observation_at": "2026-10-08T06:10:10.510Z",
       "error_code": null
     },
     {
@@ -4366,9 +4417,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 33,
-      "content_hash": "822c733ec0c6016dccd09817db0007b4f4e6ee5c24a8faef7a3020b3ef01f0bf",
-      "last_successful_observation_at": "2026-10-06T06:25:56.569Z",
+      "record_count": 35,
+      "content_hash": "cf9e09bbd8fa984d4e6b44762da9efe88377525920ef2562fee7ccc273d1b5b0",
+      "last_successful_observation_at": "2026-10-08T06:10:10.510Z",
       "error_code": null
     }
   ]
