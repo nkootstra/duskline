@@ -2,57 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "f1608d4ae28ff2e1803284be5bd4dd5ebcde9b078b7abb959502957f764019a6",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:text-ada-001:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "text-ada-001",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2024-01-04"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-3.5-turbo-instruct"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "f3ea7b2fa8173b7e24e051f4d622a0ef09a2e322cc8edf4ae94bdf248a7a0fb2",
-      "published_at": "2026-07-24T08:25:20.827Z",
-      "kind": "added",
-      "identity": "anthropic-lifecycle:anthropic:direct:claude-fable-5:",
-      "source_id": "anthropic-lifecycle",
-      "provider": "anthropic",
-      "platform": "direct",
-      "model_id": "claude-fable-5",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "retired"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2027-06-09"
-        }
-      ]
-    },
-    {
       "id": "f3fcded287e540783347c0927b12de9856369f151ecb0ab37f0cde4e35a017b7",
       "published_at": "2026-07-24T08:25:20.827Z",
       "kind": "added",
@@ -10822,6 +10771,50 @@
           "field": "shutdown_date",
           "before": null,
           "after": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "1ab5b95c01b9b63ca6da4cac1d8acab4a8dd3a55bc7276ff3ddd6c9aea35959c",
+      "published_at": "2026-10-09T06:13:56.606Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:baidu/ernie-4.5-vl-424b-a47b:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "baidu/ernie-4.5-vl-424b-a47b",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-10-08",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "45fd840c76b506a92f4e8c100d8c3a6dd9535d46418abb8fbc7a4bc52d17ab75",
+      "published_at": "2026-10-09T06:13:56.606Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:qwen/qwen3-next-80b-a3b-instruct:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-10-08",
+          "after": null
         }
       ]
     }
