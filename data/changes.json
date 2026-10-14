@@ -2,28 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "dcfb086c377f9dab1ab290c3abef8380a6b076fee5fddc3f10b94a70e45f3a5d",
-      "published_at": "2026-07-24T08:30:45.602Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:o3-mini-2025-01-31:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "o3-mini-2025-01-31",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        }
-      ]
-    },
-    {
       "id": "debc75b641f2477221843bcedc3cb1f5676ea248cb21004daf51d5f7152c9982",
       "published_at": "2026-07-24T08:30:45.602Z",
       "kind": "added",
@@ -10770,6 +10748,28 @@
           "field": "shutdown_date",
           "before": "2026-10-09",
           "after": null
+        }
+      ]
+    },
+    {
+      "id": "ea24665683a9ffa629f04779e29217c8bec98cc26700c9991a1578a4353de40b",
+      "published_at": "2026-10-14T04:58:21.853Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:unbiased/pareto-26.10-preview:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "unbiased/pareto-26.10-preview",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-15"
         }
       ]
     }

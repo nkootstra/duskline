@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-10-10T05:57:06.460Z",
+  "last_published_at": "2026-10-14T04:58:21.853Z",
   "records": [
     {
       "provider": "anthropic",
@@ -151,8 +151,8 @@
       ],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
       "observed_at": "2026-10-10T05:57:06.460Z",
-      "raw_status": null,
-      "content_hash": "b3045c687b39bea3f6d03081fb37d8141ebbf55febaf69eea1f48ea36980032a"
+      "content_hash": "b3045c687b39bea3f6d03081fb37d8141ebbf55febaf69eea1f48ea36980032a",
+      "raw_status": null
     },
     {
       "provider": "anthropic",
@@ -170,8 +170,8 @@
       ],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
       "observed_at": "2026-10-10T05:57:06.460Z",
-      "raw_status": null,
-      "content_hash": "f31f4f3b67dc1dbf0da1f97f64a377fc864e7afd0ef12474389093f39ae50af0"
+      "content_hash": "f31f4f3b67dc1dbf0da1f97f64a377fc864e7afd0ef12474389093f39ae50af0",
+      "raw_status": null
     },
     {
       "provider": "anthropic",
@@ -189,8 +189,8 @@
       ],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
       "observed_at": "2026-10-10T05:57:06.460Z",
-      "raw_status": null,
-      "content_hash": "9fc17403a0f981d063d4550a2794e3accde2ca0a8119703b4014580f59e65fce"
+      "content_hash": "9fc17403a0f981d063d4550a2794e3accde2ca0a8119703b4014580f59e65fce",
+      "raw_status": null
     },
     {
       "provider": "anthropic",
@@ -246,8 +246,8 @@
       ],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
       "observed_at": "2026-10-10T05:57:06.460Z",
-      "raw_status": null,
-      "content_hash": "1f84e28d99c15942929dbc9dc397a61fb6ca6af598412a1c8a9cdf5234650e11"
+      "content_hash": "1f84e28d99c15942929dbc9dc397a61fb6ca6af598412a1c8a9cdf5234650e11",
+      "raw_status": null
     },
     {
       "provider": "anthropic",
@@ -581,8 +581,8 @@
       ],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
       "observed_at": "2026-10-10T05:57:06.460Z",
-      "raw_status": null,
-      "content_hash": "a0c03df0a600cc4d27221a70efa6e2856d075a192ab502038b31681eb7ff3e39"
+      "content_hash": "a0c03df0a600cc4d27221a70efa6e2856d075a192ab502038b31681eb7ff3e39",
+      "raw_status": null
     },
     {
       "provider": "anthropic",
@@ -4044,6 +4044,23 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
+      "model_id": "unbiased/pareto-26.10-preview",
+      "canonical_model_id": "unbiased/pareto-26.10-preview-20260929",
+      "regions": [],
+      "status": "deprecated",
+      "announcement_date": null,
+      "deprecation_date": null,
+      "shutdown_date": "2026-10-15",
+      "replacement_models": [],
+      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
+      "observed_at": "2026-10-14T04:58:21.853Z",
+      "raw_status": "expiration scheduled",
+      "content_hash": "46f417fc69153904d319c57b3e672ea0c8b6fbe41938feb397c0083ae22cb6f8"
+    },
+    {
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "source_id": "openrouter-models",
       "model_id": "xiaomi/mimo-v2.5-pro",
       "canonical_model_id": "xiaomi/mimo-v2.5-pro-20260422",
       "regions": [],
@@ -4054,8 +4071,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-10-10T05:57:06.460Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "e116bfc32545720b1fcd5b682bcaa1d4913d731d2d15e801800b5b0c307a40d7"
+      "content_hash": "e116bfc32545720b1fcd5b682bcaa1d4913d731d2d15e801800b5b0c307a40d7",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4071,8 +4088,8 @@
       "replacement_models": [],
       "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
       "observed_at": "2026-10-10T05:57:06.460Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "c128d0f641e8a43c881fd906b8549e5a45be759c15e0469f80e8f377d133f183"
+      "content_hash": "c128d0f641e8a43c881fd906b8549e5a45be759c15e0469f80e8f377d133f183",
+      "raw_status": "expiration scheduled"
     },
     {
       "provider": "openrouter",
@@ -4145,9 +4162,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 19,
-      "content_hash": "7b8a01b667349f907e83020752aacb46b1d26a7729a572b807c3a120a378d88d",
-      "last_successful_observation_at": "2026-10-10T05:57:06.460Z",
+      "record_count": 20,
+      "content_hash": "84cf8fca9b5c0d91a2561fb311d0b9b3ea4e59ffc343e89fbb2c564631c015c6",
+      "last_successful_observation_at": "2026-10-14T04:58:21.853Z",
       "error_code": null
     }
   ]
