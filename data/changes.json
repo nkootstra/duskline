@@ -2,28 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "debc75b641f2477221843bcedc3cb1f5676ea248cb21004daf51d5f7152c9982",
-      "published_at": "2026-07-24T08:30:45.602Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4.1-nano:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4.1-nano",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        }
-      ]
-    },
-    {
       "id": "e1976ec58d4e50026ca134307739101dc1d28a773b632e85d677a16c64fd5ec5",
       "published_at": "2026-07-24T08:30:45.602Z",
       "kind": "added",
@@ -10760,6 +10738,28 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "model_id": "unbiased/pareto-26.10-preview",
+      "changes": [
+        {
+          "field": "status",
+          "before": null,
+          "after": "deprecated"
+        },
+        {
+          "field": "shutdown_date",
+          "before": null,
+          "after": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "7237e8e625e9a0e27f809ca1c174f33c0ddaf52b3b2b56a4137c574a1f47d1ff",
+      "published_at": "2026-10-15T04:44:50.981Z",
+      "kind": "added",
+      "identity": "openrouter-models:openrouter:openrouter:anthropic/claude-sonnet-4:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "anthropic/claude-sonnet-4",
       "changes": [
         {
           "field": "status",
