@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_published_at": "2026-10-15T04:44:50.981Z",
+  "last_published_at": "2026-10-16T04:36:23.356Z",
   "records": [
     {
       "provider": "anthropic",
@@ -290,15 +290,15 @@
       "model_id": "claude-haiku-4-5-20251001",
       "canonical_model_id": null,
       "regions": [],
-      "status": "deprecated",
+      "status": "retired",
       "announcement_date": null,
       "deprecation_date": null,
       "shutdown_date": "2026-10-15",
       "replacement_models": [],
       "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
-      "observed_at": "2026-07-24T10:58:44.472Z",
-      "content_hash": "63ac8142372a71e5488d5f575c2286ecfea33c0306ef335be015f4b75bcd12d2",
-      "raw_status": null
+      "observed_at": "2026-10-16T04:36:23.356Z",
+      "raw_status": null,
+      "content_hash": "3dc273b2eba425d5ac1e106c91ca857c009d8655d22a6b9ae5633a5a1832a054"
     },
     {
       "provider": "anthropic",
@@ -3789,23 +3789,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "anthropic/claude-sonnet-4",
-      "canonical_model_id": "anthropic/claude-4-sonnet-20250522",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-10-15",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-10-15T04:44:50.981Z",
-      "raw_status": "expiration scheduled",
-      "content_hash": "0c297f5338f15e91312857ae77355cb0074743721fe1f1dfb6a40b37f5e574cc"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "bytedance-seed/seed-1.6-flash",
       "canonical_model_id": "bytedance-seed/seed-1.6-flash-20250625",
       "regions": [],
@@ -4061,23 +4044,6 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "source_id": "openrouter-models",
-      "model_id": "unbiased/pareto-26.10-preview",
-      "canonical_model_id": "unbiased/pareto-26.10-preview-20260929",
-      "regions": [],
-      "status": "deprecated",
-      "announcement_date": null,
-      "deprecation_date": null,
-      "shutdown_date": "2026-10-15",
-      "replacement_models": [],
-      "source_url": "https://openrouter.ai/api/v1/models?output_modalities=all",
-      "observed_at": "2026-10-14T04:58:21.853Z",
-      "content_hash": "46f417fc69153904d319c57b3e672ea0c8b6fbe41938feb397c0083ae22cb6f8",
-      "raw_status": "expiration scheduled"
-    },
-    {
-      "provider": "openrouter",
-      "platform": "openrouter",
-      "source_id": "openrouter-models",
       "model_id": "xiaomi/mimo-v2.5-pro",
       "canonical_model_id": "xiaomi/mimo-v2.5-pro-20260422",
       "regions": [],
@@ -4150,8 +4116,8 @@
       "platform": "direct",
       "status": "healthy",
       "record_count": 36,
-      "content_hash": "aa10ce71a533f2fee21116b67ae04ad46827129c0a4edd83e43d48c84a449f54",
-      "last_successful_observation_at": "2026-10-10T05:57:06.460Z",
+      "content_hash": "a82d43d1f7151aea834aa7ff4ce4e2b1886493949381af1c422586044524f90d",
+      "last_successful_observation_at": "2026-10-16T04:36:23.356Z",
       "error_code": null
     },
     {
@@ -4179,9 +4145,9 @@
       "provider": "openrouter",
       "platform": "openrouter",
       "status": "healthy",
-      "record_count": 21,
-      "content_hash": "1024795f2d101af6aad9ead85a2473adbdb53c18410176b872fc880acf838efd",
-      "last_successful_observation_at": "2026-10-15T04:44:50.981Z",
+      "record_count": 19,
+      "content_hash": "7b8a01b667349f907e83020752aacb46b1d26a7729a572b807c3a120a378d88d",
+      "last_successful_observation_at": "2026-10-16T04:36:23.356Z",
       "error_code": null
     }
   ]

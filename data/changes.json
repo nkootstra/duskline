@@ -2,75 +2,6 @@
   "schema_version": 1,
   "events": [
     {
-      "id": "e1976ec58d4e50026ca134307739101dc1d28a773b632e85d677a16c64fd5ec5",
-      "published_at": "2026-07-24T08:30:45.602Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:o4-mini-deep-research:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "o4-mini-deep-research",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-07-23"
-        }
-      ]
-    },
-    {
-      "id": "e21bc09d33ae1deda3bdfd9529962e81d4021068deb87d381b25cfa0aeef9a22",
-      "published_at": "2026-07-24T08:30:45.602Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4-0125-preview:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4-0125-preview",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "replacement_models",
-          "before": null,
-          "after": [
-            "gpt-4.1*",
-            "gpt-5"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "e8102a87a726b89c7d703cbdf561c6d154a9cc6d8bdcfe5a66f3a04486a4e230",
-      "published_at": "2026-07-24T08:30:45.602Z",
-      "kind": "added",
-      "identity": "openai-lifecycle:openai:direct:gpt-4-0613:",
-      "source_id": "openai-lifecycle",
-      "provider": "openai",
-      "platform": "direct",
-      "model_id": "gpt-4-0613",
-      "changes": [
-        {
-          "field": "status",
-          "before": null,
-          "after": "deprecated"
-        },
-        {
-          "field": "shutdown_date",
-          "before": null,
-          "after": "2026-10-23"
-        }
-      ]
-    },
-    {
       "id": "f1105bfd1183d00fd4dfd1d52cac3f8c4233a36116f3a79bae3ba2de8472ff0c",
       "published_at": "2026-07-24T08:30:45.602Z",
       "kind": "added",
@@ -10770,6 +10701,67 @@
           "field": "shutdown_date",
           "before": null,
           "after": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "1c62f831fdc13cebac790821f42073c7909e6b1f98d175176db35f16c30b73c8",
+      "published_at": "2026-10-16T04:36:23.356Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:unbiased/pareto-26.10-preview:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "unbiased/pareto-26.10-preview",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-10-15",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "275a4aa49d572ce8618dd587de79a89230963b0c3a0d425967e657bda7b16932",
+      "published_at": "2026-10-16T04:36:23.356Z",
+      "kind": "removed",
+      "identity": "openrouter-models:openrouter:openrouter:anthropic/claude-sonnet-4:",
+      "source_id": "openrouter-models",
+      "provider": "openrouter",
+      "platform": "openrouter",
+      "model_id": "anthropic/claude-sonnet-4",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": null
+        },
+        {
+          "field": "shutdown_date",
+          "before": "2026-10-15",
+          "after": null
+        }
+      ]
+    },
+    {
+      "id": "e6cf72497cf1f9d551ab3273c9adf56df2c404326cbf8476fdb155e2ef489fda",
+      "published_at": "2026-10-16T04:36:23.356Z",
+      "kind": "status_changed",
+      "identity": "anthropic-lifecycle:anthropic:direct:claude-haiku-4-5-20251001:",
+      "source_id": "anthropic-lifecycle",
+      "provider": "anthropic",
+      "platform": "direct",
+      "model_id": "claude-haiku-4-5-20251001",
+      "changes": [
+        {
+          "field": "status",
+          "before": "deprecated",
+          "after": "retired"
         }
       ]
     }
